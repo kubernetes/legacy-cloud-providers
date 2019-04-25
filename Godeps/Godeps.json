@@ -16,7 +16,7 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest",
-			"Rev": "v11.1.0"
+			"Rev": "v11.1.2"
 		},
 		{
 			"ImportPath": "github.com/BurntSushi/toml",
@@ -420,23 +420,23 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "7fd04442e4f5"
+			"Rev": "181e1f9c52c1"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "f1e86e15343c"
+			"Rev": "17f84483f500"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "2200fef3ea67"
+			"Rev": "f2b86a81176b"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "157c3d454138"
+			"Rev": "65184652c889"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "29368cc5c5b2"
+			"Rev": "0a4f4cbb5a66"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
