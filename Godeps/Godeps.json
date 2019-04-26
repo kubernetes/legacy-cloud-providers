@@ -11,6 +11,10 @@
 			"Rev": "v0.34.0"
 		},
 		{
+			"ImportPath": "github.com/Azure/azure-sdk-for-go",
+			"Rev": "v21.4.0"
+		},
+		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
 			"Rev": "d6e3b3328b78"
 		},
@@ -69,6 +73,10 @@
 		{
 			"ImportPath": "github.com/dgrijalva/jwt-go",
 			"Rev": "01aeca54ebda"
+		},
+		{
+			"ImportPath": "github.com/dnaeon/go-vcr",
+			"Rev": "v1.0.1"
 		},
 		{
 			"ImportPath": "github.com/docker/docker",
@@ -203,6 +211,10 @@
 			"Rev": "60711f1a8329"
 		},
 		{
+			"ImportPath": "github.com/marstr/guid",
+			"Rev": "8bdf7d1a087c"
+		},
+		{
 			"ImportPath": "github.com/matttproud/golang_protobuf_extensions",
 			"Rev": "v1.0.1"
 		},
@@ -277,6 +289,14 @@
 		{
 			"ImportPath": "github.com/prometheus/procfs",
 			"Rev": "1dc9a6cbc91a"
+		},
+		{
+			"ImportPath": "github.com/rubiojr/go-vhd",
+			"Rev": "0bfd3b39853c"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Rev": "v1.2.0"
 		},
 		{
 			"ImportPath": "github.com/sirupsen/logrus",
