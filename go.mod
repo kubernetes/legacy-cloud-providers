@@ -7,6 +7,7 @@ go 1.12
 require (
 	github.com/Azure/azure-sdk-for-go v21.4.0+incompatible
 	github.com/Azure/go-autorest v11.1.2+incompatible
+	github.com/aws/aws-sdk-go v1.16.26
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/marstr/guid v0.0.0-20170427235115-8bdf7d1a087c // indirect
 	github.com/prometheus/client_golang v0.9.2
@@ -21,6 +22,7 @@ require (
 	k8s.io/apimachinery v0.0.0-20190503151204-7a17edec881a
 	k8s.io/client-go v0.0.0-20190425172711-65184652c889
 	k8s.io/cloud-provider v0.0.0-20190507024756-6623b8263567
+	k8s.io/csi-translation-lib v0.0.0-20190507024823-3cef0b66ad82
 	k8s.io/klog v0.3.0
 	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
 	sigs.k8s.io/yaml v1.1.0
@@ -35,6 +37,5 @@ replace (
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190503151204-7a17edec881a
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190425172711-65184652c889
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190507024756-6623b8263567
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190507024823-3cef0b66ad82
 )
-
-replace k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190507024823-3cef0b66ad82

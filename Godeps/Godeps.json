@@ -39,6 +39,10 @@
 			"Rev": "de5bf2ad4578"
 		},
 		{
+			"ImportPath": "github.com/aws/aws-sdk-go",
+			"Rev": "v1.16.26"
+		},
+		{
 			"ImportPath": "github.com/beorn7/perks",
 			"Rev": "3ac7bf7a47d1"
 		},
@@ -193,6 +197,10 @@
 		{
 			"ImportPath": "github.com/imdario/mergo",
 			"Rev": "v0.3.5"
+		},
+		{
+			"ImportPath": "github.com/jmespath/go-jmespath",
+			"Rev": "c2b33e8439af"
 		},
 		{
 			"ImportPath": "github.com/jonboulle/clockwork",
@@ -445,6 +453,10 @@
 		{
 			"ImportPath": "k8s.io/component-base",
 			"Rev": "9fe063da3132"
+		},
+		{
+			"ImportPath": "k8s.io/csi-translation-lib",
+			"Rev": "3cef0b66ad82"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
