@@ -40,7 +40,7 @@
 		},
 		{
 			"ImportPath": "github.com/beorn7/perks",
-			"Rev": "3a771d992973"
+			"Rev": "3ac7bf7a47d1"
 		},
 		{
 			"ImportPath": "github.com/coreos/bbolt",
@@ -432,7 +432,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "d03d7cbc3eab"
+			"Rev": "31dae0fcea7c"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -440,7 +440,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "4f570a5e5694"
+			"Rev": "6623b8263567"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
