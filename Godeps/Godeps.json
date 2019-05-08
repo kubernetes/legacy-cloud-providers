@@ -27,6 +27,10 @@
 			"Rev": "v0.3.0"
 		},
 		{
+			"ImportPath": "github.com/GoogleCloudPlatform/k8s-cloud-provider",
+			"Rev": "f8e995905100"
+		},
+		{
 			"ImportPath": "github.com/NYTimes/gziphandler",
 			"Rev": "56545f4a5d46"
 		},
@@ -373,6 +377,10 @@
 		{
 			"ImportPath": "golang.org/x/tools",
 			"Rev": "aa82965741a9"
+		},
+		{
+			"ImportPath": "google.golang.org/api",
+			"Rev": "583d854617af"
 		},
 		{
 			"ImportPath": "google.golang.org/appengine",
