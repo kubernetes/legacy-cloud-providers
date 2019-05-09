@@ -122,7 +122,7 @@ gopkg.in/warnings.v0 v0.1.1/go.mod h1:jksf8JmL6Qr/oQM2OXTHunEvvTAsrWBLb6OOjuVWRN
 gopkg.in/yaml.v2 v2.2.1 h1:mUhvW9EsL+naU5Q3cakzfE91YhliOondGd6ZrsDBHQE=
 gopkg.in/yaml.v2 v2.2.1/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 k8s.io/api v0.0.0-20190503110853-61630f889b3c/go.mod h1:42M1T54fVvXj2R/yqB+v9ksH4xI41q6XU/NUlo3hyjk=
-k8s.io/apimachinery v0.0.0-20190508063446-a3da69d3723c/go.mod h1:5CBnzrKYGHzv9ZsSKmQ8wHt4XI4/TUBPDwYM9FlZMyw=
+k8s.io/apimachinery v0.0.0-20190509063443-7d8f8feb49c5/go.mod h1:5CBnzrKYGHzv9ZsSKmQ8wHt4XI4/TUBPDwYM9FlZMyw=
 k8s.io/client-go v0.0.0-20190508063711-1babf78c8b32/go.mod h1:xF+vJeNvjoNfv1P1p3aElmg8C1YDMDUsrCtcMbYbzn0=
 k8s.io/cloud-provider v0.0.0-20190508104637-039924654234/go.mod h1:9G0PyEzxBu/+DUEVAGWU4ZB0/w8RekvElVQRMfkKNzQ=
 k8s.io/csi-translation-lib v0.0.0-20190508104702-757cf72f1cfe/go.mod h1:iiwP1UHyyNHxpxYFiARNEjLxjnvCBenKc/ApTyFBjn8=
