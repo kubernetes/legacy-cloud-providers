@@ -28,7 +28,7 @@
 		},
 		{
 			"ImportPath": "github.com/beorn7/perks",
-			"Rev": "4c0e84591b9a"
+			"Rev": "3a771d992973"
 		},
 		{
 			"ImportPath": "github.com/davecgh/go-spew",
@@ -260,7 +260,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "eae0ddcf85ba"
+			"Rev": "d976e824acbd"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
@@ -268,15 +268,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "c6f3777976ad"
+			"Rev": "dd7f3ad83f18"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "01ab9a997446"
+			"Rev": "9cc430704534"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "9782cb610fa6"
+			"Rev": "b21b20e2a342"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
