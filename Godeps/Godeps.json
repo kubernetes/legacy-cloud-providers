@@ -272,15 +272,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "78e94f51a042"
+			"Rev": "19c6c11b9899"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "3150b20f5cd9"
+			"Rev": "984e89dd9575"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "3fc7ee25c049"
+			"Rev": "e1b42b89656a"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
