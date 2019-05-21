@@ -25,7 +25,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	k8s.io/api v0.0.0-20190516033424-c7696f7b6340
 	k8s.io/apimachinery v0.0.0-20190528154420-3f1c30e3430c
-	k8s.io/client-go v0.0.0-20190516164612-2c91b666c226
+	k8s.io/client-go v0.0.0-20190521080321-0673906c426e
 	k8s.io/cloud-provider v0.0.0-20190516033424-13ba22da70f6
 	k8s.io/csi-translation-lib v0.0.0-20190516033424-01053a8e46ed
 	k8s.io/klog v0.3.0
@@ -39,7 +39,7 @@ replace (
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
 	k8s.io/api => k8s.io/api v0.0.0-20190516033424-c7696f7b6340
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190528154420-3f1c30e3430c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190516164612-2c91b666c226
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190521080321-0673906c426e
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190516033424-13ba22da70f6
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190516033424-01053a8e46ed
 )
