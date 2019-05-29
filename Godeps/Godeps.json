@@ -192,7 +192,7 @@
 		},
 		{
 			"ImportPath": "github.com/vmware/govmomi",
-			"Rev": "v0.20.0"
+			"Rev": "v0.20.1"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto",
@@ -264,15 +264,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "576cfa93bfcf"
+			"Rev": "0e6216c20e2a"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "587ae2000094"
+			"Rev": "5a4f0be056b6"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "1d2c64df009d"
+			"Rev": "f6af94938bac"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
@@ -280,7 +280,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "ca755534e825"
+			"Rev": "ce717b3a7af0"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
