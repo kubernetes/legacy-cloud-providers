@@ -17,15 +17,15 @@ require (
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/stretchr/objx v0.1.1 // indirect
 	github.com/stretchr/testify v1.2.2
-	github.com/vmware/govmomi v0.20.0
+	github.com/vmware/govmomi v0.20.1
 	golang.org/x/crypto v0.0.0-20181025213731-e84da0312774
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
 	google.golang.org/api v0.0.0-20181220000619-583d854617af
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20190528154508-67ef80593b24
-	k8s.io/apimachinery v0.0.0-20190528154326-e59c2fb0a8e5
-	k8s.io/client-go v0.0.0-20190528154735-df931a0dfc8c
+	k8s.io/api v0.0.0-20190531132107-cf720200d547
+	k8s.io/apimachinery v0.0.0-20190529005236-bff0c42413f8
+	k8s.io/client-go v0.0.0-20190531132435-d2583122ce7e
 	k8s.io/cloud-provider v0.0.0-20190528161616-75255ef19f99
 	k8s.io/csi-translation-lib v0.0.0-20190528161710-9083685369b1
 	k8s.io/klog v0.3.1
@@ -37,9 +37,9 @@ replace (
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190528154508-67ef80593b24
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190528154326-e59c2fb0a8e5
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190528154735-79226fe1949a
+	k8s.io/api => k8s.io/api v0.0.0-20190531132107-cf720200d547
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190529005236-bff0c42413f8
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190531132435-d2583122ce7e
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190528161616-75255ef19f99
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190528161710-9083685369b1
 )
