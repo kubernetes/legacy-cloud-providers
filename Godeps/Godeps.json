@@ -280,7 +280,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "bbd6fd690982"
+			"Rev": "b64ba7d1209c"
 		},
 		{
 			"ImportPath": "k8s.io/klog",

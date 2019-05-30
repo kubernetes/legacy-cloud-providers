@@ -127,7 +127,7 @@ k8s.io/api v0.0.0-20190529212817-96378037bc4d/go.mod h1:QTFMweSwWjQ8mUX2YYyJaX0B
 k8s.io/apimachinery v0.0.0-20190531131812-65c6e8495981/go.mod h1:I4A+glKBHiTgiEjQiCCQfCAIcIMFGt291SmsvcrFzJA=
 k8s.io/client-go v0.0.0-20190531132437-5cefd29505bf/go.mod h1:p/s9dpZDptP2i7DAUCuUatF82tU4Yc733qUWTPZE5Tg=
 k8s.io/cloud-provider v0.0.0-20190528161616-75255ef19f99/go.mod h1:kkUPMQb44oA1m0A6QQ2pXA6rvWrAszQPOBWnqkwT+zc=
-k8s.io/csi-translation-lib v0.0.0-20190531141149-bbd6fd690982/go.mod h1:1zZC5tnqioBQwknnqh73E1lJ60JlH7UCIuIqnkuAz80=
+k8s.io/csi-translation-lib v0.0.0-20190531141149-b64ba7d1209c/go.mod h1:OETcmTw1gZfhrf/J6ApB44onG7/MVcZ8JLF4VFnnKgg=
 k8s.io/klog v0.3.1 h1:RVgyDHY/kFKtLqh67NvEWIgkMneNoIrdkN0CxDSQc68=
 k8s.io/klog v0.3.1/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
 k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30 h1:TRb4wNWoBVrH9plmkp2q86FIDppkbrEXdXlxU3a3BMI=
