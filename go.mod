@@ -23,11 +23,11 @@ require (
 	google.golang.org/api v0.0.0-20181220000619-583d854617af
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20190531030430-f668cb7c6d6e
-	k8s.io/apimachinery v0.0.0-20190531030430-3d0b9da8819e
-	k8s.io/client-go v0.0.0-20190531030430-3e37d3cec6a8
-	k8s.io/cloud-provider v0.0.0-20190531141011-c3f481d8b866
-	k8s.io/csi-translation-lib v0.0.0-20190531030430-f5c4a9c19d73
+	k8s.io/api v0.0.0-20190602101200-7067668b35ab
+	k8s.io/apimachinery v0.0.0-20190602101200-c31ce66803fe
+	k8s.io/client-go v0.0.0-20190602130412-935aad3790a0
+	k8s.io/cloud-provider v0.0.0-20190602132330-1a8f4f7db643
+	k8s.io/csi-translation-lib v0.0.0-20190601013121-d3064c147375
 	k8s.io/klog v0.3.2
 	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
 	sigs.k8s.io/yaml v1.1.0
@@ -37,9 +37,9 @@ replace (
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190531030430-f668cb7c6d6e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190531030430-3d0b9da8819e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190531030430-3e37d3cec6a8
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190531141011-c3f481d8b866
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190531030430-f5c4a9c19d73
+	k8s.io/api => k8s.io/api v0.0.0-20190602101200-7067668b35ab
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190602101200-c31ce66803fe
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190602130412-935aad3790a0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190602132330-1a8f4f7db643
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190601013121-d3064c147375
 )
