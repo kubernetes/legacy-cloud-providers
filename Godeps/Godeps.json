@@ -276,7 +276,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "656e62215658"
+			"Rev": "141745573c3f"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
