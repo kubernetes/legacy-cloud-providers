@@ -52,7 +52,7 @@
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
-			"Rev": "5858425f7550"
+			"Rev": "v4.2.0"
 		},
 		{
 			"ImportPath": "github.com/fsnotify/fsnotify",
@@ -80,7 +80,7 @@
 		},
 		{
 			"ImportPath": "github.com/google/gofuzz",
-			"Rev": "24818f796faf"
+			"Rev": "v1.0.0"
 		},
 		{
 			"ImportPath": "github.com/google/uuid",
@@ -116,7 +116,7 @@
 		},
 		{
 			"ImportPath": "github.com/json-iterator/go",
-			"Rev": "ab8a2e0c74be"
+			"Rev": "v1.1.6"
 		},
 		{
 			"ImportPath": "github.com/marstr/guid",
@@ -140,11 +140,11 @@
 		},
 		{
 			"ImportPath": "github.com/onsi/ginkgo",
-			"Rev": "v1.6.0"
+			"Rev": "v1.8.0"
 		},
 		{
 			"ImportPath": "github.com/onsi/gomega",
-			"Rev": "5533ce8a0da3"
+			"Rev": "v1.5.0"
 		},
 		{
 			"ImportPath": "github.com/peterbourgon/diskv",
@@ -180,7 +180,7 @@
 		},
 		{
 			"ImportPath": "github.com/spf13/pflag",
-			"Rev": "v1.0.1"
+			"Rev": "v1.0.3"
 		},
 		{
 			"ImportPath": "github.com/stretchr/objx",
@@ -188,7 +188,7 @@
 		},
 		{
 			"ImportPath": "github.com/stretchr/testify",
-			"Rev": "v1.2.2"
+			"Rev": "v1.3.0"
 		},
 		{
 			"ImportPath": "github.com/vmware/govmomi",
@@ -260,27 +260,27 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
-			"Rev": "v2.2.1"
+			"Rev": "v2.2.2"
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "1d1b8b084b30"
+			"Rev": "dcce3486da33"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "6a5db36e93ad"
+			"Rev": "d16981aedf33"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "7de88b14dcc8"
+			"Rev": "585a16d2e773"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "08f4196f6866"
+			"Rev": "195130590fb2"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "9ff632302e7e"
+			"Rev": "3634b2f1b13b"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
