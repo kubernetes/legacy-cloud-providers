@@ -15,7 +15,6 @@ require (
 	github.com/prometheus/client_golang v0.9.2
 	github.com/rubiojr/go-vhd v0.0.0-20160810183302-0bfd3b39853c
 	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.3.0
 	github.com/vmware/govmomi v0.20.1
 	golang.org/x/crypto v0.0.0-20190611184440-5c40567a22f8
@@ -23,13 +22,15 @@ require (
 	google.golang.org/api v0.0.0-20181220000619-583d854617af
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20190627205229-acea843d18eb
-	k8s.io/apimachinery v0.0.0-20190629125103-05b5762916b3
-	k8s.io/client-go v0.0.0-20190702045442-c597d117149b
-	k8s.io/cloud-provider v0.0.0-20190627211509-ac6a7205fab2
-	k8s.io/csi-translation-lib v0.0.0-20190627211600-0b5157653538
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog v0.3.1
-	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
+	k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a
 	sigs.k8s.io/yaml v1.1.0
 )
 
@@ -40,9 +41,12 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190627205229-acea843d18eb
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190629125103-05b5762916b3
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190702045442-c597d117149b
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190627211509-ac6a7205fab2
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190627211600-0b5157653538
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
