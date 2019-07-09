@@ -452,31 +452,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "39734b2a72fe"
+			"Rev": "37c3b8b1ca65"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "9793a874388f"
+			"Rev": "7bf792636534"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "b3cc7eaa6658"
+			"Rev": "c925c445ddf6"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "2abfa8322dee"
+			"Rev": "4a0861cac5e0"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "02ef7372f6c0"
+			"Rev": "0d51509e0ef5"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "65d72cfeb85d"
+			"Rev": "4ad84870f76c"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "b7042bafa8cc"
+			"Rev": "0cc12cd5df11"
 		},
 		{
 			"ImportPath": "k8s.io/klog",

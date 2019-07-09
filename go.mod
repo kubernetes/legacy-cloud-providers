@@ -22,13 +22,13 @@ require (
 	google.golang.org/api v0.0.0-20181220000619-583d854617af
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20190703205437-39734b2a72fe
-	k8s.io/apimachinery v0.0.0-20190709101028-9793a874388f
-	k8s.io/apiserver v0.0.0-20190711105158-b3cc7eaa6658
-	k8s.io/client-go v0.0.0-20190711103900-2abfa8322dee
-	k8s.io/cloud-provider v0.0.0-20190704051408-02ef7372f6c0
-	k8s.io/component-base v0.0.0-20190703210340-65d72cfeb85d
-	k8s.io/csi-translation-lib v0.0.0-20190704051501-b7042bafa8cc
+	k8s.io/api v0.0.0-20190711103429-37c3b8b1ca65
+	k8s.io/apimachinery v0.0.0-20190711103026-7bf792636534
+	k8s.io/apiserver v0.0.0-20190711105201-c925c445ddf6
+	k8s.io/client-go v0.0.0-20190711103903-4a0861cac5e0
+	k8s.io/cloud-provider v0.0.0-20190711113108-0d51509e0ef5
+	k8s.io/component-base v0.0.0-20190711104712-4ad84870f76c
+	k8s.io/csi-translation-lib v0.0.0-20190711113334-0cc12cd5df11
 	k8s.io/klog v0.3.1
 	k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a
 	sigs.k8s.io/yaml v1.1.0
@@ -41,11 +41,11 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190703205437-39734b2a72fe
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190709101028-9793a874388f
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190711105158-b3cc7eaa6658
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190711103900-2abfa8322dee
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190704051408-02ef7372f6c0
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190703210340-65d72cfeb85d
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190704051501-b7042bafa8cc
+	k8s.io/api => k8s.io/api v0.0.0-20190711103429-37c3b8b1ca65
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190711103026-7bf792636534
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190711105201-c925c445ddf6
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190711103903-4a0861cac5e0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190711113108-0d51509e0ef5
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20190711104712-4ad84870f76c
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190711113334-0cc12cd5df11
 )
