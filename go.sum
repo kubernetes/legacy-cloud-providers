@@ -201,7 +201,7 @@ gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81HFBacw=
 k8s.io/api v0.0.0-20190720062849-3043179095b6/go.mod h1:1O0xzX/RAtnm7l+5VEUxZ1ysO2ghatfq/OZED4zM9kA=
 k8s.io/apimachinery v0.0.0-20190719140911-bfcf53abc9f8/go.mod h1:sBJWIJZfxLhp7mRsRyuAE/NfKTr3kXGR1iaqg8O0gJo=
-k8s.io/apiserver v0.0.0-20190718202433-cfb21c5903d4/go.mod h1:TSGGEtMdkcJ7TGZrVUsK60zEmrIMjjHmXc9NSiuNULw=
+k8s.io/apiserver v0.0.0-20190721103406-1e59c150c171/go.mod h1:q5EZ3GqA/yRBi2/XDDMamgLMeAJKAtUV9lzvBjyLB54=
 k8s.io/client-go v0.0.0-20190717023132-0c47f9da0001/go.mod h1:JvcLDbEoGrrziiUkPAV/sdE4llq5kUUrDdGtJ/RpAJQ=
 k8s.io/cloud-provider v0.0.0-20190717025205-585d8110a88f/go.mod h1:0sQX5KiTjhB7yxFchFKhaHyW9VJLUYT2wOPW/Ul060w=
 k8s.io/component-base v0.0.0-20190717023551-b4f50308a616/go.mod h1:rmsv93RgoeVNzVrQzry5PiCqJozaaNBavTs3Z6NxeMM=
@@ -216,6 +216,6 @@ k8s.io/kube-openapi v0.0.0-20190709113604-33be087ad058/go.mod h1:nfDlWeOsu3pUf4y
 k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a h1:2jUDc9gJja832Ftp+QbDV0tVhQHMISFn01els+2ZAcw=
 k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a/go.mod h1:sZAwmy6armz5eXlNoLmJcl4F1QuKu7sr+mFQ0byX7Ew=
 sigs.k8s.io/structured-merge-diff v0.0.0-20190525122527-15d366b2352e/go.mod h1:wWxsB5ozmmv/SG7nM11ayaAW51xMvak/t1r0CSlcokI=
-sigs.k8s.io/structured-merge-diff v0.0.0-20190628201129-059502f64143/go.mod h1:wWxsB5ozmmv/SG7nM11ayaAW51xMvak/t1r0CSlcokI=
+sigs.k8s.io/structured-merge-diff v0.0.0-20190719182312-e94e05bfbbe3/go.mod h1:wWxsB5ozmmv/SG7nM11ayaAW51xMvak/t1r0CSlcokI=
 sigs.k8s.io/yaml v1.1.0 h1:4A07+ZFc2wgJwo8YNlQpr1rVlgUDlxXHhPJciaPY5gs=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
