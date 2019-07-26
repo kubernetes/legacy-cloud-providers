@@ -204,7 +204,7 @@ gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81
 k8s.io/api v0.0.0-20190726022912-69e1bce1dad5/go.mod h1:V6cpJ9D7WqSy0wqcE096gcbj+W//rshgQgmj1Shdwi8=
 k8s.io/apimachinery v0.0.0-20190726022757-641a75999153/go.mod h1:eXR4ljjmbwK6Ng0PKsXRySPXnTUy/qBUa6kPDeckhQ0=
 k8s.io/apiserver v0.0.0-20190726023815-781c3cd1b3dc/go.mod h1:Gy8ElOsvjzEZF7lUFUffGBuA6Vg4qsN/r+vt05szn6c=
-k8s.io/client-go v0.0.0-20190726023111-a9c895e7f2ac/go.mod h1:ncT9fCvHnM5BUiZs0RCf9vAEqRrRoJtR2sZ2evompEU=
+k8s.io/client-go v0.0.0-20190725230141-579ad46bdcb9/go.mod h1:ncT9fCvHnM5BUiZs0RCf9vAEqRrRoJtR2sZ2evompEU=
 k8s.io/cloud-provider v0.0.0-20190726025149-21f9d6b59624/go.mod h1:PCv7qHXgTLCyLsq4gKhyoIyxvNLrowa1gJ43KQvLmXM=
 k8s.io/component-base v0.0.0-20190726023549-042c00bc1f9e/go.mod h1:KiJFR5KR5yaKNXFgCliO2CPcmAI6hdZCcb5XZyl0EhQ=
 k8s.io/csi-translation-lib v0.0.0-20190726025239-3f02dea0232c/go.mod h1:6aJ9KyFshj5KHnHTkHEpHOWmK1Lbv32vlcjjn7Si5NE=

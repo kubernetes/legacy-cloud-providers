@@ -44,7 +44,7 @@ replace (
 	k8s.io/api => k8s.io/api v0.0.0-20190726022912-69e1bce1dad5
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190726022757-641a75999153
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190726023815-781c3cd1b3dc
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190726023111-a9c895e7f2ac
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190725230141-579ad46bdcb9
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190726025149-21f9d6b59624
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190726023549-042c00bc1f9e
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190726025239-3f02dea0232c
