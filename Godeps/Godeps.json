@@ -23,6 +23,30 @@
 			"Rev": "v11.1.2"
 		},
 		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest",
+			"Rev": "v0.9.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/adal",
+			"Rev": "v0.5.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/date",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/mocks",
+			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/logger",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/tracing",
+			"Rev": "v0.5.0"
+		},
+		{
 			"ImportPath": "github.com/BurntSushi/toml",
 			"Rev": "v0.3.1"
 		},
@@ -84,7 +108,7 @@
 		},
 		{
 			"ImportPath": "github.com/dgrijalva/jwt-go",
-			"Rev": "01aeca54ebda"
+			"Rev": "v3.2.0"
 		},
 		{
 			"ImportPath": "github.com/dnaeon/go-vcr",
@@ -117,6 +141,10 @@
 		{
 			"ImportPath": "github.com/ghodss/yaml",
 			"Rev": "c7ce16629ff4"
+		},
+		{
+			"ImportPath": "github.com/go-logr/logr",
+			"Rev": "v0.1.0"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/jsonpointer",
@@ -188,7 +216,7 @@
 		},
 		{
 			"ImportPath": "github.com/grpc-ecosystem/go-grpc-prometheus",
-			"Rev": "2500245aa611"
+			"Rev": "v1.2.0"
 		},
 		{
 			"ImportPath": "github.com/grpc-ecosystem/grpc-gateway",
@@ -460,31 +488,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "3ab596449d6f"
+			"Rev": "8eee47dbc9ed"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "423f5d784010"
+			"Rev": "d4a3b9129e40"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "dd1076c6639a"
+			"Rev": "0d916905bcd7"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "62f300f03a5f"
+			"Rev": "a240a565b073"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "fb3425390278"
+			"Rev": "c6f27c04e7a4"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "fceb63aacf50"
+			"Rev": "276f0f49dbc8"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "90ac398352a0"
+			"Rev": "9d25d6a6d67c"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -492,7 +520,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/klog",
-			"Rev": "v0.3.1"
+			"Rev": "v0.4.0"
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
