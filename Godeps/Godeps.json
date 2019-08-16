@@ -12,15 +12,43 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
-			"Rev": "v21.4.0"
+			"Rev": "v32.5.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
 			"Rev": "d6e3b3328b78"
 		},
 		{
-			"ImportPath": "github.com/Azure/go-autorest",
-			"Rev": "v11.1.2"
+			"ImportPath": "github.com/Azure/go-autorest/autorest",
+			"Rev": "v0.9.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/adal",
+			"Rev": "v0.5.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/date",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/mocks",
+			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/to",
+			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/validation",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/logger",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/tracing",
+			"Rev": "v0.5.0"
 		},
 		{
 			"ImportPath": "github.com/BurntSushi/toml",
@@ -84,7 +112,7 @@
 		},
 		{
 			"ImportPath": "github.com/dgrijalva/jwt-go",
-			"Rev": "01aeca54ebda"
+			"Rev": "v3.2.0"
 		},
 		{
 			"ImportPath": "github.com/dnaeon/go-vcr",
@@ -249,10 +277,6 @@
 		{
 			"ImportPath": "github.com/mailru/easyjson",
 			"Rev": "94de47d64c63"
-		},
-		{
-			"ImportPath": "github.com/marstr/guid",
-			"Rev": "8bdf7d1a087c"
 		},
 		{
 			"ImportPath": "github.com/matttproud/golang_protobuf_extensions",
@@ -472,15 +496,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "4674a4da0675"
+			"Rev": "f7e78ce47863"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "e290f153d148"
+			"Rev": "6de8fdd4109d"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "674797b96ccf"
+			"Rev": "c98118506b9c"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
@@ -488,7 +512,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "946af2069036"
+			"Rev": "9e7d946a9b57"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
