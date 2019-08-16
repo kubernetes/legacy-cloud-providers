@@ -12,15 +12,11 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
-			"Rev": "v21.4.0"
+			"Rev": "v32.5.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
 			"Rev": "d6e3b3328b78"
-		},
-		{
-			"ImportPath": "github.com/Azure/go-autorest",
-			"Rev": "v11.1.2"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest",
@@ -37,6 +33,14 @@
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/mocks",
 			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/to",
+			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-autorest/autorest/validation",
+			"Rev": "v0.1.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/logger",
@@ -273,10 +277,6 @@
 		{
 			"ImportPath": "github.com/mailru/easyjson",
 			"Rev": "94de47d64c63"
-		},
-		{
-			"ImportPath": "github.com/marstr/guid",
-			"Rev": "8bdf7d1a087c"
 		},
 		{
 			"ImportPath": "github.com/matttproud/golang_protobuf_extensions",
