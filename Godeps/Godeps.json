@@ -428,7 +428,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/tools",
-			"Rev": "aa82965741a9"
+			"Rev": "5aca471b1d59"
 		},
 		{
 			"ImportPath": "google.golang.org/api",
