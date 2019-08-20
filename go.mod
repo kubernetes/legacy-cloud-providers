@@ -24,13 +24,13 @@ require (
 	google.golang.org/api v0.0.0-20181220000619-583d854617af
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20190820101039-d651a1528133
-	k8s.io/apimachinery v0.0.0-20190822052848-2ef880f74d2a
-	k8s.io/apiserver v0.0.0-20190822055915-04afb33ac40a
-	k8s.io/client-go v0.0.0-20190822053941-f4e58ce6093c
-	k8s.io/cloud-provider v0.0.0-20190820105618-bccf0683a79a
-	k8s.io/component-base v0.0.0-20190820102445-1391c9d535ae
-	k8s.io/csi-translation-lib v0.0.0-20190820105751-3c503f178c77
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog v0.4.0
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
 	sigs.k8s.io/yaml v1.1.0
@@ -38,14 +38,17 @@ require (
 
 replace (
 	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20181025213731-e84da0312774
+	golang.org/x/lint => golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
-	k8s.io/api => k8s.io/api v0.0.0-20190820101039-d651a1528133
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190822052848-2ef880f74d2a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190822055915-04afb33ac40a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190822053941-f4e58ce6093c
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190820105618-bccf0683a79a
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190820102445-1391c9d535ae
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190820105751-3c503f178c77
+	google.golang.org/genproto => google.golang.org/genproto v0.0.0-20170731182057-09f6ed296fc6
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
