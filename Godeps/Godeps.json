@@ -8,7 +8,7 @@
 	"Deps": [
 		{
 			"ImportPath": "cloud.google.com/go",
-			"Rev": "v0.34.0"
+			"Rev": "v0.38.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
@@ -56,7 +56,7 @@
 		},
 		{
 			"ImportPath": "github.com/GoogleCloudPlatform/k8s-cloud-provider",
-			"Rev": "f8e995905100"
+			"Rev": "27a4ced34534"
 		},
 		{
 			"ImportPath": "github.com/NYTimes/gziphandler",
@@ -184,15 +184,15 @@
 		},
 		{
 			"ImportPath": "github.com/golang/mock",
-			"Rev": "v1.1.1"
-		},
-		{
-			"ImportPath": "github.com/golang/protobuf",
 			"Rev": "v1.2.0"
 		},
 		{
+			"ImportPath": "github.com/golang/protobuf",
+			"Rev": "v1.3.1"
+		},
+		{
 			"ImportPath": "github.com/google/btree",
-			"Rev": "7d79101e329e"
+			"Rev": "4030bb1f1f0c"
 		},
 		{
 			"ImportPath": "github.com/google/go-cmp",
@@ -203,8 +203,20 @@
 			"Rev": "v1.0.0"
 		},
 		{
+			"ImportPath": "github.com/google/martian",
+			"Rev": "v2.1.0"
+		},
+		{
+			"ImportPath": "github.com/google/pprof",
+			"Rev": "3ea8567a2e57"
+		},
+		{
 			"ImportPath": "github.com/google/uuid",
 			"Rev": "v1.1.1"
+		},
+		{
+			"ImportPath": "github.com/googleapis/gax-go/v2",
+			"Rev": "v2.0.4"
 		},
 		{
 			"ImportPath": "github.com/googleapis/gnostic",
@@ -236,7 +248,7 @@
 		},
 		{
 			"ImportPath": "github.com/hashicorp/golang-lru",
-			"Rev": "v0.5.0"
+			"Rev": "v0.5.1"
 		},
 		{
 			"ImportPath": "github.com/hpcloud/tail",
@@ -257,6 +269,10 @@
 		{
 			"ImportPath": "github.com/json-iterator/go",
 			"Rev": "v1.1.7"
+		},
+		{
+			"ImportPath": "github.com/jstemmer/go-junit-report",
+			"Rev": "af01ea7f8024"
 		},
 		{
 			"ImportPath": "github.com/kisielk/errcheck",
@@ -395,6 +411,10 @@
 			"Rev": "07dd2e8dfe18"
 		},
 		{
+			"ImportPath": "go.opencensus.io",
+			"Rev": "v0.21.0"
+		},
+		{
 			"ImportPath": "go.uber.org/atomic",
 			"Rev": "8dc6146f7569"
 		},
@@ -409,6 +429,10 @@
 		{
 			"ImportPath": "golang.org/x/crypto",
 			"Rev": "e84da0312774"
+		},
+		{
+			"ImportPath": "golang.org/x/exp",
+			"Rev": "509febef88a4"
 		},
 		{
 			"ImportPath": "golang.org/x/lint",
@@ -444,7 +468,7 @@
 		},
 		{
 			"ImportPath": "google.golang.org/api",
-			"Rev": "583d854617af"
+			"Rev": "5213b8090861"
 		},
 		{
 			"ImportPath": "google.golang.org/appengine",
@@ -452,7 +476,7 @@
 		},
 		{
 			"ImportPath": "google.golang.org/genproto",
-			"Rev": "c66870c02cf8"
+			"Rev": "54afdca5d873"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc",
@@ -504,31 +528,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "8408f7c78273"
+			"Rev": "535404967fc8"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "2323990d016a"
+			"Rev": "35bd9ae31030"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "c730b0513813"
+			"Rev": "b7aa76048d95"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "66eec82cbac1"
+			"Rev": "960df9c23167"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "17cf0f6a06e2"
+			"Rev": "d49b02d829ab"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "73cfb6232c94"
+			"Rev": "b635e5567b37"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "b06d33610c32"
+			"Rev": "fc7886e9a6c4"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
