@@ -307,6 +307,10 @@
 			"Rev": "v1.0.1"
 		},
 		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "v1.1.2"
+		},
+		{
 			"ImportPath": "github.com/modern-go/concurrent",
 			"Rev": "bacd9c7ef1dd"
 		},
@@ -528,11 +532,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "40d3837b7e3d"
+			"Rev": "53c833bc9078"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "4147c925140e"
+			"Rev": "508c689428e4"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
@@ -540,7 +544,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "8248d0a0e61a"
+			"Rev": "065c7aba1f3f"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
@@ -548,11 +552,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "ceb0950921e3"
+			"Rev": "be152a771707"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "82b5a68a83b6"
+			"Rev": "73126f855ddd"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
