@@ -27,12 +27,12 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20190913080256-21721929cffa
-	k8s.io/apimachinery v0.0.0-20190913075813-344bcc0201c9
-	k8s.io/apiserver v0.0.0-20190916151639-d6b22d09ee11
-	k8s.io/client-go v0.0.0-20190917075824-ecd4f6fb8c21
+	k8s.io/api v0.0.0-20190920115539-4f7a4f90b2c0
+	k8s.io/apimachinery v0.0.0-20190919161714-83fef8059749
+	k8s.io/apiserver v0.0.0-20190918040322-b11291ff0a50
+	k8s.io/client-go v0.0.0-20190920155738-bcb3724b2b9c
 	k8s.io/cloud-provider v0.0.0-20190916161804-3af65fe0d627
-	k8s.io/component-base v0.0.0-20190917035932-6003d5402e67
+	k8s.io/component-base v0.0.0-20190918040032-61bc4cc48c91
 	k8s.io/csi-translation-lib v0.0.0-20190831081141-c1860bee090e
 	k8s.io/klog v0.4.0
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
@@ -47,11 +47,11 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => k8s.io/api v0.0.0-20190913080256-21721929cffa
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190913075813-344bcc0201c9
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190916151639-d6b22d09ee11
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190917075824-ecd4f6fb8c21
+	k8s.io/api => k8s.io/api v0.0.0-20190920115539-4f7a4f90b2c0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190919161714-83fef8059749
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190918040322-b11291ff0a50
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190920155738-bcb3724b2b9c
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190916161804-3af65fe0d627
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190917035932-6003d5402e67
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20190918040032-61bc4cc48c91
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190831081141-c1860bee090e
 )
