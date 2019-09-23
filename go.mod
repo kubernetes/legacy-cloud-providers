@@ -16,7 +16,7 @@ require (
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/mitchellh/mapstructure v1.1.2
-	github.com/prometheus/client_golang v0.9.2
+	github.com/prometheus/client_golang v0.9.4
 	github.com/rubiojr/go-vhd v0.0.0-20160810183302-0bfd3b39853c
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/stretchr/testify v1.3.0
@@ -29,10 +29,10 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	k8s.io/api v0.0.0-20190923155552-eac758366a00
 	k8s.io/apimachinery v0.0.0-20190923155427-ec87dd743e08
-	k8s.io/apiserver v0.0.0-20190923160435-da4a36926496
+	k8s.io/apiserver v0.0.0-20190924000102-096dc5f157a1
 	k8s.io/client-go v0.0.0-20190923155754-2bd34d193bac
 	k8s.io/cloud-provider v0.0.0-20190923161919-438d6c9ed6c5
-	k8s.io/component-base v0.0.0-20190923160219-c897bbc27d33
+	k8s.io/component-base v0.0.0-20190923235848-ef75bdfd7a61
 	k8s.io/csi-translation-lib v0.0.0-20190923162013-e4d2b585a2e1
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
@@ -49,9 +49,9 @@ replace (
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
 	k8s.io/api => k8s.io/api v0.0.0-20190923155552-eac758366a00
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190923155427-ec87dd743e08
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190923160435-da4a36926496
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190924000102-096dc5f157a1
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190923155754-2bd34d193bac
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190923161919-438d6c9ed6c5
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190923160219-c897bbc27d33
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20190923235848-ef75bdfd7a61
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190923162013-e4d2b585a2e1
 )
