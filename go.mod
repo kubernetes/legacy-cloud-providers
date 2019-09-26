@@ -6,7 +6,7 @@ go 1.12
 
 require (
 	cloud.google.com/go v0.38.0
-	github.com/Azure/azure-sdk-for-go v32.5.0+incompatible
+	github.com/Azure/azure-sdk-for-go v33.1.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.9.0
 	github.com/Azure/go-autorest/autorest/adal v0.5.0
 	github.com/Azure/go-autorest/autorest/to v0.2.0
@@ -30,7 +30,7 @@ require (
 	k8s.io/api v0.0.0-20190925180651-d58b53da08f5
 	k8s.io/apimachinery v0.0.0-20190925235427-62598f38f24e
 	k8s.io/apiserver v0.0.0-20190926040045-1890e0832be0
-	k8s.io/client-go v0.0.0-20190926155747-1db9859ae820
+	k8s.io/client-go v0.0.0-20190926235751-95884bf844a9
 	k8s.io/cloud-provider v0.0.0-20190926001854-f1c9327c6663
 	k8s.io/component-base v0.0.0-20190926082537-804254d56004
 	k8s.io/csi-translation-lib v0.0.0-20190926001948-d19f63669688
@@ -50,7 +50,7 @@ replace (
 	k8s.io/api => k8s.io/api v0.0.0-20190925180651-d58b53da08f5
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190925235427-62598f38f24e
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190926040045-1890e0832be0
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190926155747-1db9859ae820
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190926235751-95884bf844a9
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20190926001854-f1c9327c6663
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190926082537-804254d56004
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20190926001948-d19f63669688
