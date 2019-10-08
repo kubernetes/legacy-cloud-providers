@@ -46,7 +46,7 @@ github.com/coreos/bbolt v1.3.1-coreos.6/go.mod h1:iRUV2dpdMOn7Bo10OQBFzIJO9kkE55
 github.com/coreos/etcd v3.3.15+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/coreos/go-oidc v2.1.0+incompatible/go.mod h1:CgnwVTmzoESiwO9qyAFEMiHoZ1nMCKZlZ9V6mm3/LKc=
 github.com/coreos/go-semver v0.3.0/go.mod h1:nnelYz7RCh+5ahJtPPxZlU+153eP4D4r3EedlOD2RNk=
-github.com/coreos/go-systemd v0.0.0-20180511133405-39ca1b05acc7/go.mod h1:F5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=
+github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e/go.mod h1:F5haX7vjVVG0kc13fIWeqUViNPyEJxv/OmvnBo0Yme4=
 github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea/go.mod h1:E3G3o1h8I7cfcXa63jLwjI0eiQQMgzzUDFVpN/nH/eA=
 github.com/davecgh/go-spew v0.0.0-20151105211317-5215b55f46b2/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -297,10 +297,10 @@ honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 k8s.io/api v0.0.0-20191005115622-2e41325d9e4b/go.mod h1:V9fqJJO3eGaWUKb9e6wH3fx7JXl1IaSC1VhSLk7GJjA=
 k8s.io/apimachinery v0.0.0-20191006235458-f9f2f3f8ab02/go.mod h1:92mWDd8Ji2sw2157KIgino5wCxffA8KSvhW2oY4ypdw=
-k8s.io/apiserver v0.0.0-20191005120500-279a76350fb3/go.mod h1:8gnrBDZC7Dx/FShLvwJxZxR0FgFMOTGh4KEAUstJWzA=
-k8s.io/client-go v0.0.0-20191006235818-c918cd02a1a3/go.mod h1:y9Rvsae8RfW0HpclmE1lCx4wUxrLDRhXv9gh8SWYhvc=
+k8s.io/apiserver v0.0.0-20191008120233-c29386a6051d/go.mod h1:UIel6UVz+0dF5u8geO0TKs6jDgAWo5A+tWTDXhhaW4E=
+k8s.io/client-go v0.0.0-20191008115822-1210218b4a26/go.mod h1:Ej3Cs9QxIg8+T2Y4v/Bh8DVv/JNYZrix9UwRQDG49ck=
 k8s.io/cloud-provider v0.0.0-20191005121959-0a96ff5a97f9/go.mod h1:kmSEXmZBX+jPr4ROWtSxEh+xrJvwqXrDrOlJaA/1JUw=
-k8s.io/component-base v0.0.0-20191005120246-f5216b94ab44/go.mod h1:vczWDSFYXxd5GBHBZnq89a2XZiLBK59t2JpoadwKV8o=
+k8s.io/component-base v0.0.0-20191008075918-86c6082c6a20/go.mod h1:igCPGAZkiLboFObJH55AZAiStdoMZRsCN14ENO28iGQ=
 k8s.io/csi-translation-lib v0.0.0-20191005122053-636def22add9/go.mod h1:U0GCgmyejYIZXnSFAaS5/qyT51qqEMSmWg49oTgVXPs=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
