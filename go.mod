@@ -26,13 +26,13 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20191016225839-816a9b7df678
+	k8s.io/api v0.0.0-20191022225748-ce7f239b41de
 	k8s.io/apimachinery v0.0.0-20191020214737-6c8691705fc5
-	k8s.io/apiserver v0.0.0-20191018030144-550b75f0da71
-	k8s.io/client-go v0.0.0-20191016230210-14c42cd304d9
-	k8s.io/cloud-provider v0.0.0-20191017112613-061e81ba5afd
-	k8s.io/component-base v0.0.0-20191016230640-d338b9159fb6
-	k8s.io/csi-translation-lib v0.0.0-20191014080725-4e8bd1014d93
+	k8s.io/apiserver v0.0.0-20191022230425-01d7d072b192
+	k8s.io/client-go v0.0.0-20191022230018-87e18d96d65e
+	k8s.io/cloud-provider v0.0.0-20191022232125-3343f4bff7f1
+	k8s.io/component-base v0.0.0-20191022230130-ba9cedb1a3fa
+	k8s.io/csi-translation-lib v0.0.0-20191022232233-dcedd8a37016
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191010214722-8d271d903fe4
 	sigs.k8s.io/yaml v1.1.0
@@ -46,11 +46,11 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => k8s.io/api v0.0.0-20191016225839-816a9b7df678
+	k8s.io/api => k8s.io/api v0.0.0-20191022225748-ce7f239b41de
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191020214737-6c8691705fc5
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191018030144-550b75f0da71
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191016230210-14c42cd304d9
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191017112613-061e81ba5afd
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191016230640-d338b9159fb6
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191014080725-4e8bd1014d93
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191022230425-01d7d072b192
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20191022230018-87e18d96d65e
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191022232125-3343f4bff7f1
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20191022230130-ba9cedb1a3fa
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191022232233-dcedd8a37016
 )
