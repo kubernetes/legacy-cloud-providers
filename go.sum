@@ -299,10 +299,10 @@ honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 k8s.io/api v0.0.0-20191016225839-816a9b7df678/go.mod h1:LZQaT8MvVpl7Bg2lYFcQm7+Mpdxq8p1NFl3yh+5DCwY=
 k8s.io/apimachinery v0.0.0-20191020214737-6c8691705fc5/go.mod h1:92mWDd8Ji2sw2157KIgino5wCxffA8KSvhW2oY4ypdw=
-k8s.io/apiserver v0.0.0-20191018030144-550b75f0da71/go.mod h1:60GwQL5ZmsxYMSUoMtm112UxEt6jFprIL2MLHkkrWPE=
-k8s.io/client-go v0.0.0-20191016230210-14c42cd304d9/go.mod h1:ct8FBj9BiF4WYNmJoE+SiuhAgSrFs9cyTE7icW+iVr4=
+k8s.io/apiserver v0.0.0-20191023070730-45ecb17a7595/go.mod h1:MeqB+i1T9k3LuFQepHgcu8KUNu7VFZ7wMVUnh2UgEu4=
+k8s.io/client-go v0.0.0-20191023065929-d1b30110f1ab/go.mod h1:y+Of49c+rlCjT6r1g6TKjR6qidLLM7A/q8tgcG5yKHA=
 k8s.io/cloud-provider v0.0.0-20191017112613-061e81ba5afd/go.mod h1:FTiYFFjJhEa4dCQOv1UnysNDJqw6gvtBN7o51KilNBg=
-k8s.io/component-base v0.0.0-20191016230640-d338b9159fb6/go.mod h1:L2lcIF6P6N33EyqL0ntnoBvJ6t724ev4LzCc0yjn26g=
+k8s.io/component-base v0.0.0-20191023070445-be75e4906c11/go.mod h1:0whsKRUxR9IyxdCJBCWpkSGQqIvhBbzDYvcCkk+yxa0=
 k8s.io/csi-translation-lib v0.0.0-20191014080725-4e8bd1014d93/go.mod h1:zr/0XnF//FOildQahZAF1kofVpcrC616CBkRS8QRlgE=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
