@@ -88,11 +88,11 @@
 		},
 		{
 			"ImportPath": "github.com/coreos/bbolt",
-			"Rev": "v1.3.1-coreos.6"
+			"Rev": "v1.3.3"
 		},
 		{
 			"ImportPath": "github.com/coreos/etcd",
-			"Rev": "v3.3.15"
+			"Rev": "v3.3.17"
 		},
 		{
 			"ImportPath": "github.com/coreos/go-oidc",
@@ -415,6 +415,10 @@
 			"Rev": "07dd2e8dfe18"
 		},
 		{
+			"ImportPath": "go.etcd.io/bbolt",
+			"Rev": "v1.3.3"
+		},
+		{
 			"ImportPath": "go.opencensus.io",
 			"Rev": "v0.21.0"
 		},
@@ -540,7 +544,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "728d12e6692c"
+			"Rev": "e776086e909d"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
