@@ -12,7 +12,7 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
-			"Rev": "v33.1.0"
+			"Rev": "v35.0.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
@@ -628,15 +628,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "5524a3672fbb"
+			"Rev": "6c5f04a580b3"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "af6325b3a843"
+			"Rev": "05fcdc4d1d77"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "d1b1b64dd924"
+			"Rev": "aec3fc9d2a9c"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -644,15 +644,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "66dd06a864dd"
+			"Rev": "d8f317e06f28"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "5e0e35147053"
+			"Rev": "cba718a9c998"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "5b4d6a70db63"
+			"Rev": "bcd5f427a20c"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
