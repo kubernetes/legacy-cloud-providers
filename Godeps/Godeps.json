@@ -12,7 +12,7 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
-			"Rev": "v33.1.0"
+			"Rev": "v35.0.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
@@ -628,15 +628,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "5524a3672fbb"
+			"Rev": "b19d8caf39be"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "af6325b3a843"
+			"Rev": "bb31b70367b7"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "d1b1b64dd924"
+			"Rev": "71f1f5686ac3"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
