@@ -185,7 +185,6 @@ github.com/onsi/ginkgo v1.10.1/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+
 github.com/onsi/gomega v0.0.0-20170829124025-dcabb60a477c/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5uiA=
 github.com/onsi/gomega v1.7.0 h1:XPnZz8VVBHjVsy1vzJmRwIcSwiUO+JFfrv/xGiigmME=
 github.com/onsi/gomega v1.7.0/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1CpauHY=
-github.com/pborman/uuid v1.2.0/go.mod h1:X/NO0urCmaxf9VXbdlT7C2Yzkj2IKimNn4k+gtPdI/k=
 github.com/peterbourgon/diskv v2.0.1+incompatible/go.mod h1:uqqh8zWWbv1HBMNONnaR/tNboyR3/BZd58JJSHlUSCU=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
@@ -314,13 +313,6 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20191105135202-f26842a96636/go.mod h1:PSjZrYyf7B3FBnQ/Mg/Q8a608vRWJjqnecTDJ0rmg44=
-k8s.io/apimachinery v0.0.0-20191105135202-8b539fc8459d/go.mod h1:gA1T9z4LIup7PIegBwxkF2UYXUNVKhOAPvQWWnAc34k=
-k8s.io/apiserver v0.0.0-20191105135202-f3bb1de43f9c/go.mod h1:WLkeiLVEuTYnrouQT7/7DBncEej29Tf5pvKVb7aAKj4=
-k8s.io/client-go v0.0.0-20191105135202-b132d4e8c200/go.mod h1:fPfKKziusto52CHMcMygXEWs7lDSttDsoSeIBU2rEfM=
-k8s.io/cloud-provider v0.0.0-20191104154428-5682975135e8/go.mod h1:QWISv//kuLt74EP3meLkjamKRjOB+3kxQ7hhouzo8fI=
-k8s.io/component-base v0.0.0-20191105135202-5ba71dd09dcd/go.mod h1:V5q1uXzr6XqJdZjg4acFLX+MMb1PzdLC9n7GpYGRi64=
-k8s.io/csi-translation-lib v0.0.0-20191104154609-1e5d2926d7d6/go.mod h1:+kvJ2JmmxN4wO1pRXEkif3QHgnkod5/UjECTT6QMKlE=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
 k8s.io/klog v0.3.0/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
