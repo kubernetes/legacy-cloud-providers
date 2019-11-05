@@ -20,38 +20,33 @@ require (
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/stretchr/testify v1.3.0
 	github.com/vmware/govmomi v0.20.1
-	golang.org/x/crypto v0.0.0-20190611184440-5c40567a22f8
+	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20191106225817-f0152ed5fdbc
-	k8s.io/apimachinery v0.0.0-20191105185716-00d39968b57e
-	k8s.io/apiserver v0.0.0-20191105191200-ab2ea16b1965
-	k8s.io/client-go v0.0.0-20191106230057-a57d0056dbf1
-	k8s.io/cloud-provider v0.0.0-20191101232635-c63b87e2bdbc
-	k8s.io/component-base v0.0.0-20191106110206-c818e9b61295
-	k8s.io/csi-translation-lib v0.0.0-20191106072835-4db42d9840eb
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191030222137-2b95a09bc58d
 	sigs.k8s.io/yaml v1.1.0
 )
 
 replace (
-	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20181025213731-e84da0312774
-	golang.org/x/lint => golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1
-	golang.org/x/net => golang.org/x/net v0.0.0-20190812203447-cdfb69ac37fc
-	golang.org/x/oauth2 => golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
-	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
-	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
-	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
-	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => k8s.io/api v0.0.0-20191106225817-f0152ed5fdbc
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191105185716-00d39968b57e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191105191200-ab2ea16b1965
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191106230057-a57d0056dbf1
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191101232635-c63b87e2bdbc
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191106110206-c818e9b61295
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191106072835-4db42d9840eb
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a
+	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
