@@ -184,7 +184,7 @@
 		},
 		{
 			"ImportPath": "github.com/go-openapi/jsonpointer",
-			"Rev": "v0.19.2"
+			"Rev": "v0.19.3"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/jsonreference",
@@ -196,7 +196,7 @@
 		},
 		{
 			"ImportPath": "github.com/go-openapi/swag",
-			"Rev": "v0.19.2"
+			"Rev": "v0.19.5"
 		},
 		{
 			"ImportPath": "github.com/go-stack/stack",
@@ -264,7 +264,7 @@
 		},
 		{
 			"ImportPath": "github.com/gregjones/httpcache",
-			"Rev": "787624de3eb7"
+			"Rev": "9cad4c3443a7"
 		},
 		{
 			"ImportPath": "github.com/grpc-ecosystem/go-grpc-middleware",
@@ -344,7 +344,7 @@
 		},
 		{
 			"ImportPath": "github.com/mailru/easyjson",
-			"Rev": "94de47d64c63"
+			"Rev": "b2ccc519800e"
 		},
 		{
 			"ImportPath": "github.com/mattn/go-colorable",
@@ -404,7 +404,7 @@
 		},
 		{
 			"ImportPath": "github.com/pkg/errors",
-			"Rev": "v0.8.0"
+			"Rev": "v0.8.1"
 		},
 		{
 			"ImportPath": "github.com/pmezard/go-difflib",
@@ -460,7 +460,7 @@
 		},
 		{
 			"ImportPath": "github.com/spf13/pflag",
-			"Rev": "v1.0.3"
+			"Rev": "v1.0.5"
 		},
 		{
 			"ImportPath": "github.com/stretchr/objx",
@@ -588,7 +588,7 @@
 		},
 		{
 			"ImportPath": "gopkg.in/inf.v0",
-			"Rev": "v0.9.0"
+			"Rev": "v0.9.1"
 		},
 		{
 			"ImportPath": "gopkg.in/natefinch/lumberjack.v2",
@@ -624,31 +624,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "ccca0f5a3d9c"
+			"Rev": "43b1ad33cf6f"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "e1faffd14b0f"
+			"Rev": "9c5262af35ca"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "99222540de36"
+			"Rev": "ea100acb4fa6"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "5fc7a9e1ae72"
+			"Rev": "4fb1ca18cab3"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "5682975135e8"
+			"Rev": "d659bb619eed"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "5d1e7ba2b923"
+			"Rev": "0c26570163f1"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "30aa3901737a"
+			"Rev": "1375f5389d6b"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
