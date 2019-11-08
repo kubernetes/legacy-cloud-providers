@@ -26,13 +26,13 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20191107030003-665c8a257c1a
+	k8s.io/api v0.0.0-20191108065825-6d3a8b88de3a
 	k8s.io/apimachinery v0.0.0-20191107105744-2c7f8d2b0fd8
-	k8s.io/apiserver v0.0.0-20191107190858-4dc6b26d2d47
+	k8s.io/apiserver v0.0.0-20191108030537-730448e49a13
 	k8s.io/client-go v0.0.0-20191107190107-e55a71a3e03e
-	k8s.io/cloud-provider v0.0.0-20191107034400-7ce8bc796221
-	k8s.io/component-base v0.0.0-20191108030236-dea53df37956
-	k8s.io/csi-translation-lib v0.0.0-20191107152430-53ea9899f79f
+	k8s.io/cloud-provider v0.0.0-20191108072900-7cddb8cfd293
+	k8s.io/component-base v0.0.0-20191108030237-cee161e85f2d
+	k8s.io/csi-translation-lib v0.0.0-20191108073012-e222ec9718b0
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191030222137-2b95a09bc58d
 	sigs.k8s.io/yaml v1.1.0
@@ -41,11 +41,11 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7
-	k8s.io/api => k8s.io/api v0.0.0-20191107030003-665c8a257c1a
+	k8s.io/api => k8s.io/api v0.0.0-20191108065825-6d3a8b88de3a
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191107105744-2c7f8d2b0fd8
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191107190858-4dc6b26d2d47
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191108030537-730448e49a13
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20191107190107-e55a71a3e03e
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191107034400-7ce8bc796221
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191108030236-dea53df37956
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191107152430-53ea9899f79f
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191108072900-7cddb8cfd293
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20191108030237-cee161e85f2d
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191108073012-e222ec9718b0
 )
