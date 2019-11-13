@@ -342,13 +342,6 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20191114184158-f35a30b93e33/go.mod h1:jaXEBkXXOiHmXuAEFbm5INFjvXi4LLnk804Sppl4eog=
-k8s.io/apimachinery v0.0.0-20191114184158-4995f184a5b8/go.mod h1:+6CX7hP4aLfX2sb91JYDMIp0VqDSog2kZu0BHe+lP+s=
-k8s.io/apiserver v0.0.0-20191114184158-53fcf9dba1e5/go.mod h1:e/QE+eMolwt6nPnmjVPm//pd6YlW+PwThdSorEujbsg=
-k8s.io/client-go v0.0.0-20191114184158-f3cdcaf970ea/go.mod h1:UPK9TFWZ0S4cZSQUHvdl9reJFDJS8OR2waJa1EZTpH4=
-k8s.io/cloud-provider v0.0.0-20191109155659-6af806f9510b/go.mod h1:Ztlzfl2i4nV9RwDXlOj2qd6NN/EIqRwj6lKA6zW/zqM=
-k8s.io/component-base v0.0.0-20191114184158-ae0427be6882/go.mod h1:0T7eVxlJrcHWsPugPr06IdPn3cIUAyU6rWI6XPqmr7Q=
-k8s.io/csi-translation-lib v0.0.0-20191114184158-6fb292b4808e/go.mod h1:AhsnJKQKXVK61rXjBp+Z6gUmoLvl4mg/zh584T6YOG8=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
 k8s.io/klog v0.3.0/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
@@ -359,6 +352,6 @@ k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a/go.mod h1:1TqjTSzOxsLGIKf
 k8s.io/utils v0.0.0-20191030222137-2b95a09bc58d h1:1P0iBJsBzxRmR+dIFnM+Iu4aLxnoa7lBqozW/0uHbT8=
 k8s.io/utils v0.0.0-20191030222137-2b95a09bc58d/go.mod h1:sZAwmy6armz5eXlNoLmJcl4F1QuKu7sr+mFQ0byX7Ew=
 sigs.k8s.io/structured-merge-diff v0.0.0-20190525122527-15d366b2352e/go.mod h1:wWxsB5ozmmv/SG7nM11ayaAW51xMvak/t1r0CSlcokI=
-sigs.k8s.io/structured-merge-diff v1.0.1-0.20191108220359-b1b620dd3f06/go.mod h1:/ULNhyfzRopfcjskuui0cTITekDduZ7ycKN3oUT9R18=
+sigs.k8s.io/structured-merge-diff v0.0.0-20190817042607-6149e4549fca/go.mod h1:IIgPezJWb76P0hotTxzDbWsMYB8APh18qZnxkomBpxA=
 sigs.k8s.io/yaml v1.1.0 h1:4A07+ZFc2wgJwo8YNlQpr1rVlgUDlxXHhPJciaPY5gs=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
