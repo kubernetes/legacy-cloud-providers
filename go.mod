@@ -22,30 +22,30 @@ require (
 	github.com/vmware/govmomi v0.20.3
 	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20191115142644-28bee1a9beb0
-	k8s.io/apimachinery v0.0.0-20191115142644-f4e7d7f24368
-	k8s.io/apiserver v0.0.0-20191115142644-98aa6f3cec38
-	k8s.io/client-go v0.0.0-20191115142644-a4c677cde034
-	k8s.io/cloud-provider v0.0.0-20191115142644-e77bd8ad9384
-	k8s.io/component-base v0.0.0-20191115142644-051688b905f7
-	k8s.io/csi-translation-lib v0.0.0-20191115142644-23fb84b980fb
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog v1.0.0
-	k8s.io/utils v0.0.0-20191030222137-2b95a09bc58d
+	k8s.io/utils v0.0.0-20191114184206-e782cd3c129f
 	sigs.k8s.io/yaml v1.1.0
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20191115142644-28bee1a9beb0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191115142644-f4e7d7f24368
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191115142644-98aa6f3cec38
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191115142644-a4c677cde034
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191115142644-e77bd8ad9384
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191115142644-051688b905f7
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191115142644-23fb84b980fb
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
