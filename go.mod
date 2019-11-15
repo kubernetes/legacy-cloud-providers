@@ -19,7 +19,7 @@ require (
 	github.com/rubiojr/go-vhd v0.0.0-20160810183302-0bfd3b39853c
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/stretchr/testify v1.3.0
-	github.com/vmware/govmomi v0.20.1
+	github.com/vmware/govmomi v0.20.3
 	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456
@@ -28,7 +28,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	k8s.io/api v0.0.0-20191115015536-da2cf76beda8
 	k8s.io/apimachinery v0.0.0-20191114215425-67a48e0c9266
-	k8s.io/apiserver v0.0.0-20191115020214-6b2c200efa24
+	k8s.io/apiserver v0.0.0-20191115020217-a0a37e0a765e
 	k8s.io/client-go v0.0.0-20191114220110-6f03b71b98e6
 	k8s.io/cloud-provider v0.0.0-20191114224355-aa0e9c7c6a24
 	k8s.io/component-base v0.0.0-20191115015918-50dd3c3ffc6e
@@ -43,7 +43,7 @@ replace (
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
 	k8s.io/api => k8s.io/api v0.0.0-20191115015536-da2cf76beda8
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191114215425-67a48e0c9266
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191115020214-6b2c200efa24
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191115020217-a0a37e0a765e
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20191114220110-6f03b71b98e6
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191114224355-aa0e9c7c6a24
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20191115015918-50dd3c3ffc6e

@@ -233,8 +233,8 @@ github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20170815181823-89b8d40f7ca8/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
 github.com/urfave/cli v1.20.0/go.mod h1:70zkFmudgCuE/ngEzBv17Jvp/497gISqfk5gWijbERA=
-github.com/vmware/govmomi v0.20.1 h1:7b/SeTUB3tER8ZLGLLLH3xcnB2xeuLULXmfPFqPSRZA=
-github.com/vmware/govmomi v0.20.1/go.mod h1:URlwyTFZX72RmxtxuaFL2Uj3fD1JTvZdx59bHWk6aFU=
+github.com/vmware/govmomi v0.20.3 h1:gpw/0Ku+6RgF3jsi7fnCLmlcikBHfKBCUcu1qgc16OU=
+github.com/vmware/govmomi v0.20.3/go.mod h1:URlwyTFZX72RmxtxuaFL2Uj3fD1JTvZdx59bHWk6aFU=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738/go.mod h1:dnLIgRNXwCJa5e+c6mIZCrds/GIG4ncV9HhK5PX7jPg=
@@ -344,7 +344,7 @@ honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 k8s.io/api v0.0.0-20191115015536-da2cf76beda8/go.mod h1:TnwOuwwOmtUq5BythlhmbJs+lwQGEsSJ6N4S4ODl2m8=
 k8s.io/apimachinery v0.0.0-20191114215425-67a48e0c9266/go.mod h1:dXFS2zaQR8fyzuvRdJDHw2Aerij/yVGJSre0bZQSVJA=
-k8s.io/apiserver v0.0.0-20191115020214-6b2c200efa24/go.mod h1:AJFsVCmNMl5fvAZotduKt5Z+rwUBz77aL2IuiuHguPw=
+k8s.io/apiserver v0.0.0-20191115020217-a0a37e0a765e/go.mod h1:LuyVBIPIZP7DdcqsrqAZws36sMnzrulVPbG0D3n5A3U=
 k8s.io/client-go v0.0.0-20191114220110-6f03b71b98e6/go.mod h1:Hykx8A+UlxwDre3qJcqZPgCAZGjl9vNp6yc7SmfMQ1k=
 k8s.io/cloud-provider v0.0.0-20191114224355-aa0e9c7c6a24/go.mod h1:QvA32wH5IMq6eQAB9Dom+O62/xQj0EAyBVe6dPmWDDE=
 k8s.io/component-base v0.0.0-20191115015918-50dd3c3ffc6e/go.mod h1:mGvZw6rGJi0lRK5Qn3KrpKMsz2SmgmRw9oQoA3xkE7U=
