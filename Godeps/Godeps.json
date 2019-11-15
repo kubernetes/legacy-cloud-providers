@@ -480,7 +480,7 @@
 		},
 		{
 			"ImportPath": "github.com/vmware/govmomi",
-			"Rev": "v0.20.1"
+			"Rev": "v0.20.3"
 		},
 		{
 			"ImportPath": "github.com/xiang90/probing",
