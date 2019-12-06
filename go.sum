@@ -186,8 +186,8 @@ github.com/olekukonko/tablewriter v0.0.0-20170122224234-a0225b3f23b5/go.mod h1:v
 github.com/onsi/ginkgo v0.0.0-20170829012221-11459a886d9c/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.6.0 h1:Ix8l273rp3QzYgXSR+c8d1fTG7UPgYkOSELPhiY/YGw=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
-github.com/onsi/ginkgo v1.10.1 h1:q/mM8GF/n0shIN8SaAZ0V+jnLPzen6WIVZdiwrRlMlo=
-github.com/onsi/ginkgo v1.10.1/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
+github.com/onsi/ginkgo v1.10.4-0.20191206104214-f66e896ca772 h1:Arq/HckhLLuXdX+q3/qmqAdD5bdQQp/hUXW0QP6oOPA=
+github.com/onsi/ginkgo v1.10.4-0.20191206104214-f66e896ca772/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/gomega v0.0.0-20170829124025-dcabb60a477c/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5uiA=
 github.com/onsi/gomega v1.7.0 h1:XPnZz8VVBHjVsy1vzJmRwIcSwiUO+JFfrv/xGiigmME=
 github.com/onsi/gomega v1.7.0/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1CpauHY=
@@ -348,13 +348,6 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20191220113514-85edcf8a9b9b/go.mod h1:mCqgpXUlxnxNLOrydvPDuMFU4QfeenkL/t7AKU2AsEE=
-k8s.io/apimachinery v0.0.0-20191216025728-0ee8b4573e3a/go.mod h1:Ng1IY8TS7sC44KJxT/WUR6qFRfWwahYYYpNXyYRKOCY=
-k8s.io/apiserver v0.0.0-20191219190526-629e26cb94dd/go.mod h1:S1IZzUwSFbfckV5HUlmYLMWLuryVzHKrLrfozgyaoIo=
-k8s.io/client-go v0.0.0-20191220035004-d16537844a7a/go.mod h1:ZEe8ZASDUAuqVGJ+UN0ka0PfaR+b6a6E1PGsSNZRui8=
-k8s.io/cloud-provider v0.0.0-20191217072204-daa823c59c97/go.mod h1:TIsJdyrCTfN+PQhR4484K/wGVYjuatlWNC+FH0GZpUk=
-k8s.io/component-base v0.0.0-20191214190519-d868452632e2/go.mod h1:wupxkh1T/oUDqyTtcIjiEfpbmIHGm8By/vqpSKC6z8c=
-k8s.io/csi-translation-lib v0.0.0-20191214192642-37787417d6ce/go.mod h1:5DBU2f1IbMf5JfGoKEvc2nDebazQI0ldXg4AoZ/qbWU=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
 k8s.io/klog v0.3.0/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
