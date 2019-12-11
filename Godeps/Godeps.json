@@ -532,7 +532,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/sync",
-			"Rev": "112230192c58"
+			"Rev": "cd5d95a43a6e"
 		},
 		{
 			"ImportPath": "golang.org/x/sys",
@@ -628,7 +628,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "7edad22604e1"
+			"Rev": "97f6f5b52064"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
@@ -636,11 +636,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "25a2a7a6d5f6"
+			"Rev": "026f1053b5e4"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "bc9b51d240b2"
+			"Rev": "b9197b961aab"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
@@ -648,7 +648,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "435ce712a694"
+			"Rev": "b370c1878ea4"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
