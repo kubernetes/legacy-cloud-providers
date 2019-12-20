@@ -392,7 +392,7 @@
 		},
 		{
 			"ImportPath": "github.com/onsi/ginkgo",
-			"Rev": "v1.10.1"
+			"Rev": "v1.11.0"
 		},
 		{
 			"ImportPath": "github.com/onsi/gomega",
@@ -628,31 +628,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "85edcf8a9b9b"
+			"Rev": "5011a43dca10"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "0ee8b4573e3a"
+			"Rev": "c48e860b1320"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "629e26cb94dd"
+			"Rev": "f435d1078eab"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "d16537844a7a"
+			"Rev": "31f4619a2737"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "daa823c59c97"
+			"Rev": "b7e17265fabb"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "d868452632e2"
+			"Rev": "170d998483ab"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "37787417d6ce"
+			"Rev": "8297c6d38ccf"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
