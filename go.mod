@@ -9,6 +9,7 @@ require (
 	github.com/Azure/azure-sdk-for-go v35.0.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.9.0
 	github.com/Azure/go-autorest/autorest/adal v0.5.0
+	github.com/Azure/go-autorest/autorest/mocks v0.2.0
 	github.com/Azure/go-autorest/autorest/to v0.2.0
 	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
 	github.com/GoogleCloudPlatform/k8s-cloud-provider v0.0.0-20190822182118-27a4ced34534
@@ -25,13 +26,13 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20191230033939-7dc09db16fb8
-	k8s.io/apimachinery v0.0.0-20191221033353-3253b0a30d67
-	k8s.io/apiserver v0.0.0-20191227034234-585f7eed30ae
-	k8s.io/client-go v0.0.0-20191227015938-526b2fff5289
-	k8s.io/cloud-provider v0.0.0-20191222120112-8c84d3f9e095
-	k8s.io/component-base v0.0.0-20191222114205-a6e74ff2e316
-	k8s.io/csi-translation-lib v0.0.0-20191222120215-fa4e252e3504
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191217005138-9e5e9d854fcc
 	sigs.k8s.io/yaml v1.1.0
@@ -40,11 +41,12 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20191230033939-7dc09db16fb8
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191221033353-3253b0a30d67
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191227034234-585f7eed30ae
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191227015938-526b2fff5289
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20191222120112-8c84d3f9e095
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191222114205-a6e74ff2e316
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20191222120215-fa4e252e3504
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
