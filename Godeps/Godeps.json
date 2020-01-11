@@ -420,7 +420,7 @@
 		},
 		{
 			"ImportPath": "github.com/prometheus/client_model",
-			"Rev": "fd36f4220a90"
+			"Rev": "v0.1.0"
 		},
 		{
 			"ImportPath": "github.com/prometheus/common",
@@ -636,7 +636,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "9bb399646fcf"
+			"Rev": "4f714193382d"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -644,11 +644,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "8c84d3f9e095"
+			"Rev": "535da08218c4"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "e498b4d116ab"
+			"Rev": "313033959c60"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
