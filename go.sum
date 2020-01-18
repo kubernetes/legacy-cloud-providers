@@ -353,9 +353,9 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20200116033728-9bd6c7846cc9/go.mod h1:YimCV7LQfzVoCjjhkBdIAm7uL5aQlEbctwxCcN1GdEo=
+k8s.io/api v0.0.0-20200118153702-ddd293d80783/go.mod h1:YimCV7LQfzVoCjjhkBdIAm7uL5aQlEbctwxCcN1GdEo=
 k8s.io/apimachinery v0.0.0-20200116033531-fb4ce0f53438/go.mod h1:Tqxz3+oiUZcPFxzovlPY3nu99cCW6NstQ26uH61ywi4=
-k8s.io/apiserver v0.0.0-20200116034807-468c49769df3/go.mod h1:t1GW/vF2VgbvP7uBklNR+wa/Ay6rc0idGEp/PAACHpQ=
+k8s.io/apiserver v0.0.0-20200118114312-efc84667d5d4/go.mod h1:lHV+lPDxiY7x/VcJnDtulIjZhaxVlphQfQ7kgC0vWUw=
 k8s.io/client-go v0.0.0-20200116034004-1aa326d7304e/go.mod h1:nmHwfSYjYkRwvpBn84t4sGscLh3EG6poZyhLTM/ZD1I=
 k8s.io/cloud-provider v0.0.0-20200116040805-cde95c46be5c/go.mod h1:D7vhyjgCeTyxkME006XirwYkhkOszoO1DgsrtAxrB3I=
 k8s.io/component-base v0.0.0-20200116034511-5acc2cc4b5e6/go.mod h1:gP5E+oe3zIKwBnsNziZgkx8Km7SAO0nEDXQIm0VfBSs=
