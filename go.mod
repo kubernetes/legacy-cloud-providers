@@ -27,13 +27,13 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200118233722-7aecbd569fd4
-	k8s.io/apimachinery v0.0.0-20200118233534-b615468efe04
-	k8s.io/apiserver v0.0.0-20200118234715-25e96abb3f46
-	k8s.io/client-go v0.0.0-20200118233946-a432bd9ba7da
-	k8s.io/cloud-provider v0.0.0-20200119000521-1adda4bd389b
-	k8s.io/component-base v0.0.0-20200118234435-5735a1699056
-	k8s.io/csi-translation-lib v0.0.0-20200119000631-da6d7da2c67f
+	k8s.io/api v0.18.0-alpha.2
+	k8s.io/apimachinery v0.18.0-alpha.2
+	k8s.io/apiserver v0.18.0-alpha.2
+	k8s.io/client-go v0.18.0-alpha.2
+	k8s.io/cloud-provider v0.18.0-alpha.2
+	k8s.io/component-base v0.18.0-alpha.2
+	k8s.io/csi-translation-lib v0.18.0-alpha.2
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191217005138-9e5e9d854fcc
 	sigs.k8s.io/yaml v1.1.0
@@ -42,11 +42,11 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200118233722-7aecbd569fd4
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200118233534-b615468efe04
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200118234715-25e96abb3f46
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200118233946-a432bd9ba7da
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200119000521-1adda4bd389b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200118234435-5735a1699056
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200119000631-da6d7da2c67f
+	k8s.io/api => k8s.io/api v0.18.0-alpha.2
+	k8s.io/apimachinery => k8s.io/apimachinery v0.18.0-alpha.2
+	k8s.io/apiserver => k8s.io/apiserver v0.18.0-alpha.2
+	k8s.io/client-go => k8s.io/client-go v0.18.0-alpha.2
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.18.0-alpha.2
+	k8s.io/component-base => k8s.io/component-base v0.18.0-alpha.2
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.18.0-alpha.2
 )
