@@ -27,26 +27,27 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200205090848-02edbc1d22f3
-	k8s.io/apimachinery v0.0.0-20200205225706-5e9e8834bd13
-	k8s.io/apiserver v0.0.0-20200207030823-54410fcd3998
-	k8s.io/client-go v0.0.0-20200207030102-0088fd151443
-	k8s.io/cloud-provider v0.0.0-20200130075156-3fd26a1b08c2
-	k8s.io/component-base v0.0.0-20200131033216-6bcd25baa4f4
-	k8s.io/csi-translation-lib v0.0.0-20200130075308-17660022e312
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191217005138-9e5e9d854fcc
-	sigs.k8s.io/yaml v1.1.0
+	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200205090848-02edbc1d22f3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200205225706-5e9e8834bd13
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200207030823-54410fcd3998
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200207030102-0088fd151443
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200130075156-3fd26a1b08c2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200131033216-6bcd25baa4f4
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200130075308-17660022e312
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
