@@ -29,7 +29,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	k8s.io/api v0.0.0-20200207025841-85a41f27a10c
 	k8s.io/apimachinery v0.0.0-20200207025655-52a338251bb2
-	k8s.io/apiserver v0.0.0-20200207150601-6b951cbd3fd1
+	k8s.io/apiserver v0.0.0-20200208030439-77e48ebcf08f
 	k8s.io/client-go v0.0.0-20200207150107-5be5d5753fd2
 	k8s.io/cloud-provider v0.0.0-20200207032645-7a1410081ec5
 	k8s.io/component-base v0.0.0-20200207030544-616550b070ba
@@ -44,7 +44,7 @@ replace (
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
 	k8s.io/api => k8s.io/api v0.0.0-20200207025841-85a41f27a10c
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200207025655-52a338251bb2
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200207150601-6b951cbd3fd1
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200208030439-77e48ebcf08f
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20200207150107-5be5d5753fd2
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200207032645-7a1410081ec5
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20200207030544-616550b070ba
