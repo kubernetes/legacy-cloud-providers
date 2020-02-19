@@ -648,11 +648,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "73eccd1273c2"
+			"Rev": "641545009c82"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "a1d715839a20"
+			"Rev": "6f3281669678"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
