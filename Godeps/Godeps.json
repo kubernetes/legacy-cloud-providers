@@ -524,7 +524,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/crypto",
-			"Rev": "60c769a6c586"
+			"Rev": "bac4c82f6975"
 		},
 		{
 			"ImportPath": "golang.org/x/exp",
@@ -648,23 +648,23 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "d984422bb952"
+			"Rev": "36e80ea78140"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "6f3281669678"
+			"Rev": "cb2a0501818e"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "93cd2cc615fd"
+			"Rev": "359c49cbfaaa"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "52da27f0465b"
+			"Rev": "d6212a66f6f6"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "9a406d6c0575"
+			"Rev": "402d8c29fe20"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
