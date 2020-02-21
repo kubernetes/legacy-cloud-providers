@@ -524,7 +524,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/crypto",
-			"Rev": "60c769a6c586"
+			"Rev": "bac4c82f6975"
 		},
 		{
 			"ImportPath": "golang.org/x/exp",
@@ -648,23 +648,23 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "2a6ddb89504a"
+			"Rev": "fa644e6a7a6b"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "40d13067fe64"
+			"Rev": "39a9bc1d5a52"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "2a570fb712d5"
+			"Rev": "9356bc30eec2"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "52da27f0465b"
+			"Rev": "0ac4c75112dd"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "c99688f5676a"
+			"Rev": "d44d904a3041"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -681,6 +681,10 @@
 		{
 			"ImportPath": "k8s.io/utils",
 			"Rev": "5f6fbceb4c31"
+		},
+		{
+			"ImportPath": "sigs.k8s.io/apiserver-network-proxy/konnectivity-client",
+			"Rev": "v0.0.5"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/structured-merge-diff/v3",
