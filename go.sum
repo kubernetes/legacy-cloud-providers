@@ -344,9 +344,9 @@ honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWh
 k8s.io/api v0.0.0-20200226110231-e99848a2b916/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TKw2l27eF4rfCHlyW88ys=
 k8s.io/apimachinery v0.0.0-20200214081019-2373d029717c/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
 k8s.io/apiserver v0.0.0-20200223092941-7f5d619eeb7e/go.mod h1:TNI1cy+wd2I9Uw6se93uFaxQ1Y6Ocqyv8lUmCgsBvRA=
-k8s.io/client-go v0.0.0-20200223092941-010dce13f834/go.mod h1:hg+XZh+MF2E3sKMTvfeCwbzeSdJuujHxMrMEGL3nK0U=
-k8s.io/cloud-provider v0.0.0-20200223131054-9356bc30eec2/go.mod h1:vxHFk1A4TdA+bWXWKpNYFciYv/jxz+qYpRc2LTapLlY=
-k8s.io/component-base v0.0.0-20200223123552-0ac4c75112dd/go.mod h1:Rg2MnStBThyki+TYf9aRG2ybSbkHqTG/qOdnJ6pwWdM=
+k8s.io/client-go v0.0.0-20200227204123-8f319dd0ec69/go.mod h1:jJjg98mq/nCn0V67SrkQegyPBmVURdOjrMvpoGAKDeY=
+k8s.io/cloud-provider v0.0.0-20200227214353-2f8992025401/go.mod h1:GKXK7sTD8AmZqjpHXFwSebmkhZtmYQxATv0lY80weCM=
+k8s.io/component-base v0.0.0-20200227204800-d43a87d8e3f6/go.mod h1:Q/wThMyG5ji8zk1xjiGmwU0Aa0LXr8OP+JWyaPEaenc=
 k8s.io/csi-translation-lib v0.0.0-20200223131248-d44d904a3041/go.mod h1:CXFSUZ6Heh2eSlBpBwLH8YIjrJd8h/akvDw1NDw1i4k=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
