@@ -345,7 +345,7 @@ k8s.io/api v0.0.0-20200226122402-d155b85a4fda/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TK
 k8s.io/apimachinery v0.0.0-20200214081019-2373d029717c/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
 k8s.io/apiserver v0.0.0-20200222202805-870146495806/go.mod h1:7+KOygYMhvZCnUM9IsqUYxKqCrRlG7qKk02qlRlxiJQ=
 k8s.io/client-go v0.0.0-20200222082411-f772958f8a29/go.mod h1:oCEmeN2HgOxtxgMbWWGHNOsipC+qARZIFENn44PJ5k4=
-k8s.io/cloud-provider v0.0.0-20200221174133-359c49cbfaaa/go.mod h1:aQWtQIH4k36twEn7R11XOVcBFqAlpalfGPeh/wBJAbI=
+k8s.io/cloud-provider v0.0.0-20200227004842-7c639559d933/go.mod h1:dsMT3BqarqW6eI+Lq1rtkyl4uCBzT6QSJjdYjrjpg6o=
 k8s.io/component-base v0.0.0-20200221165142-d6212a66f6f6/go.mod h1:B8q2AK86xxE1I0R1+CrykxCmsXybANtr7pvlzNE9vjo=
 k8s.io/csi-translation-lib v0.0.0-20200221174401-402d8c29fe20/go.mod h1:byDUvNHSvZb3src2gqfbfMCILdHKEr6vrceNbq3hz+U=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=

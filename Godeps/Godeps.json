@@ -656,7 +656,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "359c49cbfaaa"
+			"Rev": "7c639559d933"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
