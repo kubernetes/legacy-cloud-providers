@@ -341,12 +341,12 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20200229162612-f988802f85bd/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TKw2l27eF4rfCHlyW88ys=
-k8s.io/apimachinery v0.0.0-20200214081019-2373d029717c/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
-k8s.io/apiserver v0.0.0-20200229162612-23ff0d1e9e22/go.mod h1:aYuSlTrCIgBbUcEJ6Jcoam5IjhYSKhubn1FhCcwLB2M=
-k8s.io/client-go v0.0.0-20200229162612-bc450043dc76/go.mod h1:qOd9x7g/Ri9zIbgFTBz4RtEReO2sCS/dUm25u7LYnbw=
+k8s.io/api v0.0.0-20200302202609-3dd8f7e2cc14/go.mod h1:LAlMlrgQIQvh1+bSZh1P+YQWFvuDoBmKXgKgOBcGuqA=
+k8s.io/apimachinery v0.0.0-20200302191141-ea949900e6db/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
+k8s.io/apiserver v0.0.0-20200302204115-9a41a644ed2f/go.mod h1:H32FnFBXX7RBF8GoFNlFnhfE+PVI3BvqiP5CasEv/vw=
+k8s.io/client-go v0.0.0-20200302203027-b4195b390d33/go.mod h1:Ps2539XwIREOTTgYYu+xZrFKsFtgaDwreA07oTvgZWE=
 k8s.io/cloud-provider v0.0.0-20200227214353-2f8992025401/go.mod h1:GKXK7sTD8AmZqjpHXFwSebmkhZtmYQxATv0lY80weCM=
-k8s.io/component-base v0.0.0-20200227204800-d43a87d8e3f6/go.mod h1:Q/wThMyG5ji8zk1xjiGmwU0Aa0LXr8OP+JWyaPEaenc=
+k8s.io/component-base v0.0.0-20200302203611-fcfc161ec0ff/go.mod h1:NOlkwz13OtwvRpZKcBiWsP4MLCrsOdfRfzHSqsoSNu0=
 k8s.io/csi-translation-lib v0.0.0-20200223131248-d44d904a3041/go.mod h1:CXFSUZ6Heh2eSlBpBwLH8YIjrJd8h/akvDw1NDw1i4k=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
