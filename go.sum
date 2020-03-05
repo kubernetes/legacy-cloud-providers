@@ -341,13 +341,6 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20200304042242-0b68d4126df6/go.mod h1:EFuendCidCp9DUXAn3QXS0nWIaAgQYL8VaCqs8KTZBA=
-k8s.io/apimachinery v0.0.0-20200303201514-6584f51ae935/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
-k8s.io/apiserver v0.0.0-20200304083343-31094a22341b/go.mod h1:wF/QxgVYiED57g8rCvgE4cASnAqmEtGkyhIQ38EDPFk=
-k8s.io/client-go v0.0.0-20200304082524-83e04303df20/go.mod h1:B//05jO7DLV6Eqwq0+uKe5FnBLn4/BpJ3RG7TA7a5Po=
-k8s.io/cloud-provider v0.0.0-20200304085425-205cc87d3eb5/go.mod h1:3iWvF3dTTcp/SDyKt4mA8nbFeAHJwtuyk7oP9NSu7g4=
-k8s.io/component-base v0.0.0-20200304083046-fa4920973679/go.mod h1:lq0xL4uVP+juMbkkY6YH5AquFGmqvBg6FprvvwZcJak=
-k8s.io/csi-translation-lib v0.0.0-20200304085547-09a01420f224/go.mod h1:FaltYe4676GPamsc4gYsBfTGqvc4+ODfI3e6VonhHFQ=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
 k8s.io/klog v0.3.0/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
@@ -359,8 +352,8 @@ k8s.io/utils v0.0.0-20200229041039-0a110f9eb7ab h1:I3f2hcBrepGRXI1z4sukzAb8w1R4e
 k8s.io/utils v0.0.0-20200229041039-0a110f9eb7ab/go.mod h1:sZAwmy6armz5eXlNoLmJcl4F1QuKu7sr+mFQ0byX7Ew=
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.7/go.mod h1:PHgbrJT7lCHcxMU+mDHEm+nx46H4zuuHZkDP6icnhu0=
 sigs.k8s.io/structured-merge-diff/v3 v3.0.0-20200116222232-67a7b8c61874/go.mod h1:PlARxl6Hbt/+BC80dRLi1qAmnMqwqDg62YvvVkZjemw=
-sigs.k8s.io/structured-merge-diff/v3 v3.0.0-20200207200219-5e70324e7c1c h1:xQP7F7Lntt2dtYmg12WPQHObOrAyPHlMWP1JVSa79GM=
-sigs.k8s.io/structured-merge-diff/v3 v3.0.0-20200207200219-5e70324e7c1c/go.mod h1:PlARxl6Hbt/+BC80dRLi1qAmnMqwqDg62YvvVkZjemw=
+sigs.k8s.io/structured-merge-diff/v3 v3.0.0 h1:dOmIZBMfhcHS09XZkMyUgkq5trg3/jRyJYFZUiaOp8E=
+sigs.k8s.io/structured-merge-diff/v3 v3.0.0/go.mod h1:PlARxl6Hbt/+BC80dRLi1qAmnMqwqDg62YvvVkZjemw=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
 sigs.k8s.io/yaml v1.2.0 h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=
 sigs.k8s.io/yaml v1.2.0/go.mod h1:yfXDCHCao9+ENCvLSE62v9VSji2MKu5jeNfTrofGhJc=
