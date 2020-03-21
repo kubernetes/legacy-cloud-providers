@@ -652,23 +652,23 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "cecca7172ca0"
+			"Rev": "91746438dae3"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "b111a6213597"
+			"Rev": "b8fba595e8fa"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "7f351787dcd4"
+			"Rev": "8b7cbbf8f9e5"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "dfc3f1250855"
+			"Rev": "79b64fca65df"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "ddfdc8c4644c"
+			"Rev": "e48c54afeea5"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -684,7 +684,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "0a110f9eb7ab"
+			"Rev": "4a6ff033650d"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/apiserver-network-proxy/konnectivity-client",
