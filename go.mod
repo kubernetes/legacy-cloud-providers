@@ -30,7 +30,7 @@ require (
 	k8s.io/api v0.0.0-20200326015715-b5bd82427fa8
 	k8s.io/apimachinery v0.0.0-20200326055028-f8e71527369e
 	k8s.io/apiserver v0.0.0-20200326022444-744e4e68179f
-	k8s.io/client-go v0.0.0-20200326020446-6240434e1ad6
+	k8s.io/client-go v0.0.0-20200330180519-ed67da3a2364
 	k8s.io/cloud-provider v0.0.0-20200326033649-6979d8ba446c
 	k8s.io/component-base v0.0.0-20200327180121-4b266285e7b8
 	k8s.io/csi-translation-lib v0.0.0-20200326034108-bca887f53d87
@@ -45,7 +45,7 @@ replace (
 	k8s.io/api => k8s.io/api v0.0.0-20200326015715-b5bd82427fa8
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200326055028-f8e71527369e
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200326022444-744e4e68179f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200326020446-6240434e1ad6
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200330180519-ed67da3a2364
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200326033649-6979d8ba446c
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20200327180121-4b266285e7b8
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200326034108-bca887f53d87
