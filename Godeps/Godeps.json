@@ -648,7 +648,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "8490c30bbf50"
+			"Rev": "2ca06ba83edf"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
@@ -668,11 +668,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "8582c5203e4b"
+			"Rev": "c7033cd69c96"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "5be0458b7d23"
+			"Rev": "1f107e62bfd3"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
