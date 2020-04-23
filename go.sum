@@ -375,7 +375,7 @@ k8s.io/apimachinery v0.0.0-20200422181210-71d337978e2e/go.mod h1:imoz42hIYwpLTRW
 k8s.io/apiserver v0.0.0-20200422062423-6873ed332b51/go.mod h1:n90o3A//HYyplDenQj8OsVlbkYx2q6vVS3msaW1BBN0=
 k8s.io/client-go v0.0.0-20200422061635-d5598eafb022/go.mod h1:lBtOiyMgQ8Ibafj6tWp9/XLB3w0+XAVoKx6SXTAdPJ4=
 k8s.io/cloud-provider v0.0.0-20200410034032-1bd40cdc05f9/go.mod h1:J0NcM9yNLX+5vUAUO/iAWKD/segFyfbEkzNIRxIKncw=
-k8s.io/component-base v0.0.0-20200423021906-9348fb67d787/go.mod h1:HZ3pegcljoPKhQyaHWt9RSDAwJjsWJXD5M5vQhy+iIE=
+k8s.io/component-base v0.0.0-20200423061759-681caaeb5a1e/go.mod h1:HZ3pegcljoPKhQyaHWt9RSDAwJjsWJXD5M5vQhy+iIE=
 k8s.io/csi-translation-lib v0.0.0-20200421064027-1f107e62bfd3/go.mod h1:bvV+XdkIXNkeWMMXK+d8aaqjKErSGezSz02Udw/4+Ig=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92/go.mod h1:Gq+BEi5rUBO/HRz0bTSXDUcqjScdoY3a9IHpCEIOOfk=
