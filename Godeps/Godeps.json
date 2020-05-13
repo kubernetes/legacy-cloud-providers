@@ -260,7 +260,7 @@
 		},
 		{
 			"ImportPath": "github.com/googleapis/gax-go/v2",
-			"Rev": "v2.0.4"
+			"Rev": "v2.0.5"
 		},
 		{
 			"ImportPath": "github.com/googleapis/gnostic",
@@ -572,7 +572,7 @@
 		},
 		{
 			"ImportPath": "google.golang.org/api",
-			"Rev": "5213b8090861"
+			"Rev": "v0.15.1"
 		},
 		{
 			"ImportPath": "google.golang.org/appengine",
@@ -668,7 +668,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "108bda7c0fe0"
+			"Rev": "11de43eaa01e"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
