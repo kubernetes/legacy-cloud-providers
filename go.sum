@@ -373,7 +373,7 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20200509162017-b6206047d210/go.mod h1:raky3QQIV2+BF6omFznvh5TLtBeHdXVNLZPfX9Jc9SM=
+k8s.io/api v0.0.0-20200514002026-7ef7685746a7/go.mod h1:d0eCef82zSk3nN75Mm50/CnDpHNPjj1eTY956Z4kuY4=
 k8s.io/apimachinery v0.0.0-20200511201828-85fcb0190bbf/go.mod h1:imoz42hIYwpLTRWXU8pdJ9IE8DbxUsnU9lyVN8Y1SNo=
 k8s.io/apiserver v0.0.0-20200509202754-1aff9bcb80e0/go.mod h1://HtHJteuaphwfZhyycMna4WN+5mu9YMz+mNSr+kTNE=
 k8s.io/client-go v0.0.0-20200512002333-d4685ebf697c/go.mod h1:qjTCeugaRy24tOohn5NhQxthamMglgJvZFy2r2GANRU=
