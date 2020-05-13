@@ -668,7 +668,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "913f939df94a"
+			"Rev": "108bda7c0fe0"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
