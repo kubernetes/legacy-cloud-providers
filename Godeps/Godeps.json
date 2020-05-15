@@ -120,7 +120,7 @@
 		},
 		{
 			"ImportPath": "github.com/coreos/pkg",
-			"Rev": "97fdf19511ea"
+			"Rev": "399ea9e2e55f"
 		},
 		{
 			"ImportPath": "github.com/creack/pty",
@@ -224,7 +224,7 @@
 		},
 		{
 			"ImportPath": "github.com/golang/groupcache",
-			"Rev": "02826c3e7903"
+			"Rev": "5b532d6fd5ef"
 		},
 		{
 			"ImportPath": "github.com/golang/mock",
@@ -488,7 +488,7 @@
 		},
 		{
 			"ImportPath": "github.com/tmc/grpc-websocket-proxy",
-			"Rev": "89b8d40f7ca8"
+			"Rev": "0ad062ec5ee5"
 		},
 		{
 			"ImportPath": "github.com/urfave/cli",
@@ -516,7 +516,7 @@
 		},
 		{
 			"ImportPath": "go.uber.org/atomic",
-			"Rev": "v1.3.2"
+			"Rev": "v1.4.0"
 		},
 		{
 			"ImportPath": "go.uber.org/multierr",
@@ -648,31 +648,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "7ef7685746a7"
+			"Rev": "6a16455650b6"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "030f3066cc76"
+			"Rev": "97fb445e5c49"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "1aff9bcb80e0"
+			"Rev": "e54c7cf674a3"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "d4685ebf697c"
+			"Rev": "806d15d65454"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "058fc8b68701"
+			"Rev": "9fde162fbfcc"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "11de43eaa01e"
+			"Rev": "0fe55196dda6"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "1f107e62bfd3"
+			"Rev": "2ec4f2839ae0"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
