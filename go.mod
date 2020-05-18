@@ -27,26 +27,32 @@ require (
 	google.golang.org/api v0.15.1
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200517042100-2490600588fc
-	k8s.io/apimachinery v0.0.0-20200517041844-681a08151eac
-	k8s.io/apiserver v0.0.0-20200517043301-211b614cb67c
-	k8s.io/client-go v0.0.0-20200517042358-3d5c80942cce
-	k8s.io/cloud-provider v0.0.0-20200517045700-1683e69ca1ca
-	k8s.io/component-base v0.0.0-20200517042948-89c8525861a7
-	k8s.io/csi-translation-lib v0.0.0-20200517045833-deb688057f01
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.0.0
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
+	github.com/beorn7/perks => github.com/beorn7/perks v1.0.0
+	github.com/golang/protobuf => github.com/golang/protobuf v1.3.3
+	github.com/json-iterator/go => github.com/json-iterator/go v1.1.8
+	github.com/prometheus/common => github.com/prometheus/common v0.4.1
+	github.com/prometheus/procfs => github.com/prometheus/procfs v0.0.5
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200517042100-2490600588fc
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200517041844-681a08151eac
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200517043301-211b614cb67c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200517042358-3d5c80942cce
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200517045700-1683e69ca1ca
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200517042948-89c8525861a7
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200517045833-deb688057f01
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
