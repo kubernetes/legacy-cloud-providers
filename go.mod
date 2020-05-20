@@ -27,12 +27,12 @@ require (
 	google.golang.org/api v0.15.1
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200519082056-2543aba0e237
+	k8s.io/api v0.0.0-20200519082057-dccc90724807
 	k8s.io/apimachinery v0.0.0-20200519081849-bdcc9f4ab675
-	k8s.io/apiserver v0.0.0-20200519083315-5247bbbaa36f
-	k8s.io/client-go v0.0.0-20200519082352-455d6109ca5a
-	k8s.io/cloud-provider v0.0.0-20200519085647-097a320dbc10
-	k8s.io/component-base v0.0.0-20200519083002-12ba2a45814f
+	k8s.io/apiserver v0.0.0-20200520004152-3cadbe1d4dc2
+	k8s.io/client-go v0.0.0-20200520082344-7ab8430bef2c
+	k8s.io/cloud-provider v0.0.0-20200521010552-19fa0136a360
+	k8s.io/component-base v0.0.0-20200521003112-a501d3138b18
 	k8s.io/csi-translation-lib v0.0.0-20200519085817-6a3bd7cbffa8
 	k8s.io/klog/v2 v2.0.0
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66
@@ -42,11 +42,11 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200519082056-2543aba0e237
+	k8s.io/api => k8s.io/api v0.0.0-20200519082057-dccc90724807
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200519081849-bdcc9f4ab675
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200519083315-5247bbbaa36f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200519082352-455d6109ca5a
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200519085647-097a320dbc10
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200519083002-12ba2a45814f
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200520004152-3cadbe1d4dc2
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200520082344-7ab8430bef2c
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200521010552-19fa0136a360
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200521003112-a501d3138b18
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200519085817-6a3bd7cbffa8
 )
