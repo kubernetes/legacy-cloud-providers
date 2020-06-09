@@ -32,7 +32,7 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
-			"Rev": "v40.2.0"
+			"Rev": "v43.0.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
