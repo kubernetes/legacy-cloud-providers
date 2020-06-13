@@ -564,7 +564,7 @@
 		},
 		{
 			"ImportPath": "go.etcd.io/etcd",
-			"Rev": "e694b7bb0875"
+			"Rev": "54ba9589114f"
 		},
 		{
 			"ImportPath": "go.opencensus.io",
@@ -728,19 +728,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "96f75771c510"
+			"Rev": "d8530e6c952f"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "37818204b4a7"
+			"Rev": "9c9a72d75b2d"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "63eae69e3c59"
+			"Rev": "31e286ee1926"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "cb3b28e82f25"
+			"Rev": "8d919ce71d04"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
