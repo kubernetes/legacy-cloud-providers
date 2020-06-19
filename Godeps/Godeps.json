@@ -724,7 +724,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "8a7a6938a421"
+			"Rev": "3601c9c6fcc0"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
@@ -744,7 +744,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "6c60a4d2ed11"
+			"Rev": "123022b3d06b"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
