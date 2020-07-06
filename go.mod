@@ -19,7 +19,7 @@ require (
 	github.com/google/go-cmp v0.4.0
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/mitchellh/mapstructure v1.1.2
-	github.com/rubiojr/go-vhd v0.0.0-20160810183302-0bfd3b39853c
+	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/vmware/govmomi v0.20.3
@@ -28,24 +28,25 @@ require (
 	google.golang.org/api v0.15.1
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200712171229-801f67dca416
-	k8s.io/apimachinery v0.0.0-20200712171229-2c8b1211fea9
-	k8s.io/apiserver v0.0.0-20200712171229-6fb094afd098
-	k8s.io/client-go v0.0.0-20200712171229-b501d6e7bb38
-	k8s.io/cloud-provider v0.0.0-20200712171229-770c57dcd470
-	k8s.io/component-base v0.0.0-20200712171229-fbdbc959442e
-	k8s.io/csi-translation-lib v0.0.0-20200712171229-ec57f9adf95a
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.2.0
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20200712171229-801f67dca416
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200712171229-2c8b1211fea9
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200712171229-6fb094afd098
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200712171229-b501d6e7bb38
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200712171229-770c57dcd470
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200712171229-fbdbc959442e
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200712171229-ec57f9adf95a
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
