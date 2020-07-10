@@ -508,7 +508,7 @@
 		},
 		{
 			"ImportPath": "github.com/rubiojr/go-vhd",
-			"Rev": "0bfd3b39853c"
+			"Rev": "02e210299021"
 		},
 		{
 			"ImportPath": "github.com/satori/go.uuid",
@@ -724,19 +724,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "67a68481e276"
+			"Rev": "702e5dfa819c"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "9894919f2c6e"
+			"Rev": "8e134319f815"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "fe0d9bb06011"
+			"Rev": "329c34d037bf"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "2cf22cd48886"
+			"Rev": "16621f64440c"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
@@ -744,7 +744,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "12d9255b32a9"
+			"Rev": "2f3c87411b5b"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
