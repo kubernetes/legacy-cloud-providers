@@ -508,7 +508,7 @@
 		},
 		{
 			"ImportPath": "github.com/rubiojr/go-vhd",
-			"Rev": "0bfd3b39853c"
+			"Rev": "02e210299021"
 		},
 		{
 			"ImportPath": "github.com/satori/go.uuid",
