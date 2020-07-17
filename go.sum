@@ -304,7 +304,7 @@ github.com/vmware/govmomi v0.20.3/go.mod h1:URlwyTFZX72RmxtxuaFL2Uj3fD1JTvZdx59b
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.5/go.mod h1:G5EMThwa9y8QZGBClrRx5EY+Yw9kAhnjy3bSjsnlVTQ=
-go.etcd.io/etcd v0.5.0-alpha.5.0.20200520232829-54ba9589114f/go.mod h1:skWido08r9w6Lq/w70DO5XYIKMu4QFu1+4VsqLQuJy8=
+go.etcd.io/etcd v0.5.0-alpha.5.0.20200716221620-18dfb9cca345/go.mod h1:skWido08r9w6Lq/w70DO5XYIKMu4QFu1+4VsqLQuJy8=
 go.opencensus.io v0.21.0/go.mod h1:mSImk1erAIZhrmZN+AvHh14ztQfjbGwt4TtuofqLduU=
 go.opencensus.io v0.22.0/go.mod h1:+kGneAE2xo2IficOXnaByMWTGM9T73dGwxeWcUqIpI8=
 go.opencensus.io v0.22.2 h1:75k/FF0Q2YM8QYo07VPddOLBslDt1MZOdEslOHvmzAs=
@@ -519,7 +519,7 @@ honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:a3bituU0lyd329TUQxRnasdCoJDkEUEAqEt0JzvZhAg=
 k8s.io/api v0.0.0-20200717102341-0bfda2331c3c/go.mod h1:cxPAYAuEKCBUKMa/dalW3GjafStRSFWZWTXwOZgIXnk=
 k8s.io/apimachinery v0.0.0-20200712171229-2c8b1211fea9/go.mod h1:eHbWZVMaaewmYBAUuRYnAmTTMtDhvpPNZuh8/6Yl7v0=
-k8s.io/apiserver v0.0.0-20200717133259-fc86446d9f36/go.mod h1:xdZLQfm51t/Uo0bnBQeos9SDEOw27rb40l1flpjqWmA=
+k8s.io/apiserver v0.0.0-20200719153243-7e08b3b73d36/go.mod h1:ENzQtRqTPXrUr67CVHDR0KhoigYNCGfU/tVZs13GC8s=
 k8s.io/client-go v0.0.0-20200712171229-b501d6e7bb38/go.mod h1:7gHvVeNy1/JusCvd7hH3HRdXnR5GB62B0Hjx0oLfO20=
 k8s.io/cloud-provider v0.0.0-20200712171229-770c57dcd470/go.mod h1:AzFzBgLweJ249jYJXSONjwHv34nvYdmPPSHb7TmrY8c=
 k8s.io/component-base v0.0.0-20200712171229-fbdbc959442e/go.mod h1:Z8OBVfkslH5ZtBMPGISW/vbVoiJq9aI/sbcdXGz7Wlw=
