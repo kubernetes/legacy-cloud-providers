@@ -208,7 +208,7 @@
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
-			"Rev": "e83c0a1c26c8"
+			"Rev": "162e5629780b"
 		},
 		{
 			"ImportPath": "github.com/fatih/color",
@@ -357,6 +357,10 @@
 		{
 			"ImportPath": "github.com/inconshreveable/mousetrap",
 			"Rev": "v1.0.0"
+		},
+		{
+			"ImportPath": "github.com/jessevdk/go-flags",
+			"Rev": "v1.4.0"
 		},
 		{
 			"ImportPath": "github.com/jmespath/go-jmespath",
@@ -724,31 +728,31 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "e83062b676e4"
+			"Rev": "fbbb12e99c8e"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "7efdc26a675c"
+			"Rev": "d2b2215ad471"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "ea1ce26789a3"
+			"Rev": "5fa6d3923911"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "470e5168e52f"
+			"Rev": "16ae2a83e32a"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "1f5fce279f50"
+			"Rev": "9fcd76268eb0"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "5bf522bc4762"
+			"Rev": "73a14f4c1c73"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "79b135b6062d"
+			"Rev": "210875fa9ec0"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
