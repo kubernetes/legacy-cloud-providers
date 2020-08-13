@@ -27,13 +27,13 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200812052025-e70c4f3b2093
-	k8s.io/apimachinery v0.0.0-20200812051649-2a282836017b
-	k8s.io/apiserver v0.0.0-20200812054331-15d0d4879581
-	k8s.io/client-go v0.0.0-20200812053003-c8494005d10a
-	k8s.io/cloud-provider v0.0.0-20200812061756-0a1a2ac505c4
-	k8s.io/component-base v0.0.0-20200812053641-bf8cd1993483
-	k8s.io/csi-translation-lib v0.0.0-20200812061956-924f4b6cd2fd
+	k8s.io/api v0.18.9-rc.0
+	k8s.io/apimachinery v0.18.9-rc.0
+	k8s.io/apiserver v0.18.9-rc.0
+	k8s.io/client-go v0.18.9-rc.0
+	k8s.io/cloud-provider v0.18.9-rc.0
+	k8s.io/component-base v0.18.9-rc.0
+	k8s.io/csi-translation-lib v0.18.9-rc.0
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 	sigs.k8s.io/yaml v1.2.0
@@ -42,11 +42,11 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200812052025-e70c4f3b2093
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200812051649-2a282836017b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200812054331-15d0d4879581
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200812053003-c8494005d10a
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200812061756-0a1a2ac505c4
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200812053641-bf8cd1993483
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200812061956-924f4b6cd2fd
+	k8s.io/api => k8s.io/api v0.18.9-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.18.9-rc.0
+	k8s.io/apiserver => k8s.io/apiserver v0.18.9-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.18.9-rc.0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.18.9-rc.0
+	k8s.io/component-base => k8s.io/component-base v0.18.9-rc.0
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.18.9-rc.0
 )
