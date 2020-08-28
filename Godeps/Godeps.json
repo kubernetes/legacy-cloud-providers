@@ -724,19 +724,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "af6c97a0fc38"
+			"Rev": "f7be94ed4426"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "cde3cecc6dc3"
+			"Rev": "598f8782ef6f"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "8ab69b327a7e"
+			"Rev": "2000a57dd884"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "91da5ef685fc"
+			"Rev": "67e1ce8f656f"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
@@ -744,7 +744,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "1cf1c2dded48"
+			"Rev": "e83f66bbf913"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
