@@ -724,19 +724,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "0f09571d8bfd"
+			"Rev": "af6c97a0fc38"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "8dfb339e3b48"
+			"Rev": "cde3cecc6dc3"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "bb04b215500a"
+			"Rev": "8ab69b327a7e"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "5d33118d4742"
+			"Rev": "91da5ef685fc"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
