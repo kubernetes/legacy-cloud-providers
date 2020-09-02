@@ -39,20 +39,24 @@
 			"Rev": "d6e3b3328b78"
 		},
 		{
+			"ImportPath": "github.com/Azure/go-autorest",
+			"Rev": "v14.2.0"
+		},
+		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest",
-			"Rev": "v0.9.6"
+			"Rev": "v0.11.1"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/adal",
-			"Rev": "v0.8.2"
+			"Rev": "v0.9.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/date",
-			"Rev": "v0.2.0"
+			"Rev": "v0.3.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/mocks",
-			"Rev": "v0.3.0"
+			"Rev": "v0.4.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/to",
@@ -64,11 +68,11 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/logger",
-			"Rev": "v0.1.0"
+			"Rev": "v0.2.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/tracing",
-			"Rev": "v0.5.0"
+			"Rev": "v0.6.0"
 		},
 		{
 			"ImportPath": "github.com/BurntSushi/toml",
@@ -732,23 +736,23 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "92dfcce91e6c"
+			"Rev": "f309e4dff6e9"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "aeb5f1a7757b"
+			"Rev": "b643ec487eb7"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "ea4caed089de"
+			"Rev": "590549737096"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "e83f66bbf913"
+			"Rev": "1d2c8187d823"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "da441a4b502d"
+			"Rev": "e6b82c47e3d6"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
