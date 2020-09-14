@@ -28,25 +28,24 @@ require (
 	google.golang.org/api v0.15.1
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/apiserver v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.0.0-20200910211909-c34296b27d33
+	k8s.io/apimachinery v0.0.0-20200910171558-1173d23fd476
+	k8s.io/apiserver v0.0.0-20200915091858-add1986a0380
+	k8s.io/client-go v0.0.0-20200909131911-909a5a393582
+	k8s.io/cloud-provider v0.0.0-20200911015730-0dc0419ec049
+	k8s.io/component-base v0.0.0-20200911092040-c985e940ef8f
+	k8s.io/csi-translation-lib v0.0.0-20200902141321-e6b82c47e3d6
 	k8s.io/klog/v2 v2.2.0
 	k8s.io/utils v0.0.0-20200729134348-d5654de09c73
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20200910211909-c34296b27d33
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200910171558-1173d23fd476
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200915091858-add1986a0380
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200909131911-909a5a393582
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200911015730-0dc0419ec049
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200911092040-c985e940ef8f
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20200902141321-e6b82c47e3d6
 )

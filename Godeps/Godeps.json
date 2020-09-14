@@ -568,7 +568,7 @@
 		},
 		{
 			"ImportPath": "go.etcd.io/etcd",
-			"Rev": "ae9734ed278b"
+			"Rev": "dd1b699fc489"
 		},
 		{
 			"ImportPath": "go.opencensus.io",
@@ -728,27 +728,27 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "697df40f2d58"
+			"Rev": "c34296b27d33"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "d8e5c2b33a59"
+			"Rev": "1173d23fd476"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "3d1daeb86e57"
+			"Rev": "add1986a0380"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "529dda0cb8f9"
+			"Rev": "909a5a393582"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "590549737096"
+			"Rev": "0dc0419ec049"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "17e9710992b5"
+			"Rev": "c985e940ef8f"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
