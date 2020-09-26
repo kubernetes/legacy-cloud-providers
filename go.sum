@@ -514,8 +514,8 @@ honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:a3bituU0lyd329TUQxRnasdCoJDkEUEAqEt0JzvZhAg=
 k8s.io/api v0.0.0-20200922195808-5bb35d2636ca/go.mod h1:FAsg3Y/xcbFIbnyfpgARCQ8di7NxpIRZWbawQTkHTDo=
 k8s.io/apimachinery v0.0.0-20200922235617-829ed199f4e0/go.mod h1:DnPGDnARWFvYa3pMHgSxtbZb7gpzzAZ1pTfaUNDVlmA=
-k8s.io/apiserver v0.0.0-20200923000406-899cb1b45962/go.mod h1:BvKyYtpU6V5WNj4Sg1ly0r2YkI9GA2B0H5Ss00dspV4=
-k8s.io/client-go v0.0.0-20200917000235-cba7285b7f29/go.mod h1:Plj2rfLmeMYfAMuMgA/1EGuUaDxt78tvB9yfdi6fg6A=
+k8s.io/apiserver v0.0.0-20200926040422-4626e73796b1/go.mod h1:Ajq0hlJDrmicc3NotAhk9qUdc0Qf5NOpoW5EQ72xM5w=
+k8s.io/client-go v0.0.0-20200926000026-a0a9b7d9d5e2/go.mod h1:0TFqP6nDzw4kbUbyCXc0xcULYS2MvbAQIAaEhgnPPAA=
 k8s.io/cloud-provider v0.0.0-20200917041818-700911d944a6/go.mod h1:HuYRIAAUOEajcHFcL2AS06jrv6SJLsmvIjUDkLNSEX0=
 k8s.io/component-base v0.0.0-20200911092040-c985e940ef8f/go.mod h1:KLUf6+rBAAlh4P5aX9t725mVdFgvY6LfYzl+QOveAV4=
 k8s.io/csi-translation-lib v0.0.0-20200918201913-887d7944bc86/go.mod h1:RY7fsMpoOs8Zx2VnkJs5jZ1bJFuk3jmHGlIqBSio30c=
@@ -528,7 +528,7 @@ k8s.io/kube-openapi v0.0.0-20200805222855-6aeccd4b50c6/go.mod h1:UuqjUnNftUyPE5H
 k8s.io/utils v0.0.0-20200729134348-d5654de09c73 h1:uJmqzgNWG7XyClnU/mLPBWwfKKF1K8Hf8whTseBgJcg=
 k8s.io/utils v0.0.0-20200729134348-d5654de09c73/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
 rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8=
-sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.9/go.mod h1:dzAXnQbTRyDlZPJX2SUPEqvnB+j7AJjtlox7PEwigU0=
+sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.12/go.mod h1:LEScyzhFmoF5pso/YSeBstl57mOzx9xlU9n85RGrDQg=
 sigs.k8s.io/structured-merge-diff/v4 v4.0.1 h1:YXTMot5Qz/X1iBRJhAt+vI+HVttY0WkSqqhKxQ0xVbA=
 sigs.k8s.io/structured-merge-diff/v4 v4.0.1/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
