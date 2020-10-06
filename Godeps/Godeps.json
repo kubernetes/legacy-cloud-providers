@@ -648,7 +648,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "ca6b52064555"
+			"Rev": "2d02d57afa67"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
