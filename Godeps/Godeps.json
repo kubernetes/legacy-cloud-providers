@@ -108,7 +108,7 @@
 		},
 		{
 			"ImportPath": "github.com/aws/aws-sdk-go",
-			"Rev": "v1.28.2"
+			"Rev": "v1.35.5"
 		},
 		{
 			"ImportPath": "github.com/beorn7/perks",
@@ -364,7 +364,11 @@
 		},
 		{
 			"ImportPath": "github.com/jmespath/go-jmespath",
-			"Rev": "c2b33e8439af"
+			"Rev": "v0.4.0"
+		},
+		{
+			"ImportPath": "github.com/jmespath/go-jmespath/internal/testify",
+			"Rev": "v1.5.1"
 		},
 		{
 			"ImportPath": "github.com/jonboulle/clockwork",
@@ -728,11 +732,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "18112a7b933b"
+			"Rev": "2c3c141c931c"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "10b38829b621"
+			"Rev": "d4f471b82f0a"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
@@ -740,7 +744,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "becbabb36002"
+			"Rev": "5682372f3538"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
