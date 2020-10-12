@@ -748,15 +748,19 @@
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "03b2e3fe9feb"
+			"Rev": "65ffae1dca41"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
 			"Rev": "609bde980a40"
 		},
 		{
+			"ImportPath": "k8s.io/controller-manager",
+			"Rev": "a314999e2f3c"
+		},
+		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "89e3300cbb5d"
+			"Rev": "a151be10f0f4"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
