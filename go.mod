@@ -33,7 +33,7 @@ require (
 	k8s.io/apiserver v0.0.0-20201110042944-23ee0cbbd7bd
 	k8s.io/client-go v0.0.0-20201109162515-bef66adadf9a
 	k8s.io/cloud-provider v0.0.0-20201110004434-5197c230e1fb
-	k8s.io/component-base v0.0.0-20201109162948-bf24d3ab5150
+	k8s.io/component-base v0.0.0-20201110162559-92d83a5bfee5
 	k8s.io/csi-translation-lib v0.0.0-20201109165229-b17452ea923f
 	k8s.io/klog/v2 v2.4.0
 	k8s.io/utils v0.0.0-20201104234853-8146046b121e
@@ -46,7 +46,7 @@ replace (
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201110042944-23ee0cbbd7bd
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20201109162515-bef66adadf9a
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20201110004434-5197c230e1fb
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20201109162948-bf24d3ab5150
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20201110162559-92d83a5bfee5
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20201110004337-0d296b636e10
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20201109165229-b17452ea923f
 )
