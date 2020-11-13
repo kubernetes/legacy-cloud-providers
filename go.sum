@@ -597,11 +597,11 @@ honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.1-2019.2.3/go.mod h1:a3bituU0lyd329TUQxRnasdCoJDkEUEAqEt0JzvZhAg=
-k8s.io/api v0.0.0-20201113002257-a5dfa0b8c2b2/go.mod h1:XraaYPIr83qvGlL2a/ejmFGq+OziqYEy9CJ8AWtXnpc=
-k8s.io/apimachinery v0.0.0-20201112162105-000b5f4f8623/go.mod h1:C4HVOTZCaKwcNDaxwQoXe3Zk6BLT5jNivqfdcniEtuY=
-k8s.io/apiserver v0.0.0-20201112203355-ecc0608a45e3/go.mod h1:qNm5TuBEI/LE0Ip+jHpZ98ETEJx67wvZ+muLdl6gRYE=
+k8s.io/api v0.0.0-20201113002300-9e320febc26e/go.mod h1:XraaYPIr83qvGlL2a/ejmFGq+OziqYEy9CJ8AWtXnpc=
+k8s.io/apimachinery v0.0.0-20201113023623-671277bf9349/go.mod h1:C4HVOTZCaKwcNDaxwQoXe3Zk6BLT5jNivqfdcniEtuY=
+k8s.io/apiserver v0.0.0-20201113043121-120b7989f29d/go.mod h1:g5iwn6RJYhG56GdyCkmyxMk3RB2w0vqE5BqGEnmSdAE=
 k8s.io/client-go v0.0.0-20201112202528-30548acd0a9e/go.mod h1:KkY4/tSKSJeHkCItTqOpUcLiN4HNZDViOeW+hKwhU3k=
-k8s.io/cloud-provider v0.0.0-20201112205004-84729526206b/go.mod h1:qHpUHTbyWEpfvviQNrXemJMVNsvGC/BsLgJsXyY7AqY=
+k8s.io/cloud-provider v0.0.0-20201113004512-6faa42a563fa/go.mod h1:ZUbvGsl18aWHo8eObFyK9kAJgOt0MKj5eugE33sb2sw=
 k8s.io/component-base v0.0.0-20201112203008-d069ee2b5079/go.mod h1:14mkjKSFTAbv3VSE9yKVLJQUMKinZk2qxnjlvD6D4AE=
 k8s.io/controller-manager v0.0.0-20201112204858-db8302bd10e3/go.mod h1:XLZR9Ff9Jjh0WS5sAaer8WSaLxnY3VsjOEb7bsMzOvI=
 k8s.io/csi-translation-lib v0.0.0-20201109165229-b17452ea923f/go.mod h1:7NNoSX2bks87xLwxZqHYFuNLMFO1lxWB14mnRsIaWuc=
