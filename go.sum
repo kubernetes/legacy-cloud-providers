@@ -686,7 +686,7 @@ honnef.co/go/tools v0.0.1-2020.1.3/go.mod h1:X/FiERA/W4tHapMX5mGpAtMSVEeEUOyHaw9
 k8s.io/api v0.0.0-20201114085527-4a626d306b98/go.mod h1:Vaqh9qFKpET0Mx+jNQHyAcNFyvwkGvuIKOt2htB36BQ=
 k8s.io/apimachinery v0.0.0-20201118005411-2456ebdaba22/go.mod h1:WlLqWAHZGg07AeltaI0MV5uk1Omp8xaN0JGLY6gkRpU=
 k8s.io/apiserver v0.0.0-20201120050325-0e46f0ea2bdc/go.mod h1:hVe3d7dIHGjXJtt8rwR39moLBbsxblEL6YN6vwwJjUA=
-k8s.io/client-go v0.0.0-20201118005804-66db2540991d/go.mod h1:UTdyXFcu9VZV4qQRKGXCa0KdMX4HTCXClRs4s7yFdDQ=
+k8s.io/client-go v0.0.0-20201121005859-fb61a7c88cb9/go.mod h1:UTdyXFcu9VZV4qQRKGXCa0KdMX4HTCXClRs4s7yFdDQ=
 k8s.io/cloud-provider v0.0.0-20201114092026-235e676f444a/go.mod h1:iULES3A3LWziCkfjIY0Og0wdmo6FlYW7yqC1xP6Lr5A=
 k8s.io/component-base v0.0.0-20201114090208-1e84b325f5ba/go.mod h1:g6NgUWq2J9mdXytMdP+mNUKEH3kQqHysQcJz3HJEh/U=
 k8s.io/controller-manager v0.0.0-20201114091934-20fa1a1257aa/go.mod h1:SVc1NzTX72Fa5FYNTN/rOP6Pw6JSo8HGMr+4d6FhV8o=
