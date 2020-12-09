@@ -972,11 +972,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "01bd50ac780f"
+			"Rev": "da42cc4843da"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "fb61a7c88cb9"
+			"Rev": "50c086135a49"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
