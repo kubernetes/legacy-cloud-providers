@@ -30,9 +30,9 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	k8s.io/api v0.0.0-20201209045733-fcac651617f2
 	k8s.io/apimachinery v0.0.0-20201209085528-15c5dba13c59
-	k8s.io/apiserver v0.0.0-20201211050429-49bd7a412a80
-	k8s.io/client-go v0.0.0-20201210210011-77dfe4dff7d7
-	k8s.io/cloud-provider v0.0.0-20201209092145-fc8d1c851459
+	k8s.io/apiserver v0.0.0-20201215011639-a7ed7d274970
+	k8s.io/client-go v0.0.0-20201216045930-cc9d424da8f7
+	k8s.io/cloud-provider v0.0.0-20201216011851-149072480110
 	k8s.io/component-base v0.0.0-20201114090208-1e84b325f5ba
 	k8s.io/csi-translation-lib v0.0.0-20201114092327-833303372de1
 	k8s.io/klog/v2 v2.4.0
@@ -43,9 +43,9 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20201209045733-fcac651617f2
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201209085528-15c5dba13c59
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201211050429-49bd7a412a80
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20201210210011-77dfe4dff7d7
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20201209092145-fc8d1c851459
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201215011639-a7ed7d274970
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20201216045930-cc9d424da8f7
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20201216011851-149072480110
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20201114090208-1e84b325f5ba
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20201209052538-b2c380a1dc86
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20201114092327-833303372de1

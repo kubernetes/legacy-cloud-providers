@@ -972,15 +972,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "49bd7a412a80"
+			"Rev": "a7ed7d274970"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "77dfe4dff7d7"
+			"Rev": "cc9d424da8f7"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "fc8d1c851459"
+			"Rev": "149072480110"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
