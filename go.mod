@@ -7,7 +7,7 @@ go 1.15
 require (
 	cloud.google.com/go v0.54.0
 	github.com/Azure/azure-sdk-for-go v43.0.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.11.1
+	github.com/Azure/go-autorest/autorest v0.11.12
 	github.com/Azure/go-autorest/autorest/adal v0.9.5
 	github.com/Azure/go-autorest/autorest/mocks v0.4.1
 	github.com/Azure/go-autorest/autorest/to v0.2.0
@@ -30,10 +30,10 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	k8s.io/api v0.0.0-20201209045733-fcac651617f2
 	k8s.io/apimachinery v0.0.0-20201209085528-15c5dba13c59
-	k8s.io/apiserver v0.0.0-20201215011639-a7ed7d274970
-	k8s.io/client-go v0.0.0-20201216045930-cc9d424da8f7
-	k8s.io/cloud-provider v0.0.0-20201216011851-149072480110
-	k8s.io/component-base v0.0.0-20201114090208-1e84b325f5ba
+	k8s.io/apiserver v0.0.0-20201217090559-c6d0a8d87770
+	k8s.io/client-go v0.0.0-20201217085940-0964d4be7536
+	k8s.io/cloud-provider v0.0.0-20201217092309-22476e0b4bdf
+	k8s.io/component-base v0.0.0-20201217090229-e05af43f81e2
 	k8s.io/csi-translation-lib v0.0.0-20201114092327-833303372de1
 	k8s.io/klog/v2 v2.4.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
@@ -43,10 +43,10 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20201209045733-fcac651617f2
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201209085528-15c5dba13c59
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201215011639-a7ed7d274970
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20201216045930-cc9d424da8f7
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20201216011851-149072480110
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20201114090208-1e84b325f5ba
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20201209052538-b2c380a1dc86
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201217090559-c6d0a8d87770
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20201217085940-0964d4be7536
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20201217092309-22476e0b4bdf
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20201217090229-e05af43f81e2
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20201217092208-1369de462388
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20201114092327-833303372de1
 )
