@@ -25,13 +25,13 @@ require (
 	google.golang.org/api v0.6.1-0.20190607001116-5213b8090861
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20200903132056-f4b723619c71
-	k8s.io/apimachinery v0.0.0-20201105142055-bd630fd6fb01
-	k8s.io/apiserver v0.0.0-20201204131413-5979f6e9e6d3
-	k8s.io/client-go v0.0.0-20201214170838-fac82db87be6
-	k8s.io/cloud-provider v0.0.0-20200903142053-0391c22e3880
-	k8s.io/component-base v0.0.0-20200903133806-0e0de844f52d
-	k8s.io/csi-translation-lib v0.0.0-20201105172921-54c2ad8b619d
+	k8s.io/api v0.17.16
+	k8s.io/apimachinery v0.17.16
+	k8s.io/apiserver v0.17.16
+	k8s.io/client-go v0.17.16
+	k8s.io/cloud-provider v0.17.16
+	k8s.io/component-base v0.17.16
+	k8s.io/csi-translation-lib v0.17.16
 	k8s.io/klog v1.0.0
 	k8s.io/utils v0.0.0-20191114184206-e782cd3c129f
 	sigs.k8s.io/yaml v1.1.0
@@ -40,11 +40,11 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200903132056-f4b723619c71
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201105142055-bd630fd6fb01
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20201204131413-5979f6e9e6d3
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20201214170838-fac82db87be6
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20200903142053-0391c22e3880
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200903133806-0e0de844f52d
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20201105172921-54c2ad8b619d
+	k8s.io/api => k8s.io/api v0.17.16
+	k8s.io/apimachinery => k8s.io/apimachinery v0.17.16
+	k8s.io/apiserver => k8s.io/apiserver v0.17.16
+	k8s.io/client-go => k8s.io/client-go v0.17.16
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.17.16
+	k8s.io/component-base => k8s.io/component-base v0.17.16
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.17.16
 )
