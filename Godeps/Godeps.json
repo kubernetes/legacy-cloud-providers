@@ -332,7 +332,7 @@
 		},
 		{
 			"ImportPath": "github.com/golang/mock",
-			"Rev": "v1.4.1"
+			"Rev": "v1.4.4"
 		},
 		{
 			"ImportPath": "github.com/golang/protobuf",
