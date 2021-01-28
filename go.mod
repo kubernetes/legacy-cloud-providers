@@ -14,6 +14,7 @@ require (
 	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
 	github.com/GoogleCloudPlatform/k8s-cloud-provider v0.0.0-20200415212048-7901bc822317
 	github.com/aws/aws-sdk-go v1.35.24
+	github.com/blang/semver v3.5.1+incompatible
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/golang/mock v1.4.4
 	github.com/google/go-cmp v0.5.2
@@ -28,25 +29,26 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210218021651-498bb3d8b5a6
-	k8s.io/apimachinery v0.0.0-20210219091810-6d2f20b34738
-	k8s.io/apiserver v0.0.0-20210224052920-847018004feb
-	k8s.io/client-go v0.0.0-20210224052204-8f8241f9ef2d
-	k8s.io/cloud-provider v0.0.0-20210222175801-5dbca7a8fce7
-	k8s.io/component-base v0.0.0-20210220172449-8925bd66be66
-	k8s.io/csi-translation-lib v0.0.0-20210224094240-b2c7051323d7
-	k8s.io/klog/v2 v2.5.0
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/klog/v2 v2.4.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210218021651-498bb3d8b5a6
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210219091810-6d2f20b34738
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210224052920-847018004feb
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210224052204-8f8241f9ef2d
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210222175801-5dbca7a8fce7
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210220172449-8925bd66be66
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210222175700-e600a968a13e
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210224094240-b2c7051323d7
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
