@@ -664,7 +664,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "4844c97b74a5"
+			"Rev": "466cf2eb19e8"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
