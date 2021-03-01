@@ -29,25 +29,25 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210224172050-65a259a606b3
-	k8s.io/apimachinery v0.0.0-20210224153050-44b9a379dc18
-	k8s.io/apiserver v0.0.0-20210224092620-217e5eef2f6e
-	k8s.io/client-go v0.0.0-20210224052204-8f8241f9ef2d
-	k8s.io/cloud-provider v0.0.0-20210222175801-5dbca7a8fce7
-	k8s.io/component-base v0.0.0-20210220172449-8925bd66be66
-	k8s.io/csi-translation-lib v0.0.0-20210224094240-b2c7051323d7
+	k8s.io/api v0.0.0-20210301212011-b852e500ef89
+	k8s.io/apimachinery v0.0.0-20210301175527-603e04655e9f
+	k8s.io/apiserver v0.0.0-20210301212943-56458296d4fd
+	k8s.io/client-go v0.0.0-20210301212223-fcbadc8b4149
+	k8s.io/cloud-provider v0.0.0-20210301214439-5b844841b060
+	k8s.io/component-base v0.0.0-20210301212626-169ae627a654
+	k8s.io/csi-translation-lib v0.0.0-20210301214743-2e2afc7488eb
 	k8s.io/klog/v2 v2.5.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210224172050-65a259a606b3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210224153050-44b9a379dc18
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210224092620-217e5eef2f6e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210224052204-8f8241f9ef2d
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210222175801-5dbca7a8fce7
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210220172449-8925bd66be66
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210222175700-e600a968a13e
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210224094240-b2c7051323d7
+	k8s.io/api => k8s.io/api v0.0.0-20210301212011-b852e500ef89
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210301175527-603e04655e9f
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210301212943-56458296d4fd
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20210301212223-fcbadc8b4149
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210301214439-5b844841b060
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20210301212626-169ae627a654
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210301214344-489e9c1c664a
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210301214743-2e2afc7488eb
 )
