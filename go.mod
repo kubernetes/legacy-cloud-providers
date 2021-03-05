@@ -29,25 +29,25 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210304082812-0d975ab4576f
-	k8s.io/apimachinery v0.0.0-20210303224021-086982076e5b
-	k8s.io/apiserver v0.0.0-20210304093107-a9ba6583d871
-	k8s.io/client-go v0.0.0-20210304092307-a71c2f12419c
-	k8s.io/cloud-provider v0.0.0-20210304014206-7cbe7e26bcfc
-	k8s.io/component-base v0.0.0-20210304092722-361c69cc11bf
-	k8s.io/csi-translation-lib v0.0.0-20210304014501-5d8fcce2b196
+	k8s.io/api v0.0.0-20210304212041-1f71974292e6
+	k8s.io/apimachinery v0.0.0-20210304154449-569bd20062c9
+	k8s.io/apiserver v0.0.0-20210305013704-1878c41ad2c5
+	k8s.io/client-go v0.0.0-20210305052211-503eb33ae57a
+	k8s.io/cloud-provider v0.0.0-20210304214132-f28005735e30
+	k8s.io/component-base v0.0.0-20210304092723-b6d06acb8460
+	k8s.io/csi-translation-lib v0.0.0-20210304214430-d70b0bef0709
 	k8s.io/klog/v2 v2.5.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210304082812-0d975ab4576f
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210303224021-086982076e5b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210304093107-a9ba6583d871
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210304092307-a71c2f12419c
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210304014206-7cbe7e26bcfc
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210304092722-361c69cc11bf
+	k8s.io/api => k8s.io/api v0.0.0-20210304212041-1f71974292e6
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210304154449-569bd20062c9
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210305013704-1878c41ad2c5
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20210305052211-503eb33ae57a
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210304214132-f28005735e30
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20210304092723-b6d06acb8460
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210304094436-09b201ec317a
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210304014501-5d8fcce2b196
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210304214430-d70b0bef0709
 )
