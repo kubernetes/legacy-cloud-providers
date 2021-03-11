@@ -972,35 +972,35 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "c0951d6190d9"
+			"Rev": "937dc44c61ed"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "1f1bc58a1c79"
+			"Rev": "ae8b5f5092d3"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "82d5aa957531"
+			"Rev": "dddcd94ca0a1"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "d6fad70fcfbb"
+			"Rev": "a5722b416f4b"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "cc789f4bfc32"
+			"Rev": "3a2bdcd09f55"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "04becb09aab2"
+			"Rev": "b479b526d8e5"
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
-			"Rev": "35c8de856a0c"
+			"Rev": "61f79b3b46bb"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "f96864ed5fd3"
+			"Rev": "8f2e7c855c0d"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -1036,7 +1036,7 @@
 		},
 		{
 			"ImportPath": "sigs.k8s.io/structured-merge-diff/v4",
-			"Rev": "v4.0.3"
+			"Rev": "v4.1.0"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/yaml",
