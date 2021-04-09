@@ -972,7 +972,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "e32abb16c84d"
+			"Rev": "c2af72098886"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
@@ -980,11 +980,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "6de9cb208729"
+			"Rev": "0ae9575f8ce1"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "064bf3ddb9f5"
+			"Rev": "ebfab03aeb25"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
@@ -992,7 +992,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "e913a9709153"
+			"Rev": "f1921e9a491e"
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
