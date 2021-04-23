@@ -36,7 +36,7 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go",
-			"Rev": "v43.0.0"
+			"Rev": "v53.1.0"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-ansiterm",
@@ -48,11 +48,11 @@
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest",
-			"Rev": "v0.11.12"
+			"Rev": "v0.11.17"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/adal",
-			"Rev": "v0.9.5"
+			"Rev": "v0.9.10"
 		},
 		{
 			"ImportPath": "github.com/Azure/go-autorest/autorest/date",
@@ -309,6 +309,10 @@
 		{
 			"ImportPath": "github.com/go-stack/stack",
 			"Rev": "v1.8.0"
+		},
+		{
+			"ImportPath": "github.com/gofrs/uuid",
+			"Rev": "v4.0.0"
 		},
 		{
 			"ImportPath": "github.com/gogo/protobuf",
@@ -707,10 +711,6 @@
 			"Rev": "9b3edd62028f"
 		},
 		{
-			"ImportPath": "github.com/satori/go.uuid",
-			"Rev": "v1.2.0"
-		},
-		{
 			"ImportPath": "github.com/sean-/seed",
 			"Rev": "e2103e2c3529"
 		},
@@ -976,35 +976,35 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "b64c6b5ea77c"
+			"Rev": "95cee4894d89"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "f3a344a9640c"
+			"Rev": "ec059b16b345"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "c883d6c994d8"
+			"Rev": "b8afabd52289"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "ae85206fc58c"
+			"Rev": "d3fbdeba9a5e"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "47f9b35f4916"
+			"Rev": "d5fe87a5fde0"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "873d5fac2edc"
+			"Rev": "44faecbf614e"
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
-			"Rev": "7ae91168ebde"
+			"Rev": "79121252e7c1"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "86141c43fa0d"
+			"Rev": "77365c8177a9"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
