@@ -340,7 +340,7 @@
 		},
 		{
 			"ImportPath": "github.com/google/go-cmp",
-			"Rev": "v0.5.2"
+			"Rev": "v0.5.4"
 		},
 		{
 			"ImportPath": "github.com/google/gofuzz",
@@ -864,7 +864,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/sys",
-			"Rev": "a50acf3fe073"
+			"Rev": "d19ff857e887"
 		},
 		{
 			"ImportPath": "golang.org/x/term",
@@ -976,35 +976,35 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "98c0df6d5181"
+			"Rev": "c10867da44cc"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "4c2cee4b928c"
+			"Rev": "e1b4d3faae10"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "60016f086086"
+			"Rev": "50f8d1fd272b"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "3cca9d72c140"
+			"Rev": "da281643cfad"
 		},
 		{
 			"ImportPath": "k8s.io/cloud-provider",
-			"Rev": "d5fe87a5fde0"
+			"Rev": "2ce195f838c5"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "18af7a2c44df"
+			"Rev": "b5a495af30a7"
 		},
 		{
 			"ImportPath": "k8s.io/controller-manager",
-			"Rev": "79121252e7c1"
+			"Rev": "b57a934eadab"
 		},
 		{
 			"ImportPath": "k8s.io/csi-translation-lib",
-			"Rev": "dc9f5c9834fe"
+			"Rev": "8e656feb737b"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
