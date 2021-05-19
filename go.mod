@@ -17,7 +17,7 @@ require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/golang/mock v1.4.4
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.4
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
@@ -29,25 +29,26 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210518102353-e379db4b881d
-	k8s.io/apimachinery v0.0.0-20210421190351-be0c81341c37
-	k8s.io/apiserver v0.0.0-20210518114404-8b8ee2000e97
-	k8s.io/client-go v0.0.0-20210401152202-307e3a38a167
-	k8s.io/cloud-provider v0.0.0-20210518133432-dbc5527855e8
-	k8s.io/component-base v0.0.0-20210329113144-5feaa80744bd
-	k8s.io/csi-translation-lib v0.0.0-20210329121000-cbe1afbf2ba1
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.8.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210518102353-e379db4b881d
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210421190351-be0c81341c37
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210518114404-8b8ee2000e97
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210401152202-307e3a38a167
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210518133432-dbc5527855e8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210329113144-5feaa80744bd
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210329120239-80d55f30cc03
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210329121000-cbe1afbf2ba1
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
