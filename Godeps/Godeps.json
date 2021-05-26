@@ -1023,6 +1023,10 @@
 			"Rev": "95288971da7e"
 		},
 		{
+			"ImportPath": "k8s.io/mount-utils",
+			"Rev": "e34a567d5378"
+		},
+		{
 			"ImportPath": "k8s.io/utils",
 			"Rev": "67b214c5f920"
 		},
