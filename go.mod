@@ -18,7 +18,7 @@ require (
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/golang/mock v1.4.3
-	github.com/google/go-cmp v0.5.4
+	github.com/google/go-cmp v0.5.5
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
@@ -30,27 +30,28 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210608234611-443865cb5023
-	k8s.io/apimachinery v0.0.0-20210608234431-94d246571289
-	k8s.io/apiserver v0.0.0-20210615060548-bf5efd7d99bd
-	k8s.io/client-go v0.0.0-20210611014049-1bccfc8c6097
-	k8s.io/cloud-provider v0.0.0-20210615062042-23b37935df38
-	k8s.io/component-base v0.0.0-20210615060202-467049977d20
-	k8s.io/csi-translation-lib v0.0.0-20210609001545-e67bad9fb688
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.9.0
-	k8s.io/mount-utils v0.0.0-20210604081639-106548079e53
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20210521133846-da695404a2bc
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210608234611-443865cb5023
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210608234431-94d246571289
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210615060548-bf5efd7d99bd
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210611014049-1bccfc8c6097
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210615062042-23b37935df38
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210615060202-467049977d20
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210615061938-eb0f7cb9beed
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210609001545-e67bad9fb688
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210604081639-106548079e53
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
