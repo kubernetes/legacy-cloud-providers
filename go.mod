@@ -17,7 +17,7 @@ require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
-	github.com/golang/mock v1.4.3
+	github.com/golang/mock v1.4.4
 	github.com/google/go-cmp v0.5.5
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/mitchellh/mapstructure v1.1.2
@@ -50,7 +50,7 @@ replace (
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20210617020131-0a7756a24245
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210617022757-183a82110550
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20210617020714-66c6b926cbd4
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210617022649-0cd879db651d
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210617061945-2158d2253870
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210616063008-10bd2c82b98a
 	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210615223022-461f4c364c9e
 )

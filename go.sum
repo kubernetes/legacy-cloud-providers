@@ -170,8 +170,8 @@ github.com/golang/mock v1.2.0/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfb
 github.com/golang/mock v1.3.1/go.mod h1:sBzyDLLjw3U8JLTeZvSv8jJB+tU5PVekmnlKIyFUx0Y=
 github.com/golang/mock v1.4.0/go.mod h1:UOMv5ysSaYNkG+OFQykRIcU/QvvxJf3p21QfJ2Bt3cw=
 github.com/golang/mock v1.4.1/go.mod h1:UOMv5ysSaYNkG+OFQykRIcU/QvvxJf3p21QfJ2Bt3cw=
-github.com/golang/mock v1.4.3 h1:GV+pQPG/EUUbkh47niozDcADz6go/dUwhVzdUQHIVRw=
-github.com/golang/mock v1.4.3/go.mod h1:UOMv5ysSaYNkG+OFQykRIcU/QvvxJf3p21QfJ2Bt3cw=
+github.com/golang/mock v1.4.4 h1:l75CXGRSwbaYNpl/Z2X1XIIAMSCquvXgpVZDhwEIJsc=
+github.com/golang/mock v1.4.4/go.mod h1:l3mdAwkq5BuhzHwde/uurv3sEJeZMXNpwsxVWU71h+4=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
@@ -769,7 +769,7 @@ k8s.io/cloud-provider v0.0.0-20210617022757-183a82110550 h1:ZQ/FQNq53l/IYUHdbOqx
 k8s.io/cloud-provider v0.0.0-20210617022757-183a82110550/go.mod h1:l0mwx3pycpcUZfStt1Mqm7WcYZrvjdhK1BQcYcHSji8=
 k8s.io/component-base v0.0.0-20210617020714-66c6b926cbd4 h1:mP/vYYjfIBMJNcOkfFhdfkyJ1tWOBxI0AAJKD5vEdj8=
 k8s.io/component-base v0.0.0-20210617020714-66c6b926cbd4/go.mod h1:+zR3Z/N7bk5suN9KFASR3UMriIrmO2LGtVSRqd6dQRY=
-k8s.io/controller-manager v0.0.0-20210617022649-0cd879db651d/go.mod h1:VNKoVzuW4sI+QG/LZJ96p39IpC4BJRfasfnNvyQZGIU=
+k8s.io/controller-manager v0.0.0-20210617061945-2158d2253870/go.mod h1:VNKoVzuW4sI+QG/LZJ96p39IpC4BJRfasfnNvyQZGIU=
 k8s.io/csi-translation-lib v0.0.0-20210616063008-10bd2c82b98a h1:uNngDBKL1Ond5UC9Ty08Q551mRdZpnwGKkzGNmWgvgs=
 k8s.io/csi-translation-lib v0.0.0-20210616063008-10bd2c82b98a/go.mod h1:CQsgLCB3LF6ge0iYgcvdmdq6zxBlPtIdcOxfOP2ZdGE=
 k8s.io/gengo v0.0.0-20200413195148-3a45101e95ac/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
