@@ -30,27 +30,28 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210809160315-dea726542644
-	k8s.io/apimachinery v0.0.0-20210809160128-2cdc0dbcfe0a
-	k8s.io/apiserver v0.0.0-20210809161514-f7215cdf9370
-	k8s.io/client-go v0.0.0-20210809160556-150ce54105bd
-	k8s.io/cloud-provider v0.0.0-20210809163154-72d85b9959f0
-	k8s.io/component-base v0.0.0-20210809161112-4a2a74898ac3
-	k8s.io/csi-translation-lib v0.0.0-20210809163506-0762d872feaa
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.9.0
-	k8s.io/mount-utils v0.0.0-20210805084325-001c552fa06b
-	k8s.io/utils v0.0.0-20210707171843-4b05e18ac7d9
+	k8s.io/mount-utils v0.0.0
+	k8s.io/utils v0.0.0-20210802155522-efc7438f0176
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210809160315-dea726542644
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210809160128-2cdc0dbcfe0a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210809161514-f7215cdf9370
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210809160556-150ce54105bd
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210809163154-72d85b9959f0
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210809161112-4a2a74898ac3
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210809163045-e45d8c825db9
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210809163506-0762d872feaa
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210805084325-001c552fa06b
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
