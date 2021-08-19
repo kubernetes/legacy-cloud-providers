@@ -30,27 +30,27 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210817200411-f6e49805ed5a
-	k8s.io/apimachinery v0.0.0-20210817200207-02cfb5391634
-	k8s.io/apiserver v0.0.0-20210818201303-82482e9a6a6d
-	k8s.io/client-go v0.0.0-20210817200704-2961e1de2c13
-	k8s.io/cloud-provider v0.0.0-20210817203538-e3fcb504340c
-	k8s.io/component-base v0.0.0-20210817201310-e2e747ee7db2
-	k8s.io/csi-translation-lib v0.0.0-20210817203908-2902aab53cbf
+	k8s.io/api v0.23.0-alpha.1
+	k8s.io/apimachinery v0.23.0-alpha.1
+	k8s.io/apiserver v0.23.0-alpha.1
+	k8s.io/client-go v0.23.0-alpha.1
+	k8s.io/cloud-provider v0.23.0-alpha.1
+	k8s.io/component-base v0.23.0-alpha.1
+	k8s.io/csi-translation-lib v0.23.0-alpha.1
 	k8s.io/klog/v2 v2.9.0
-	k8s.io/mount-utils v0.0.0-20210817204011-4ac21f75791f
+	k8s.io/mount-utils v0.23.0-alpha.1
 	k8s.io/utils v0.0.0-20210802155522-efc7438f0176
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210817200411-f6e49805ed5a
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210817200207-02cfb5391634
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210818201303-82482e9a6a6d
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210817200704-2961e1de2c13
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210817203538-e3fcb504340c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210817201310-e2e747ee7db2
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210817203423-503b82864092
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210817203908-2902aab53cbf
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210817204011-4ac21f75791f
+	k8s.io/api => k8s.io/api v0.23.0-alpha.1
+	k8s.io/apimachinery => k8s.io/apimachinery v0.23.0-alpha.1
+	k8s.io/apiserver => k8s.io/apiserver v0.23.0-alpha.1
+	k8s.io/client-go => k8s.io/client-go v0.23.0-alpha.1
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.23.0-alpha.1
+	k8s.io/component-base => k8s.io/component-base v0.23.0-alpha.1
+	k8s.io/controller-manager => k8s.io/controller-manager v0.23.0-alpha.1
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.23.0-alpha.1
+	k8s.io/mount-utils => k8s.io/mount-utils v0.23.0-alpha.1
 )
