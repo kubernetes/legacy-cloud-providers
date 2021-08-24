@@ -30,9 +30,9 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210820160405-5403b8c7f696
-	k8s.io/apimachinery v0.0.0-20210820200223-19d98351410f
-	k8s.io/apiserver v0.0.0-20210820161658-75d054142dc4
+	k8s.io/api v0.0.0-20210823160431-2e3872a4612f
+	k8s.io/apimachinery v0.0.0-20210823160225-43d8bfe8f725
+	k8s.io/apiserver v0.0.0-20210823201350-b505e673e99b
 	k8s.io/client-go v0.0.0-20210820200723-590eaed90a85
 	k8s.io/cloud-provider v0.0.0-20210820163503-b81d6e827109
 	k8s.io/component-base v0.0.0-20210820041117-a191e9fae528
@@ -44,13 +44,13 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210820160405-5403b8c7f696
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210820200223-19d98351410f
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210820161658-75d054142dc4
+	k8s.io/api => k8s.io/api v0.0.0-20210823160431-2e3872a4612f
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210823160225-43d8bfe8f725
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210823201350-b505e673e99b
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20210820200723-590eaed90a85
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210820163503-b81d6e827109
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20210820041117-a191e9fae528
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210820043254-666edd290060
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210824002912-6debea0f3b6b
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210820163838-7fb9b3214215
 	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210820043854-9ba9683b3fa4
 )
