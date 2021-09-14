@@ -30,27 +30,28 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20211019203412-654d74de91f0
-	k8s.io/apimachinery v0.0.0-20211015224548-e6c90c4366be
-	k8s.io/apiserver v0.0.0-20211019133039-5842a16b013e
-	k8s.io/client-go v0.0.0-20211018123648-fa4ee2502f44
-	k8s.io/cloud-provider v0.0.0-20211002010143-dd272feb6f91
-	k8s.io/component-base v0.0.0-20211013203926-a54188b7d648
-	k8s.io/csi-translation-lib v0.0.0-20211001010946-289d8934aff9
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.20.0
-	k8s.io/mount-utils v0.0.0-20211019050027-4c9eaf9e2501
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20211019203412-654d74de91f0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211015224548-e6c90c4366be
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211019133039-5842a16b013e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20211018123648-fa4ee2502f44
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20211002010143-dd272feb6f91
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20211013203926-a54188b7d648
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211001010449-ea7c65649b1b
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211001010946-289d8934aff9
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211019050027-4c9eaf9e2501
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
