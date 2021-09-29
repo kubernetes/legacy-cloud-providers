@@ -30,27 +30,27 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20210917114730-87c4113e35a1
-	k8s.io/apimachinery v0.0.0-20210917114041-87fb71e8a0dc
-	k8s.io/apiserver v0.0.0-20210917121853-6b55224782e3
-	k8s.io/client-go v0.0.0-20210917115542-0866d9668796
+	k8s.io/api v0.0.0-20210924234029-7036ead25397
+	k8s.io/apimachinery v0.0.0-20210920194645-86c0c0f8c8e2
+	k8s.io/apiserver v0.0.0-20210927234946-282d7fd7f951
+	k8s.io/client-go v0.0.0-20210929003647-9bea344c4a1f
 	k8s.io/cloud-provider v0.0.0-20210917132517-4c3ff6f0af20
-	k8s.io/component-base v0.0.0-20210917120930-d2872948dda4
-	k8s.io/csi-translation-lib v0.0.0-20210917133743-2b7642a46397
+	k8s.io/component-base v0.0.0-20210921194550-26d1dd95ca3c
+	k8s.io/csi-translation-lib v0.0.0-20210920200833-e3f165b56ddb
 	k8s.io/klog/v2 v2.20.0
-	k8s.io/mount-utils v0.0.0-20210910000704-b0ebe1fb2039
+	k8s.io/mount-utils v0.0.0-20210927092936-04429f7e5b88
 	k8s.io/utils v0.0.0-20210819203725-bdf08cb9a70a
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210917114730-87c4113e35a1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210917114041-87fb71e8a0dc
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210917121853-6b55224782e3
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210917115542-0866d9668796
+	k8s.io/api => k8s.io/api v0.0.0-20210924234029-7036ead25397
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210920194645-86c0c0f8c8e2
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210927234946-282d7fd7f951
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20210929003647-9bea344c4a1f
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210917132517-4c3ff6f0af20
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210917120930-d2872948dda4
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210917132135-723bfb32e54b
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210917133743-2b7642a46397
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210910000704-b0ebe1fb2039
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20210921194550-26d1dd95ca3c
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210925000445-27fb24b945f0
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20210920200833-e3f165b56ddb
+	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20210927092936-04429f7e5b88
 )
