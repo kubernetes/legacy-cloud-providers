@@ -30,27 +30,27 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20211008163859-2a5dae08c42b
-	k8s.io/apimachinery v0.0.0-20211012003219-6c3d2b36a98a
-	k8s.io/apiserver v0.0.0-20211013004338-a5bd3b4739aa
-	k8s.io/client-go v0.0.0-20211011163815-7697067af710
+	k8s.io/api v0.0.0-20211019203412-654d74de91f0
+	k8s.io/apimachinery v0.0.0-20211015224548-e6c90c4366be
+	k8s.io/apiserver v0.0.0-20211019133039-5842a16b013e
+	k8s.io/client-go v0.0.0-20211018123648-fa4ee2502f44
 	k8s.io/cloud-provider v0.0.0-20211002010143-dd272feb6f91
-	k8s.io/component-base v0.0.0-20211011003846-8870347bee41
+	k8s.io/component-base v0.0.0-20211013203926-a54188b7d648
 	k8s.io/csi-translation-lib v0.0.0-20211001010946-289d8934aff9
 	k8s.io/klog/v2 v2.20.0
-	k8s.io/mount-utils v0.0.0-20211001011053-d6902c078861
+	k8s.io/mount-utils v0.0.0-20211019050027-4c9eaf9e2501
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20211008163859-2a5dae08c42b
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211012003219-6c3d2b36a98a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211013004338-a5bd3b4739aa
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20211011163815-7697067af710
+	k8s.io/api => k8s.io/api v0.0.0-20211019203412-654d74de91f0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211015224548-e6c90c4366be
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211019133039-5842a16b013e
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20211018123648-fa4ee2502f44
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20211002010143-dd272feb6f91
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20211011003846-8870347bee41
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20211013203926-a54188b7d648
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211001010449-ea7c65649b1b
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211001010946-289d8934aff9
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211001011053-d6902c078861
+	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211019050027-4c9eaf9e2501
 )
