@@ -54,3 +54,5 @@ replace (
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211111090955-5d8f92e6a2ea
 	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211105123152-504ccf7be36a
 )
+
+replace k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211111080204-b1e6a519c30d
