@@ -51,3 +51,5 @@ replace (
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211111085743-8f7ac128ef7c
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211111090913-5c0647f9e955
 )
+
+replace k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211111080127-5e76a3d8c9dc
