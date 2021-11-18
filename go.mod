@@ -30,7 +30,7 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20211117032144-b7adf12040d3
+	k8s.io/api v0.0.0-20211117232837-1d6faf224f14
 	k8s.io/apimachinery v0.0.0-20211117172554-9edaf59fbc7f
 	k8s.io/apiserver v0.0.0-20211117193648-c98c91e24166
 	k8s.io/client-go v0.0.0-20211117192529-51a4fd4aee68
@@ -44,7 +44,7 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20211117032144-b7adf12040d3
+	k8s.io/api => k8s.io/api v0.0.0-20211117232837-1d6faf224f14
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211117172554-9edaf59fbc7f
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211117193648-c98c91e24166
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20211117192529-51a4fd4aee68
