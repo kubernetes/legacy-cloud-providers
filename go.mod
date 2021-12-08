@@ -36,7 +36,7 @@ require (
 	k8s.io/client-go v0.0.0-20211208050435-c713f38723cb
 	k8s.io/cloud-provider v0.0.0-20211203103312-63adcbd736aa
 	k8s.io/component-base v0.0.0-20211208050949-17742f0cef83
-	k8s.io/csi-translation-lib v0.0.0-20211203104231-c409c358388e
+	k8s.io/csi-translation-lib v0.0.0-20211208215404-6a35b0f1357d
 	k8s.io/klog/v2 v2.30.0
 	k8s.io/mount-utils v0.0.0-20211203013834-2a56eae7bbca
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
@@ -52,6 +52,6 @@ replace (
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20211208050949-17742f0cef83
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211203092847-29fd9692ca35
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211203102955-188c7b8675f5
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211203104231-c409c358388e
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211208215404-6a35b0f1357d
 	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211203013834-2a56eae7bbca
 )
