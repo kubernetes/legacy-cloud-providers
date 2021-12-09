@@ -30,28 +30,29 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20211210171938-b3fcc5e80fda
-	k8s.io/apimachinery v0.0.0-20211210171608-6df201a29764
-	k8s.io/apiserver v0.0.0-20211210173807-c9cf501a0bc3
-	k8s.io/client-go v0.0.0-20211210172425-80a3c86bdd29
-	k8s.io/cloud-provider v0.0.0-20211210180717-27159dd21b65
-	k8s.io/component-base v0.0.0-20211210173208-05e41eda7006
-	k8s.io/csi-translation-lib v0.0.0-20211210181231-95d04aac0e6f
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.30.0
-	k8s.io/mount-utils v0.0.0-20211210143912-d829f0af8133
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20211208161948-7d6a63dca704
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20211210171938-b3fcc5e80fda
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211210171608-6df201a29764
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211210173807-c9cf501a0bc3
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20211210172425-80a3c86bdd29
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20211210180717-27159dd21b65
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20211210173208-05e41eda7006
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211210173356-665db57ab290
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211210180529-369ee4fab91f
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211210181231-95d04aac0e6f
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211210143912-d829f0af8133
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
