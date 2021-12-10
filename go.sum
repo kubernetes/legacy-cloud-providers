@@ -686,8 +686,8 @@ k8s.io/client-go v0.0.0-20211111074410-11b69c913ff3 h1:AKRls3SOlFOEvHcrQ8jITcXv2
 k8s.io/client-go v0.0.0-20211111074410-11b69c913ff3/go.mod h1:UPboc2mZGKQ8WUWOtr3S2zqLqO40G0VtjYqEtNBXcD8=
 k8s.io/cloud-provider v0.0.0-20211111090043-5cf72d0f75f3 h1:aIQrYfojC7pyZGKkCdMcbpgvhnc2ebrFfaJLt0+jw1o=
 k8s.io/cloud-provider v0.0.0-20211111090043-5cf72d0f75f3/go.mod h1:warobEBaeUWVNOtDZq2lgqVq83c23bO7HVSb4NcPai8=
-k8s.io/component-base v0.0.0-20211111075838-9d3f2a46984e h1:usw/ikIpQc5aRMZZmXVi6N0e4wK03ApKH9gnThgJwuM=
-k8s.io/component-base v0.0.0-20211111075838-9d3f2a46984e/go.mod h1:1Mbg3+p36tegh/eGxIjh2vv3QwMoy07beoxPKQyiEgc=
+k8s.io/component-base v0.0.0-20211113001247-f1a2d198a54b h1:h674Xh8dkLN6yWHw0OXzjwXoCOd4FiE5RpqFlYnAXwk=
+k8s.io/component-base v0.0.0-20211113001247-f1a2d198a54b/go.mod h1:1Mbg3+p36tegh/eGxIjh2vv3QwMoy07beoxPKQyiEgc=
 k8s.io/controller-manager v0.0.0-20211111085743-8f7ac128ef7c/go.mod h1:5V7z41Soqvw+kZYswynO/Md9SZS2cK5/YXmHOC3F79Q=
 k8s.io/csi-translation-lib v0.0.0-20211111090913-5c0647f9e955 h1:rULLxAV53P1N9edJCQH6S91g6Et5H8egT/9GxKetB5Q=
 k8s.io/csi-translation-lib v0.0.0-20211111090913-5c0647f9e955/go.mod h1:RP1XPUMqET9eYuvRti5pDH+yF/ccwSt47Pb8HbEpxQI=
