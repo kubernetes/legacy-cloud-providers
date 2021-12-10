@@ -30,29 +30,28 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20211111073002-79120fd8e4d1
-	k8s.io/apimachinery v0.0.0-20211111072429-e757da007984
-	k8s.io/apiserver v0.0.0-20211111081309-b4975e494fe9
-	k8s.io/client-go v0.0.0-20211111075125-362cd0f884a1
-	k8s.io/cloud-provider v0.0.0-20211111090130-612124330024
-	k8s.io/component-base v0.0.0-20211113033826-c1677c43517a
-	k8s.io/csi-translation-lib v0.0.0-20211111090955-5d8f92e6a2ea
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.9.0
-	k8s.io/mount-utils v0.0.0-20211123211253-65b717721000
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20210819203725-bdf08cb9a70a
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20211111073002-79120fd8e4d1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20211111072429-e757da007984
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20211111081309-b4975e494fe9
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20211111075125-362cd0f884a1
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20211111090130-612124330024
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20211113033826-c1677c43517a
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20211111085822-ab85c431e29d
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20211111090955-5d8f92e6a2ea
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20211123211253-65b717721000
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
-
-replace k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20211111080204-b1e6a519c30d
