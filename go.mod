@@ -25,33 +25,38 @@ require (
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/vmware/govmomi v0.20.3
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
-	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
+	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20220216020308-4097bdc14411
-	k8s.io/apimachinery v0.0.0-20220215034602-14143357d417
-	k8s.io/apiserver v0.0.0-20220215061545-bba2f7742cc0
-	k8s.io/client-go v0.0.0-20220215060521-a7d2e0118033
-	k8s.io/cloud-provider v0.0.0-20220211183051-0429a85a45b2
-	k8s.io/component-base v0.0.0-20220214200630-8ffe7361d341
-	k8s.io/csi-translation-lib v0.0.0-20220211183411-264548674725
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.40.1
-	k8s.io/mount-utils v0.0.0-20220211183512-891471a5e8a9
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220216020308-4097bdc14411
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220215034602-14143357d417
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220215061545-bba2f7742cc0
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220215060521-a7d2e0118033
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220211183051-0429a85a45b2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220214200630-8ffe7361d341
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220211181107-590c06cbb7ac
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220211182937-08f60369fe1e
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220211183411-264548674725
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220211183512-891471a5e8a9
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
+
+replace golang.org/x/crypto => golang.org/x/crypto v0.0.0-20220214200702-86341886e292
+
+replace golang.org/x/oauth2 => golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
