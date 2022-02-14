@@ -24,14 +24,14 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20220722161209-f77fa25e8904
-	k8s.io/apimachinery v0.0.0-20220722160307-915d89afb4cb
-	k8s.io/client-go v0.0.0-20220722162234-b2097e607c19
-	k8s.io/cloud-provider v0.0.0-20220722182357-5bbb3673ef3c
-	k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
-	k8s.io/csi-translation-lib v0.0.0-20220722184033-398de6db30e1
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.70.1
-	k8s.io/mount-utils v0.0.0-20220714201857-13d59f245337
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -69,7 +69,7 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
@@ -101,14 +101,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220722161209-f77fa25e8904
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220722160307-915d89afb4cb
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220722165513-f8824a3f11f1
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220722162234-b2097e607c19
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220722182357-5bbb3673ef3c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220722164708-7cd6476d8900
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220722181801-5c4e89968a69
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220722184033-398de6db30e1
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220714201857-13d59f245337
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
