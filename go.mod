@@ -24,32 +24,31 @@ require (
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/stretchr/testify v1.6.1
 	github.com/vmware/govmomi v0.20.3
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
+	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20220222193518-ee3732ac1699
-	k8s.io/apimachinery v0.0.0-20220115052204-78994e499d98
-	k8s.io/apiserver v0.0.0-20220307143836-e22085d40162
-	k8s.io/client-go v0.0.0-20220224221106-60cd5cbc0179
-	k8s.io/cloud-provider v0.0.0-20220307152849-d2f7af9eee2c
-	k8s.io/component-base v0.0.0-20220224221742-bc1ca3c569ce
-	k8s.io/csi-translation-lib v0.0.0-20220211091404-e3cbb5ee1c2b
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.9.0
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220222193518-ee3732ac1699
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220115052204-78994e499d98
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220307143836-e22085d40162
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220224221106-60cd5cbc0179
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220307152849-d2f7af9eee2c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220224221742-bc1ca3c569ce
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220307152600-1271b148db0d
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220211091404-e3cbb5ee1c2b
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
-
-replace k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220224221911-015580c9de6d
