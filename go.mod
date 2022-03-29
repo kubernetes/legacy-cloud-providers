@@ -16,7 +16,7 @@ require (
 	github.com/aws/aws-sdk-go v1.38.49
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
-	github.com/golang/mock v1.5.0
+	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.5.5
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/mitchellh/mapstructure v1.4.1
@@ -29,28 +29,29 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20220329011000-b0917526c547
-	k8s.io/apimachinery v0.0.0-20220328200121-3b8fb46ed6f1
-	k8s.io/apiserver v0.0.0-20220329052119-04ebcd96723d
-	k8s.io/client-go v0.0.0-20220329051259-11ca265357ae
-	k8s.io/cloud-provider v0.0.0-20220329014216-ecf76443b3b2
-	k8s.io/component-base v0.0.0-20220329051641-59f2f1feee51
-	k8s.io/csi-translation-lib v0.0.0-20220327014430-556fb9bb944d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.60.1
-	k8s.io/mount-utils v0.0.0-20220324094624-6e81bcc03fc8
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220329011000-b0917526c547
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220328200121-3b8fb46ed6f1
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220329052119-04ebcd96723d
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220329051259-11ca265357ae
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220329014216-ecf76443b3b2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220329051641-59f2f1feee51
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220329051751-76fc5e36ae3a
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220329014056-d43c924bafcd
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220327014430-556fb9bb944d
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220324094624-6e81bcc03fc8
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
