@@ -29,28 +29,28 @@ require (
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20220330051021-b754a94214be
-	k8s.io/apimachinery v0.0.0-20220330050810-00f071187c12
-	k8s.io/apiserver v0.0.0-20220330052355-ee1ac0ffde9d
-	k8s.io/client-go v0.0.0-20220330051330-b1e85f6f0092
-	k8s.io/cloud-provider v0.0.0-20220330054333-c49fb0685f3b
-	k8s.io/component-base v0.0.0-20220330051900-ffc9c87ab39a
-	k8s.io/csi-translation-lib v0.0.0-20220330054721-c4273e32f7a4
+	k8s.io/api v0.0.0-20220504022944-af4f75e1994c
+	k8s.io/apimachinery v0.0.0-20220406001655-080c0c77fab5
+	k8s.io/apiserver v0.0.0-20220408172014-ac613d389ace
+	k8s.io/client-go v0.0.0-20220504023308-2cf1a8ffd6db
+	k8s.io/cloud-provider v0.0.0-20220405175456-0ceab8edbfaf
+	k8s.io/component-base v0.0.0-20220331212037-3b9b201c27aa
+	k8s.io/csi-translation-lib v0.0.0-20220405180030-20ebca59ffcc
 	k8s.io/klog/v2 v2.60.1
-	k8s.io/mount-utils v0.0.0-20220324094624-6e81bcc03fc8
+	k8s.io/mount-utils v0.0.0-20220503121355-5a4c53b30ffb
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220330051021-b754a94214be
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220330050810-00f071187c12
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220330052355-ee1ac0ffde9d
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220330051330-b1e85f6f0092
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220330054333-c49fb0685f3b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220330051900-ffc9c87ab39a
+	k8s.io/api => k8s.io/api v0.0.0-20220504022944-af4f75e1994c
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220406001655-080c0c77fab5
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220408172014-ac613d389ace
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220504023308-2cf1a8ffd6db
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220405175456-0ceab8edbfaf
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220331212037-3b9b201c27aa
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220330052013-855d491da0b6
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220330054211-3bde1558b3bc
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220330054721-c4273e32f7a4
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220324094624-6e81bcc03fc8
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220401013528-24e922a992f8
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220405180030-20ebca59ffcc
+	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220503121355-5a4c53b30ffb
 )
