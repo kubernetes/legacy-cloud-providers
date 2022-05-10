@@ -26,7 +26,6 @@ require (
 	gopkg.in/gcfg.v1 v1.2.0
 	k8s.io/api v0.0.0-20220509182417-9b88471ea2b1
 	k8s.io/apimachinery v0.0.0-20220509181918-47789511e916
-	k8s.io/apiserver v0.0.0-20220509185031-01a24e4270ef
 	k8s.io/client-go v0.0.0-20220509183031-24209264f769
 	k8s.io/cloud-provider v0.0.0-20220509193512-c2bea0de4cde
 	k8s.io/component-base v0.0.0-20220509184231-9da133a032bf
