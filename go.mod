@@ -29,27 +29,27 @@ require (
 	google.golang.org/api v0.20.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/warnings.v0 v0.1.1 // indirect
-	k8s.io/api v0.0.0-20220328171320-4624a1cdc1b2
-	k8s.io/apimachinery v0.0.0-20220328170958-67c29d29c4cd
-	k8s.io/apiserver v0.0.0-20220328173215-31f214b6740a
-	k8s.io/client-go v0.0.0-20220328171824-1110612dc6e5
-	k8s.io/cloud-provider v0.0.0-20220328175923-ac63c8455b18
-	k8s.io/component-base v0.0.0-20220328172441-495485c096c6
-	k8s.io/csi-translation-lib v0.0.0-20220328180438-73ed5b314a07
+	k8s.io/api v0.21.14-rc.0
+	k8s.io/apimachinery v0.21.14-rc.0
+	k8s.io/apiserver v0.21.14-rc.0
+	k8s.io/client-go v0.21.14-rc.0
+	k8s.io/cloud-provider v0.21.14-rc.0
+	k8s.io/component-base v0.21.14-rc.0
+	k8s.io/csi-translation-lib v0.21.14-rc.0
 	k8s.io/klog/v2 v2.9.0
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220328171320-4624a1cdc1b2
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220328170958-67c29d29c4cd
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220328173215-31f214b6740a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220328171824-1110612dc6e5
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220328175923-ac63c8455b18
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220328172441-495485c096c6
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220328175723-12201db2c1da
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220328180438-73ed5b314a07
+	k8s.io/api => k8s.io/api v0.21.14-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.21.14-rc.0
+	k8s.io/apiserver => k8s.io/apiserver v0.21.14-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.21.14-rc.0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.21.14-rc.0
+	k8s.io/component-base => k8s.io/component-base v0.21.14-rc.0
+	k8s.io/controller-manager => k8s.io/controller-manager v0.21.14-rc.0
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.21.14-rc.0
 )
 
-replace k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220328172619-ef7a26eb4055
+replace k8s.io/component-helpers => k8s.io/component-helpers v0.21.14-rc.0
