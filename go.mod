@@ -20,14 +20,14 @@ require (
 	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 	github.com/stretchr/testify v1.7.0
 	github.com/vmware/govmomi v0.20.3
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
+	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
 	k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
 	k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
 	k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
-	k8s.io/cloud-provider v0.0.0-20220526170938-9c22fcdc5eab
+	k8s.io/cloud-provider v0.0.0-20220603204651-70c5db9466f7
 	k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
 	k8s.io/csi-translation-lib v0.0.0-20220509194239-1d5f90e290a8
 	k8s.io/klog/v2 v2.60.1
@@ -103,12 +103,12 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220602005558-2a18ad23dce0
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220603200943-626d580b085d
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220526170938-9c22fcdc5eab
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220603204651-70c5db9466f7
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220509184522-76ad8716b7b9
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220509193242-a7a8acd23576
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220603204435-98082beebd13
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220509194239-1d5f90e290a8
 	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220509194458-f1dac6476d7e
 )

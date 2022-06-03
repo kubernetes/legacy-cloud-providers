@@ -364,8 +364,8 @@ golang.org/x/crypto v0.0.0-20190605123033-f99c8df09eb5/go.mod h1:yigFU9vqHzYiE8U
 golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
 golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
-golang.org/x/crypto v0.0.0-20220214200702-86341886e292 h1:f+lwQ+GtmgoY+A2YaQxlSOnDjXcQ7ZRLWOHbC6HtRqE=
-golang.org/x/crypto v0.0.0-20220214200702-86341886e292/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
+golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38=
+golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/exp v0.0.0-20190121172915-509febef88a4/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
 golang.org/x/exp v0.0.0-20190306152737-a1d7652674e8/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
 golang.org/x/exp v0.0.0-20190510132918-efd6b22b2522/go.mod h1:ZjyILWgesfNpC6sMxTJOJm9Kp84zZh5NQWvqDGG3Qr8=
@@ -743,8 +743,8 @@ k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814 h1:RvbQKYWzCfqGUeyc9Q4mR3
 k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814/go.mod h1:1oBVxgNUfLl978lJAlywA+H45m2ctSuqJU2stpbcjT4=
 k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1 h1:BVUIe0zBQAxxmF44zVLf0exBG5g4sNHfgCIMJNnQyYw=
 k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1/go.mod h1:aQ4aGSZhXBz/nxbhxf+vd3Y6JvHVWxkHHL5r2BD/DDo=
-k8s.io/cloud-provider v0.0.0-20220526170938-9c22fcdc5eab h1:vFw8rPfgj+a+VkAPOTRDOmcsucqRpF6lCJ/WXc+eU+4=
-k8s.io/cloud-provider v0.0.0-20220526170938-9c22fcdc5eab/go.mod h1:863PO3myIJfR8SrEu21wh0nrPFVnxDZqf4Uh1Mpq+ts=
+k8s.io/cloud-provider v0.0.0-20220603204651-70c5db9466f7 h1:22OpHYUocVB8e8DRJpQf29yyopMdPH1Y8nSm5DU7zfQ=
+k8s.io/cloud-provider v0.0.0-20220603204651-70c5db9466f7/go.mod h1:PV7IPONgwBzVGN7JuXAqnDvDUsxIVlHV5MrqrjikLDU=
 k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce h1:F6Ee80Y4zrtMZrAV2Xcza/GnkLC9gtinQpgPzaCLSUo=
 k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce/go.mod h1:jZ2zT6z0+ywhdMBBRMkNB3I24RyidF99eCRGb7lMqVg=
 k8s.io/csi-translation-lib v0.0.0-20220509194239-1d5f90e290a8 h1:mRQ/Wj9S79SkNtwTzjHSwaHEsOMuiMpm187oekPjG+o=
