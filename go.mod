@@ -24,11 +24,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20220510154143-ae35a85329f1
-	k8s.io/apimachinery v0.0.0-20220511125320-f3b1305f4010
-	k8s.io/client-go v0.0.0-20220511125810-77f63643f951
-	k8s.io/cloud-provider v0.0.0-20220511211813-5bb9b27442bc
-	k8s.io/component-base v0.0.0-20220510143133-ee36a6a1367e
+	k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
+	k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
+	k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
+	k8s.io/cloud-provider v0.0.0-20220526170938-9c22fcdc5eab
+	k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
 	k8s.io/csi-translation-lib v0.0.0-20220509194239-1d5f90e290a8
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/mount-utils v0.0.0-20220509194458-f1dac6476d7e
@@ -101,12 +101,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220510154143-ae35a85329f1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220511125320-f3b1305f4010
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220511210335-5f27f61940ac
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220511125810-77f63643f951
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220511211813-5bb9b27442bc
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220510143133-ee36a6a1367e
+	k8s.io/api => k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220602005558-2a18ad23dce0
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220526170938-9c22fcdc5eab
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220509184522-76ad8716b7b9
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220509193242-a7a8acd23576
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220509194239-1d5f90e290a8
