@@ -24,14 +24,14 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20220614194928-60387f6ceb7c
-	k8s.io/apimachinery v0.0.0-20220614194717-c5be38573c73
-	k8s.io/client-go v0.0.0-20220614195233-830d4c462418
-	k8s.io/cloud-provider v0.0.0-20220614202259-6ea0e29b5fb2
-	k8s.io/component-base v0.0.0-20220614195841-c528ad5e18a8
-	k8s.io/csi-translation-lib v0.0.0-20220614202639-769e3ee0b056
-	k8s.io/klog/v2 v2.60.1
-	k8s.io/mount-utils v0.0.0-20220613082526-331fee0fad34
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/klog/v2 v2.70.0
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -101,14 +101,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220614194928-60387f6ceb7c
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220614194717-c5be38573c73
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220614200351-5e46aae63f47
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220614195233-830d4c462418
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220614202259-6ea0e29b5fb2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220614195841-c528ad5e18a8
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220614195946-92e231fe1c01
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220614202144-533be65d8cdf
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220614202639-769e3ee0b056
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220613082526-331fee0fad34
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
