@@ -24,14 +24,14 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20220714130747-08c75a7ce2b0
-	k8s.io/apimachinery v0.0.0-20220714130549-afc5e00a762a
-	k8s.io/client-go v0.0.0-20220714131101-743e29dc1f0a
+	k8s.io/api v0.0.0-20220714170823-fa32a3acacac
+	k8s.io/apimachinery v0.0.0-20220715210607-cff14a57b273
+	k8s.io/client-go v0.0.0-20220715211111-c6bd30b9ec5f
 	k8s.io/cloud-provider v0.0.0-20220714134117-e3dc0ddb4365
 	k8s.io/component-base v0.0.0-20220714131716-acb17c407a9a
 	k8s.io/csi-translation-lib v0.0.0-20220708015548-e0d94d4dcbb4
 	k8s.io/klog/v2 v2.70.1
-	k8s.io/mount-utils v0.0.0-20220714134542-1ddcd2379697
+	k8s.io/mount-utils v0.0.0-20220714201857-13d59f245337
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -101,14 +101,14 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220714130747-08c75a7ce2b0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220714130549-afc5e00a762a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220714132227-1aa8c99af913
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220714131101-743e29dc1f0a
+	k8s.io/api => k8s.io/api v0.0.0-20220714170823-fa32a3acacac
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220715210607-cff14a57b273
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220716091748-df1b742430c9
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220715211111-c6bd30b9ec5f
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220714134117-e3dc0ddb4365
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20220714131716-acb17c407a9a
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220714131824-2112f4afdc41
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220714134003-1c6b7efdb3aa
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220708015548-e0d94d4dcbb4
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220714134542-1ddcd2379697
+	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20220714201857-13d59f245337
 )
