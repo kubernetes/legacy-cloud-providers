@@ -15,6 +15,8 @@ require (
 	github.com/aws/aws-sdk-go v1.38.49
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.5.6
+	github.com/gophercloud/gophercloud v0.1.0
+	github.com/mitchellh/mapstructure v1.4.1
 	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 	github.com/stretchr/testify v1.7.0
 	github.com/vmware/govmomi v0.20.3
@@ -22,13 +24,14 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20220824023210-64f80bd511ba
-	k8s.io/apimachinery v0.0.0-20220805001719-117bd9b56ec3
-	k8s.io/client-go v0.0.0-20220824023530-5feaced742a3
-	k8s.io/cloud-provider v0.0.0-20220824030203-cb1e253c06e2
-	k8s.io/component-base v0.0.0-20220804202306-bd3841ae5bd6
-	k8s.io/csi-translation-lib v0.0.0-20220824030521-d6422461bac4
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.70.1
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -61,17 +64,19 @@ require (
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
+	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
+	github.com/moby/sys/mountinfo v0.6.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.12.1 // indirect
+	github.com/prometheus/client_golang v1.12.2 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
@@ -97,13 +102,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220824023210-64f80bd511ba
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220805001719-117bd9b56ec3
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220824024607-45217dbeac36
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220824023530-5feaced742a3
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220824030203-cb1e253c06e2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220804202306-bd3841ae5bd6
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220824024213-43a709e0c466
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220804204413-a1e9c0affc6c
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20220824030521-d6422461bac4
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
