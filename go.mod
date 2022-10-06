@@ -22,12 +22,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.0.0-20221006155042-3638040e4063
+	k8s.io/apimachinery v0.0.0-20221006154840-79993b286671
+	k8s.io/client-go v0.0.0-20221006155338-b28f6c94f403
+	k8s.io/cloud-provider v0.0.0-20221006162352-dc604fda2d24
+	k8s.io/component-base v0.0.0-20221006160206-ab926674f3ba
+	k8s.io/csi-translation-lib v0.0.0-20221006162649-0a603acd3f64
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 	sigs.k8s.io/yaml v1.3.0
@@ -95,15 +95,14 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/kms => ../kms
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20221006155042-3638040e4063
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221006154840-79993b286671
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221006160704-2c46875bb7e6
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221006155338-b28f6c94f403
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221006162352-dc604fda2d24
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20221006160206-ab926674f3ba
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221006160305-e5f5a6e2b0ae
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221006162243-fb88e62f9f09
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20221006162649-0a603acd3f64
+	k8s.io/kms => k8s.io/kms v0.0.0-20220927064431-aef5f8fcd82d
 )
