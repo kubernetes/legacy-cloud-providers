@@ -22,12 +22,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.0.0-20221012035047-0f8110492ea0
+	k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
+	k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
+	k8s.io/cloud-provider v0.0.0-20221012042143-05388c11faae
+	k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282
+	k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 	sigs.k8s.io/yaml v1.3.0
@@ -95,15 +95,14 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/kms => ../kms
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20221012035047-0f8110492ea0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221012040521-848d0394b365
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221012042143-05388c11faae
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221012040131-84134c499c34
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221012042036-e51bcebeebde
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750
+	k8s.io/kms => k8s.io/kms v0.0.0-20221012040222-bf322548c086
 )
