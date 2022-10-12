@@ -797,10 +797,10 @@ k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419 h1:6islJrEgy0CM8YsBcMFdlx
 k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419/go.mod h1:1b4APDhID8eky0PLpgeoWtdLUptwwJD8Jk5uFOd22CE=
 k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853 h1:MA0fOvlQt7fzsEIujzUH4ssakSCKB6+iWRclNvRYAnk=
 k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853/go.mod h1:UVW05h29JMuginXCTvlNPTFVS/AyKlU3Q4XoA6UidtU=
-k8s.io/cloud-provider v0.0.0-20221012042143-05388c11faae h1:akwgQegs9ddEYg/njL2RyAi8vFKR6cIlHqNQ1coezuw=
-k8s.io/cloud-provider v0.0.0-20221012042143-05388c11faae/go.mod h1:au29QEH/Thv98GuYS/pvuRAxDZ0r45/sM1ni3jDGEhw=
-k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282 h1:JqSl7JGZ8FwUFz9Isq0YIJNLx5oK5x/g0Vl2VtVntI4=
-k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282/go.mod h1:t3mMmVABnDZIpNgn7xDM2AdNUr2jvWA8pleZlSDjAug=
+k8s.io/cloud-provider v0.0.0-20221012201511-0939f60cd81a h1:jF4O8c75xjOL/aodquXVegx/Ddh7nPF8f6GCc4Byf6Y=
+k8s.io/cloud-provider v0.0.0-20221012201511-0939f60cd81a/go.mod h1:2mI8duyc7exDOvESv8SKNtYUDhtSgT5fOB1Is+TF0vQ=
+k8s.io/component-base v0.0.0-20221012235520-6ecca3322b4e h1:Gg6uxVzmcw4M5KKG4jy6mE+CahWF6VvA39YUsXTaJcI=
+k8s.io/component-base v0.0.0-20221012235520-6ecca3322b4e/go.mod h1:nOngF+6Y18fCD8T0L9mxX2FDBo3vzC1t6hsFv6DE3lI=
 k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750 h1:uMNrJXB7Lo2na93X5ikaaW5+fG5r/jBeOFshoFPzA4k=
 k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750/go.mod h1:RfGO1/y3EH/oLzGECO+8/N6gIwHRtstu47AsGjxm+Ro=
 k8s.io/klog/v2 v2.0.0/go.mod h1:PBfzABfn139FHAV07az/IF9Wp1bkk3vpT2XSJ76fSDE=
