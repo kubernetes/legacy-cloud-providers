@@ -22,12 +22,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20221012115127-0184bd884c5e
-	k8s.io/apimachinery v0.0.0-20221014074937-b839e82f5d70
-	k8s.io/client-go v0.0.0-20221014075641-aea20dde598b
-	k8s.io/cloud-provider v0.0.0-20221014083631-06c035d166e7
-	k8s.io/component-base v0.0.0-20221014080429-1c6f043b5467
-	k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 	sigs.k8s.io/yaml v1.3.0
@@ -77,9 +77,9 @@ require (
 	github.com/stretchr/objx v0.4.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
-	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.8 // indirect
+	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
@@ -89,20 +89,21 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1 // indirect
+	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221012115127-0184bd884c5e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221014074937-b839e82f5d70
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221014081021-6ea0849c6d55
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221014075641-aea20dde598b
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221014083631-06c035d166e7
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221014080429-1c6f043b5467
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221014080608-2ac0564900bd
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221014083457-b92e10030091
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750
-	k8s.io/kms => k8s.io/kms v0.0.0-20221014080727-25ac69204108
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
