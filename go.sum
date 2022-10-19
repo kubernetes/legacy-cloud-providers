@@ -77,8 +77,8 @@ github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRF
 github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d/go.mod h1:rBZYJk541a8SKzHPHnH3zbiI+7dagKZ0cgpgrD7Fyho=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
-github.com/aws/aws-sdk-go v1.38.49 h1:E31vxjCe6a5I+mJLmUGaZobiWmg9KdWaud9IfceYeYQ=
-github.com/aws/aws-sdk-go v1.38.49/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
+github.com/aws/aws-sdk-go v1.44.116 h1:NpLIhcvLWXJZAEwvPj3TDHeqp7DleK6ZUVYyW01WNHY=
+github.com/aws/aws-sdk-go v1.44.116/go.mod h1:y4AeaBuwd2Lk+GepC1E9v0qOiTws0MIWAX4oIKwKHZo=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
@@ -795,12 +795,12 @@ k8s.io/api v0.0.0-20221012115127-0184bd884c5e h1:N2+121lkGMNfLeos4/AlwuujPJd5xJf
 k8s.io/api v0.0.0-20221012115127-0184bd884c5e/go.mod h1:Q2jmki3lhHeeAyYtbIiEe/2JoGg2Ge1cJoMgpFkjtzg=
 k8s.io/apimachinery v0.0.0-20221017194938-70a38aaa19ef h1:4lKLUMgwg9xi0UV4qjwS2NHmxBU2llLMdfO7czD9gUg=
 k8s.io/apimachinery v0.0.0-20221017194938-70a38aaa19ef/go.mod h1:/x4E+/xaA5ap3q0tWNh5IPFt63dzY1I2qP8zT4sr5Yg=
-k8s.io/client-go v0.0.0-20221017195518-9cc33a48a716 h1:FExHRPYu5rkcGBFKPmQxH4x2qD2Qot04O/hcFTqmupk=
-k8s.io/client-go v0.0.0-20221017195518-9cc33a48a716/go.mod h1:r+Jiu2RH1zXcJsmml1qRHg9oBq4sHHcMRaiEV0GN0ME=
+k8s.io/client-go v0.0.0-20221019075459-ef8a2e522779 h1:+u8zTIggt94pLdjOWhaoW2iJwCaArrP2HnBlmJwk0mM=
+k8s.io/client-go v0.0.0-20221019075459-ef8a2e522779/go.mod h1:r+Jiu2RH1zXcJsmml1qRHg9oBq4sHHcMRaiEV0GN0ME=
 k8s.io/cloud-provider v0.0.0-20221017202722-39c368faaf45 h1:FWEnHmWZ6xbPP7JQo8a/sly7M11zF+FZ6F2CuELIgOA=
 k8s.io/cloud-provider v0.0.0-20221017202722-39c368faaf45/go.mod h1:7H+Auq3vMHJuisI+Em1vowXTPP/KDk6/MfKGNcIwVaA=
-k8s.io/component-base v0.0.0-20221017200238-034e08cbfdfb h1:xi+Q1olbNRt1UKQO/NTBEwCql1vBI7y48dUACoSnYMc=
-k8s.io/component-base v0.0.0-20221017200238-034e08cbfdfb/go.mod h1:C6bKv2+Cn5xLxGAlDAFSkSqGtDiPEUrEA4y0BKdUO2I=
+k8s.io/component-base v0.0.0-20221019000337-4f487d08c46c h1:JEJlkqGJMe1WCIri8MWhUc1vryNLbP6SFmspoSwMbt8=
+k8s.io/component-base v0.0.0-20221019000337-4f487d08c46c/go.mod h1:GzuOBZLTCAovez80ouX6fNL7eTjPnb0b2WDJkqL1k5c=
 k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750 h1:uMNrJXB7Lo2na93X5ikaaW5+fG5r/jBeOFshoFPzA4k=
 k8s.io/csi-translation-lib v0.0.0-20221012042439-28ddbc551750/go.mod h1:RfGO1/y3EH/oLzGECO+8/N6gIwHRtstu47AsGjxm+Ro=
 k8s.io/klog/v2 v2.0.0/go.mod h1:PBfzABfn139FHAV07az/IF9Wp1bkk3vpT2XSJ76fSDE=
