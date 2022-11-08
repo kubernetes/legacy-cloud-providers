@@ -22,11 +22,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20221108053747-3f61c95cab71
-	k8s.io/apimachinery v0.0.0-20221108052757-4fe4321a9d5e
-	k8s.io/client-go v0.0.0-20221108054908-3daf180aa6b1
-	k8s.io/cloud-provider v0.0.0-20221108080414-6b6015aabc04
-	k8s.io/component-base v0.0.0-20221108061007-abdc0eb56a1d
+	k8s.io/api v0.0.0-20221108053748-98c1aa6b3d0a
+	k8s.io/apimachinery v0.0.0-20221108055230-fd8a60496be5
+	k8s.io/client-go v0.0.0-20221108173010-769443557e04
+	k8s.io/cloud-provider v0.0.0-20221108215443-279df9502932
+	k8s.io/component-base v0.0.0-20221108213136-021afb59bb71
 	k8s.io/csi-translation-lib v0.0.0-20221108082132-d471de75b42c
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
@@ -69,8 +69,8 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.13.0 // indirect
-	github.com/prometheus/client_model v0.2.0 // indirect
+	github.com/prometheus/client_golang v1.14.0 // indirect
+	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
@@ -95,14 +95,14 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221108053747-3f61c95cab71
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221108052757-4fe4321a9d5e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221108062852-fda66ef34390
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221108054908-3daf180aa6b1
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221108080414-6b6015aabc04
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221108061007-abdc0eb56a1d
+	k8s.io/api => k8s.io/api v0.0.0-20221108053748-98c1aa6b3d0a
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221108055230-fd8a60496be5
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221108213719-5643daa2db6a
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221108173010-769443557e04
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221108215443-279df9502932
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20221108213136-021afb59bb71
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221108061658-aa222c251f8e
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221108075826-3948d7d284a2
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221108215329-3a2ced177d89
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20221108082132-d471de75b42c
 	k8s.io/kms => k8s.io/kms v0.0.0-20221028080743-a9ba1c11c0c6
 )
