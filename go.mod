@@ -22,12 +22,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20221111134724-3590edaeeded
-	k8s.io/apimachinery v0.0.0-20221108055230-fd8a60496be5
-	k8s.io/client-go v0.0.0-20221111215036-61cd728579d3
-	k8s.io/cloud-provider v0.0.0-20221111221450-016d675f2dd2
-	k8s.io/component-base v0.0.0-20221109173154-b1c4f12ee8c1
-	k8s.io/csi-translation-lib v0.0.0-20221111221810-c5a029df0b4c
+	k8s.io/api v0.27.0-alpha.0
+	k8s.io/apimachinery v0.27.0-alpha.0
+	k8s.io/client-go v0.27.0-alpha.0
+	k8s.io/cloud-provider v0.27.0-alpha.0
+	k8s.io/component-base v0.27.0-alpha.0
+	k8s.io/csi-translation-lib v0.27.0-alpha.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
@@ -95,14 +95,14 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221111134724-3590edaeeded
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221108055230-fd8a60496be5
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221110175743-9334363bf432
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221111215036-61cd728579d3
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221111221450-016d675f2dd2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221109173154-b1c4f12ee8c1
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221108061658-aa222c251f8e
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221108215329-3a2ced177d89
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20221111221810-c5a029df0b4c
-	k8s.io/kms => k8s.io/kms v0.0.0-20221028080743-a9ba1c11c0c6
+	k8s.io/api => k8s.io/api v0.27.0-alpha.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.27.0-alpha.0
+	k8s.io/apiserver => k8s.io/apiserver v0.27.0-alpha.0
+	k8s.io/client-go => k8s.io/client-go v0.27.0-alpha.0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.27.0-alpha.0
+	k8s.io/component-base => k8s.io/component-base v0.27.0-alpha.0
+	k8s.io/component-helpers => k8s.io/component-helpers v0.27.0-alpha.0
+	k8s.io/controller-manager => k8s.io/controller-manager v0.27.0-alpha.0
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.27.0-alpha.0
+	k8s.io/kms => k8s.io/kms v0.27.0-alpha.0
 )
