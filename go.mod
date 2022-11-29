@@ -96,7 +96,7 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20221111134724-3590edaeeded
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221116134806-067949de242e
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221108055230-656123506f33
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221110175743-9334363bf432
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20221111215036-61cd728579d3
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221116145122-70db72fa8b24
