@@ -10,7 +10,6 @@ require (
 	github.com/Azure/go-autorest/autorest v0.11.27
 	github.com/Azure/go-autorest/autorest/adal v0.9.20
 	github.com/Azure/go-autorest/autorest/mocks v0.4.2
-	github.com/Azure/go-autorest/autorest/to v0.4.0
 	github.com/GoogleCloudPlatform/k8s-cloud-provider v1.18.1-0.20220218231025-f11817397a1b
 	github.com/aws/aws-sdk-go v1.44.136
 	github.com/golang/mock v1.6.0
@@ -36,6 +35,7 @@ require (
 require (
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest/date v0.3.0 // indirect
+	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
@@ -97,7 +97,7 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20221210153100-cfffb5f6be60
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221210152838-bc361eaf237e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221210034520-e5b269c182c2
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221210194135-e847e050a508
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20221210033409-ca6015655408
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221207034137-ef625d5e675d
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20221207022911-5a27a217e76d
