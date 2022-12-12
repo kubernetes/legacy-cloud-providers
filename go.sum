@@ -940,8 +940,8 @@ k8s.io/api v0.0.0-20221202175609-115016874c21 h1:OByngT6Ph8bP0YtJgaUPkgK+jJa4+MI
 k8s.io/api v0.0.0-20221202175609-115016874c21/go.mod h1:lzSwRDt7GokiQg5oIY4wJOwTdR0nA2Yx21KhaHpwRyo=
 k8s.io/apimachinery v0.0.0-20221202174959-050f59113830 h1:xlqQwYSO0lgVkmPno5uUkpAs84CyS9geKwqr+ObN7AI=
 k8s.io/apimachinery v0.0.0-20221202174959-050f59113830/go.mod h1:mbefzm1H5rPdyibAc8rmzLAbr/oG60tDHQFj0FTqrZU=
-k8s.io/apiserver v0.0.0-20221202182803-1c37dd09f414 h1:SL+jzLrSug64rLqof588NdH4nUTUvD5TVo8cY5HvTE4=
-k8s.io/apiserver v0.0.0-20221202182803-1c37dd09f414/go.mod h1:m9RsL4vAazXywRJ1PZY9f5kfUUWl/DDePOzaFs0OJ48=
+k8s.io/apiserver v0.0.0-20221212200100-a75e1b4b490b h1:bcrbUrMeDG6nrTZho0PZfbMWvCyynPoxAYHI4M/sAfY=
+k8s.io/apiserver v0.0.0-20221212200100-a75e1b4b490b/go.mod h1:m9RsL4vAazXywRJ1PZY9f5kfUUWl/DDePOzaFs0OJ48=
 k8s.io/client-go v0.0.0-20221202180432-3dd56d254dd3 h1:ohCXjw6LnRM3f4iGsjVx7P2RQmLfrrZUWmp2dwRDLe4=
 k8s.io/client-go v0.0.0-20221202180432-3dd56d254dd3/go.mod h1:LD5UilAS8EoNMNSpBiqGp3qNeKDvstWbphlG+k+nHsA=
 k8s.io/cloud-provider v0.0.0-20221202192750-75aab4682702 h1:ocypG2Yco/zZOTEB5kca8s09YxIC8KGNcMpnK6h/DWg=
