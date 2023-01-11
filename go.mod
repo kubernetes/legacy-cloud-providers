@@ -21,12 +21,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.0.0-20230112014319-210a19362bf5
+	k8s.io/apimachinery v0.0.0-20230112013515-257f65905ef1
+	k8s.io/client-go v0.0.0-20230112020956-ce349e1afaa1
+	k8s.io/cloud-provider v0.0.0-20230112050007-97fdc45fcc88
+	k8s.io/component-base v0.0.0-20230112023433-efc9a68681cd
+	k8s.io/csi-translation-lib v0.0.0-20230112051256-af29704b79cf
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
@@ -95,15 +95,14 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/kms => ../kms
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20230112014319-210a19362bf5
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112013515-257f65905ef1
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230112025931-fb51b4a8496c
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230112020956-ce349e1afaa1
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230112050007-97fdc45fcc88
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230112023433-efc9a68681cd
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230112023934-a9355de142cb
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230112045125-db5c57aa35ae
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230112051256-af29704b79cf
+	k8s.io/kms => k8s.io/kms v0.0.0-20230107081413-fd373b9a5aa5
 )
