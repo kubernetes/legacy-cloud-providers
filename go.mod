@@ -21,13 +21,13 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230228090300-2ed8d24822d3
-	k8s.io/apimachinery v0.0.0-20230301150529-776e66cfe42c
-	k8s.io/client-go v0.0.0-20230301070917-089d04441d98
-	k8s.io/cloud-provider v0.0.0-20230301213506-a7abcc0704bb
-	k8s.io/component-base v0.0.0-20230301013520-2acccc807c76
-	k8s.io/csi-translation-lib v0.0.0-20230215145759-d1026069a58c
-	k8s.io/klog/v2 v2.80.1
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
 )
@@ -52,7 +52,7 @@ require (
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt/v4 v4.4.2 // indirect
+	github.com/golang-jwt/jwt/v4 v4.2.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
@@ -95,14 +95,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230228090300-2ed8d24822d3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230301150529-776e66cfe42c
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230301211437-74ce81dc7a45
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230301070917-089d04441d98
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230301213506-a7abcc0704bb
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230301013520-2acccc807c76
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230215120307-78f7b9c080f0
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230301213341-7c705de542df
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230215145759-d1026069a58c
-	k8s.io/kms => k8s.io/kms v0.0.0-20230301050952-cb918dfd7312
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
