@@ -21,12 +21,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230125050307-40fb3719e88c
-	k8s.io/apimachinery v0.0.0-20230125050044-b4dea92b2651
-	k8s.io/client-go v0.0.0-20230125050636-adb1f506f945
-	k8s.io/cloud-provider v0.0.0-20230125054101-4b437960be1e
-	k8s.io/component-base v0.0.0-20230125051535-74768a948489
-	k8s.io/csi-translation-lib v0.0.0-20230112220123-aee81f986db5
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
@@ -76,10 +76,10 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/net v0.4.0 // indirect
-	golang.org/x/sys v0.3.0 // indirect
-	golang.org/x/term v0.3.0 // indirect
-	golang.org/x/text v0.5.0 // indirect
+	golang.org/x/net v0.5.0 // indirect
+	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/term v0.4.0 // indirect
+	golang.org/x/text v0.6.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
@@ -95,14 +95,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230125050307-40fb3719e88c
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230125050044-b4dea92b2651
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230125052154-e952b9f2993c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230125050636-adb1f506f945
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230125054101-4b437960be1e
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230125051535-74768a948489
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230125051644-30ccddc8a80d
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230125053944-0a9140e1b04d
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230112220123-aee81f986db5
-	k8s.io/kms => k8s.io/kms v0.0.0-20230123211024-c720300a8db5
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
