@@ -21,12 +21,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.0.0-20230130210333-a26a16a095ca
+	k8s.io/apimachinery v0.0.0-20230130210107-16efa9d4d9ad
+	k8s.io/client-go v0.0.0-20230130210700-b1350830d0e9
+	k8s.io/cloud-provider v0.0.0-20230130214018-4787df198fac
+	k8s.io/component-base v0.0.0-20230130211343-7f701f65558b
+	k8s.io/csi-translation-lib v0.0.0-20230130214355-51dc692021f5
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
@@ -95,15 +95,14 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/kms => ../kms
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20230130210333-a26a16a095ca
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230130210107-16efa9d4d9ad
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230130212009-31ac30ca86ba
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230130210700-b1350830d0e9
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230130214018-4787df198fac
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230130211343-7f701f65558b
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230130211455-003cf51f7e4a
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230130213851-6469582db8a6
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230130214355-51dc692021f5
+	k8s.io/kms => k8s.io/kms v0.0.0-20230130211557-69cf3ad36fff
 )
