@@ -24,14 +24,14 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20221207015936-be0bf1dc3a1b
-	k8s.io/apimachinery v0.0.0-20230112020654-11eb99b88eea
-	k8s.io/client-go v0.0.0-20221213000309-ab9a2e819915
-	k8s.io/cloud-provider v0.0.0-20230110200505-f5e306384e32
-	k8s.io/component-base v0.0.0-20221207023111-de5bbf2169a4
-	k8s.io/csi-translation-lib v0.0.0-20221207035214-87b8047cf532
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.70.1
-	k8s.io/mount-utils v0.0.0-20221207035447-e3f9268447fa
+	k8s.io/mount-utils v0.0.0
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -83,7 +83,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.4.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10 // indirect
+	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/sys v0.3.0 // indirect
 	golang.org/x/term v0.3.0 // indirect
 	golang.org/x/text v0.5.0 // indirect
@@ -102,14 +102,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221207015936-be0bf1dc3a1b
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112020654-11eb99b88eea
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230110182026-4282a8965c14
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221213000309-ab9a2e819915
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230110200505-f5e306384e32
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221207023111-de5bbf2169a4
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221207023413-4f933304c7ad
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230110195658-26a5a31c421c
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20221207035214-87b8047cf532
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20221207035447-e3f9268447fa
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/mount-utils => ../mount-utils
 )
