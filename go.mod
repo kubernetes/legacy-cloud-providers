@@ -22,12 +22,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
-	k8s.io/csi-translation-lib v0.0.0
+	k8s.io/api v0.0.0-20230210143906-1c6bd7031bcf
+	k8s.io/apimachinery v0.0.0-20230210142156-eabbfd57b6c3
+	k8s.io/client-go v0.0.0-20230210153645-2e3434888bb3
+	k8s.io/cloud-provider v0.0.0-20230210193909-89a3291d11b3
+	k8s.io/component-base v0.0.0-20230210155927-2dcbf9413284
+	k8s.io/csi-translation-lib v0.0.0-20230210201730-3448f26f520a
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
@@ -95,15 +95,16 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/csi-translation-lib => ../csi-translation-lib
-	k8s.io/kms => ../kms
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20230210143906-1c6bd7031bcf
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230210142156-eabbfd57b6c3
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230210165428-05e39c775240
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230210153645-2e3434888bb3
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230210193909-89a3291d11b3
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230210155927-2dcbf9413284
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230210161308-c4d25816b7cc
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230210192847-d5fa192b8258
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230210201730-3448f26f520a
+	k8s.io/kms => k8s.io/kms v0.0.0-20230210162116-4dbde34ed1c6
 )
+
+replace k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20221208081842-cc66ee2a5050
