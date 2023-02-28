@@ -24,15 +24,15 @@ require (
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.46.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230215102946-528cd1c260c6
-	k8s.io/apimachinery v0.0.0-20230215101806-d5c5f0f1e1fe
-	k8s.io/apiserver v0.0.0-20230215121847-31ddf15d4b26
-	k8s.io/client-go v0.0.0-20230215111426-b4614fd9d3d1
-	k8s.io/cloud-provider v0.0.0-20230215143712-7d1aa792b403
-	k8s.io/component-base v0.0.0-20230215115746-d5dfc1096c7e
-	k8s.io/csi-translation-lib v0.0.0-20230215145925-7c54c4d74de0
+	k8s.io/api v0.24.12-rc.0
+	k8s.io/apimachinery v0.24.12-rc.0
+	k8s.io/apiserver v0.24.12-rc.0
+	k8s.io/client-go v0.24.12-rc.0
+	k8s.io/cloud-provider v0.24.12-rc.0
+	k8s.io/component-base v0.24.12-rc.0
+	k8s.io/csi-translation-lib v0.24.12-rc.0
 	k8s.io/klog/v2 v2.60.1
-	k8s.io/mount-utils v0.0.0-20221223074136-c28da0efe0f3
+	k8s.io/mount-utils v0.24.12-rc.0
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -102,14 +102,14 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230215102946-528cd1c260c6
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230215101806-d5c5f0f1e1fe
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230215121847-31ddf15d4b26
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230215111426-b4614fd9d3d1
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230215143712-7d1aa792b403
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230215115746-d5dfc1096c7e
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230215120503-0d0777c2f7c4
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230215142659-a12d962f321d
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230215145925-7c54c4d74de0
-	k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20221223074136-c28da0efe0f3
+	k8s.io/api => k8s.io/api v0.24.12-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.24.12-rc.0
+	k8s.io/apiserver => k8s.io/apiserver v0.24.12-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.24.12-rc.0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.24.12-rc.0
+	k8s.io/component-base => k8s.io/component-base v0.24.12-rc.0
+	k8s.io/component-helpers => k8s.io/component-helpers v0.24.12-rc.0
+	k8s.io/controller-manager => k8s.io/controller-manager v0.24.12-rc.0
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.24.12-rc.0
+	k8s.io/mount-utils => k8s.io/mount-utils v0.24.12-rc.0
 )
