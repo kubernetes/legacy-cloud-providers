@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/cloud-provider v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/api v0.0.0-20230420094736-8360d82aecbc
+	k8s.io/apimachinery v0.0.0-20230420093948-61b874e0403b
+	k8s.io/client-go v0.0.0-20230420095809-861f50a667a1
+	k8s.io/cloud-provider v0.0.0-20230420105848-cb4466131d2d
+	k8s.io/component-base v0.0.0-20230420101238-3233afb68d4f
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -85,21 +85,20 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0 // indirect
+	k8s.io/component-helpers v0.0.0-20230420101358-8fb079e7d7b0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/kms => ../kms
-	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
+	k8s.io/api => k8s.io/api v0.0.0-20230420094736-8360d82aecbc
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230420093948-61b874e0403b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230420102003-9f0e077465ec
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230420095809-861f50a667a1
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230420105848-cb4466131d2d
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230420101238-3233afb68d4f
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230420101358-8fb079e7d7b0
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230420105501-9d2b8afd8a18
+	k8s.io/kms => k8s.io/kms v0.0.0-20230420101509-0eb341e03f36
 )
