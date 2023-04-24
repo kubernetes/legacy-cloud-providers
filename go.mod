@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230425174508-34a8caec8792
-	k8s.io/apimachinery v0.0.0-20230429213326-cb6f584c1d62
-	k8s.io/client-go v0.0.0-20230429152827-fc96cec33806
-	k8s.io/cloud-provider v0.0.0-20230428225001-8fb5cbee4858
-	k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -82,23 +82,24 @@ require (
 	google.golang.org/grpc v1.51.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/warnings.v0 v0.1.2 // indirect
+	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20230425181106-6f40a0f5eeff // indirect
+	k8s.io/component-helpers v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230425174508-34a8caec8792
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230429213326-cb6f584c1d62
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230428220919-d82c5648623a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230429152827-fc96cec33806
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230428225001-8fb5cbee4858
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230425181106-6f40a0f5eeff
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230428224707-a9802060ee85
-	k8s.io/kms => k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
