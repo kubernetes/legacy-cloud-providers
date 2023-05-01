@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230425174508-34a8caec8792
-	k8s.io/apimachinery v0.0.0-20230429213326-cb6f584c1d62
-	k8s.io/client-go v0.0.0-20230429152827-fc96cec33806
-	k8s.io/cloud-provider v0.0.0-20230428225001-8fb5cbee4858
-	k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
+	k8s.io/api v0.0.0-20230501174425-14796d1f9020
+	k8s.io/apimachinery v0.0.0-20230501093353-d563c9729062
+	k8s.io/client-go v0.0.0-20230501175051-741627a2eb97
+	k8s.io/cloud-provider v0.0.0-20230501192252-e5fd9ff9fbe0
+	k8s.io/component-base v0.0.0-20230501180126-f6a4fd2ef059
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -85,20 +85,20 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20230425181106-6f40a0f5eeff // indirect
+	k8s.io/component-helpers v0.0.0-20230501180348-458099d9b088 // indirect
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230425174508-34a8caec8792
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230429213326-cb6f584c1d62
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230428220919-d82c5648623a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230429152827-fc96cec33806
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230428225001-8fb5cbee4858
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230425181106-6f40a0f5eeff
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230428224707-a9802060ee85
+	k8s.io/api => k8s.io/api v0.0.0-20230501174425-14796d1f9020
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230501093353-d563c9729062
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230501182024-2dff60bb4d1c
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230501175051-741627a2eb97
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230501192252-e5fd9ff9fbe0
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230501180126-f6a4fd2ef059
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230501180348-458099d9b088
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230501191648-51560e553d16
 	k8s.io/kms => k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1
 )
