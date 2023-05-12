@@ -7,7 +7,7 @@ go 1.20
 require (
 	cloud.google.com/go v0.97.0
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.11.29
+	github.com/Azure/go-autorest/autorest v0.11.28
 	github.com/Azure/go-autorest/autorest/adal v0.9.23
 	github.com/Azure/go-autorest/autorest/mocks v0.4.2
 	github.com/GoogleCloudPlatform/k8s-cloud-provider v1.18.1-0.20220218231025-f11817397a1b
@@ -20,13 +20,13 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230512170619-ecc69dad6a85
-	k8s.io/apimachinery v0.0.0-20230512165853-75b6a1f92c2b
-	k8s.io/client-go v0.0.0-20230512171455-f5cc996aa071
-	k8s.io/cloud-provider v0.0.0-20230512181125-9c8a47a23f6f
-	k8s.io/component-base v0.0.0-20230512172326-207ff9433a97
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.100.1
-	k8s.io/utils v0.0.0-20230313181309-38a27ef9d749
+	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -34,7 +34,7 @@ require (
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest/date v0.3.0 // indirect
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
-	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
+	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -71,7 +71,7 @@ require (
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	go.opencensus.io v0.23.0 // indirect
+	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/term v0.7.0 // indirect
@@ -85,20 +85,21 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20230512172444-e098aadbd093 // indirect
+	k8s.io/component-helpers v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230512170619-ecc69dad6a85
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230512165853-75b6a1f92c2b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230512173045-b58d02330375
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230512171455-f5cc996aa071
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230512181125-9c8a47a23f6f
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230512172326-207ff9433a97
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230512172444-e098aadbd093
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230512180935-bcbd1b6d57eb
-	k8s.io/kms => k8s.io/kms v0.0.0-20230512172557-898c6804e26a
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
