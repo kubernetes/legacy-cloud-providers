@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.6.0
 	google.golang.org/api v0.114.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20230619010547-366128ee4928
-	k8s.io/apimachinery v0.0.0-20230619010326-2680937a8b38
-	k8s.io/client-go v0.0.0-20230619010903-808ebc843ba9
-	k8s.io/cloud-provider v0.0.0-20230619014333-4f2ecbed4587
-	k8s.io/component-base v0.0.0-20230619011537-46e907623809
+	k8s.io/api v0.0.0-20230708003903-6e2bd330bb34
+	k8s.io/apimachinery v0.0.0-20230628220152-83d6d372b1a4
+	k8s.io/client-go v0.0.0-20230711062900-aed71fa5cf05
+	k8s.io/cloud-provider v0.0.0-20230707004032-514dc948dd52
+	k8s.io/component-base v0.0.0-20230706070231-63369697f0ec
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 	sigs.k8s.io/yaml v1.3.0
@@ -94,13 +94,13 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230619010547-366128ee4928
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230619010326-2680937a8b38
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230619012149-15b83e44823c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230619010903-808ebc843ba9
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230619014333-4f2ecbed4587
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230619011537-46e907623809
+	k8s.io/api => k8s.io/api v0.0.0-20230708003903-6e2bd330bb34
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230628220152-83d6d372b1a4
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230706235551-0d62f07a5da6
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230711062900-aed71fa5cf05
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230707004032-514dc948dd52
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230706070231-63369697f0ec
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230619011650-92f9e3a8b815
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230619014205-11f279f1267a
-	k8s.io/kms => k8s.io/kms v0.0.0-20230619011758-484bb0d20287
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230622133526-f45e59bf2537
+	k8s.io/kms => k8s.io/kms v0.0.0-20230706235007-2273d4f89020
 )
