@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230705181702-64b026215965
-	k8s.io/apimachinery v0.0.0-20230612171306-38152d47d786
-	k8s.io/client-go v0.0.0-20230705183401-860d25f20e24
-	k8s.io/cloud-provider v0.0.0-20230705203947-4df34ef30a34
-	k8s.io/component-base v0.0.0-20230705190003-c964270bd046
+	k8s.io/api v0.27.4
+	k8s.io/apimachinery v0.27.4
+	k8s.io/client-go v0.27.4
+	k8s.io/cloud-provider v0.27.4
+	k8s.io/component-base v0.27.4
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -85,20 +85,20 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20230705190518-e8b08838a22f // indirect
+	k8s.io/component-helpers v0.27.4 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230705181702-64b026215965
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230612171306-38152d47d786
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230705192528-717afa68892a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230705183401-860d25f20e24
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230705203947-4df34ef30a34
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230705190003-c964270bd046
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230705190518-e8b08838a22f
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230705203527-03d774bd6a4c
-	k8s.io/kms => k8s.io/kms v0.0.0-20230612180710-1a96b5630cc5
+	k8s.io/api => k8s.io/api v0.27.4
+	k8s.io/apimachinery => k8s.io/apimachinery v0.27.4
+	k8s.io/apiserver => k8s.io/apiserver v0.27.4
+	k8s.io/client-go => k8s.io/client-go v0.27.4
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.27.4
+	k8s.io/component-base => k8s.io/component-base v0.27.4
+	k8s.io/component-helpers => k8s.io/component-helpers v0.27.4
+	k8s.io/controller-manager => k8s.io/controller-manager v0.27.4
+	k8s.io/kms => k8s.io/kms v0.27.4
 )
