@@ -22,12 +22,12 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230828183613-44c5cc8efdcb
-	k8s.io/apimachinery v0.0.0-20230716202306-dd46389197a3
-	k8s.io/client-go v0.0.0-20230828115542-7eeeef0f1637
-	k8s.io/cloud-provider v0.0.0-20230612193605-b6ca56cc6be6
-	k8s.io/component-base v0.0.0-20230612180025-05b26fd95bb7
-	k8s.io/csi-translation-lib v0.0.0-20230612194811-2d071335722f
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
@@ -95,16 +95,15 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230828183613-44c5cc8efdcb
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230716202306-dd46389197a3
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230825162252-118d8759bb8f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230828115542-7eeeef0f1637
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230612193605-b6ca56cc6be6
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230612180025-05b26fd95bb7
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230612180422-ce366bbf24d3
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230612193136-9280fd15b967
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.0.0-20230612194811-2d071335722f
-	k8s.io/kms => k8s.io/kms v0.0.0-20230612180632-cff6428bab5b
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/csi-translation-lib => ../csi-translation-lib
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
-
-replace k8s.io/mount-utils => k8s.io/mount-utils v0.0.0-20230907051747-94855e2a7faf
