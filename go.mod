@@ -20,10 +20,10 @@ require (
 	golang.org/x/oauth2 v0.8.0
 	google.golang.org/api v0.114.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20230810042731-2f6eec10c476
+	k8s.io/api v0.0.0-20230821210805-aee2a6e2653f
 	k8s.io/apimachinery v0.0.0-20230816163301-3e2600dc79fe
-	k8s.io/client-go v0.0.0-20230816075647-9a5370b1eff6
-	k8s.io/cloud-provider v0.0.0-20230817004643-bf24f7add9b4
+	k8s.io/client-go v0.0.0-20230822000518-e8815ff15665
+	k8s.io/cloud-provider v0.0.0-20230818005045-ab972bc376dc
 	k8s.io/component-base v0.0.0-20230816041302-b54afcf379c0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
@@ -87,20 +87,20 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20230807211335-91a729046f19 // indirect
+	k8s.io/component-helpers v0.0.0-20230822001714-a4a0addef873 // indirect
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230810042731-2f6eec10c476
+	k8s.io/api => k8s.io/api v0.0.0-20230821210805-aee2a6e2653f
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230816163301-3e2600dc79fe
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230817001704-9d077dc3641b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230816075647-9a5370b1eff6
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230817004643-bf24f7add9b4
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230821202723-08f8ff0d3f17
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230822000518-e8815ff15665
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230818005045-ab972bc376dc
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230816041302-b54afcf379c0
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230807211335-91a729046f19
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230822001714-a4a0addef873
 	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230817004217-005132ed12da
 	k8s.io/kms => k8s.io/kms v0.0.0-20230807211544-e54c40adc2b2
 )
