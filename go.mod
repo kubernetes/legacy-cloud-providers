@@ -15,16 +15,16 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 	github.com/stretchr/testify v1.8.1
-	github.com/vmware/govmomi v0.30.0
+	github.com/vmware/govmomi v0.30.6
 	golang.org/x/crypto v0.1.0
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	google.golang.org/api v0.60.0
 	gopkg.in/gcfg.v1 v1.2.0
-	k8s.io/api v0.0.0-20230828183613-acad30015007
-	k8s.io/apimachinery v0.0.0-20230716201907-f46cb694b153
-	k8s.io/client-go v0.0.0-20230904105423-fa3c65eff08b
-	k8s.io/cloud-provider v0.0.0-20230907080615-2f682f9bb67d
-	k8s.io/component-base v0.0.0-20230705190003-c964270bd046
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -85,20 +85,21 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20230705190518-e8b08838a22f // indirect
+	k8s.io/component-helpers v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230828183613-acad30015007
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230716201907-f46cb694b153
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230907070629-b9faf8358c6e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230904105423-fa3c65eff08b
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230907080615-2f682f9bb67d
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230705190003-c964270bd046
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230705190518-e8b08838a22f
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230907080152-0edf60a9316d
-	k8s.io/kms => k8s.io/kms v0.0.0-20230612180710-1a96b5630cc5
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
