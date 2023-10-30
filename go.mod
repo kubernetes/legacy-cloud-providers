@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.10.0
 	google.golang.org/api v0.126.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20231027172135-b5946e690808
-	k8s.io/apimachinery v0.0.0-20231027171410-92fa50ee03b2
-	k8s.io/client-go v0.0.0-20231027173027-30eba26adb82
-	k8s.io/cloud-provider v0.0.0-20231027190027-68ec40d9d26d
-	k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 	sigs.k8s.io/yaml v1.3.0
@@ -88,20 +88,21 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20231027174835-db7fd9a381ee // indirect
+	k8s.io/component-helpers v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231027172135-b5946e690808
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231027171410-92fa50ee03b2
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231027175733-943a60e3a446
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231027173027-30eba26adb82
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20231027190027-68ec40d9d26d
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20231027174835-db7fd9a381ee
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20231027185652-d170ed6e9e78
-	k8s.io/kms => k8s.io/kms v0.0.0-20231027175145-cd9f8a2ccd2b
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
