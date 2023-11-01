@@ -23,8 +23,8 @@ require (
 	k8s.io/api v0.0.0-20231101171312-cd0ecb048ea5
 	k8s.io/apimachinery v0.0.0-20231101171057-16d50e6708ce
 	k8s.io/client-go v0.0.0-20231101171620-66e57f767515
-	k8s.io/cloud-provider v0.0.0-20231101175247-e9b67e0de6b8
-	k8s.io/component-base v0.0.0-20231101172254-03390ea84924
+	k8s.io/cloud-provider v0.0.0-20231101175248-d7b5a799e682
+	k8s.io/component-base v0.0.0-20231101172256-4b808112b779
 	k8s.io/klog/v2 v2.110.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 	sigs.k8s.io/yaml v1.3.0
@@ -82,7 +82,7 @@ require (
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
-	google.golang.org/grpc v1.58.2 // indirect
+	google.golang.org/grpc v1.58.3 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
@@ -97,11 +97,11 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20231101171312-cd0ecb048ea5
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101171057-16d50e6708ce
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231101172912-d0f0eebe8c2b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231101172914-798e645af694
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20231101171620-66e57f767515
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20231101175247-e9b67e0de6b8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101172254-03390ea84924
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20231101175248-d7b5a799e682
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101172256-4b808112b779
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20231101172411-84bd21dfe63e
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20231101175120-609db9e93c3b
-	k8s.io/kms => k8s.io/kms v0.0.0-20231031012129-523a5e8e70a1
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20231101175121-3723d7eb6f43
+	k8s.io/kms => k8s.io/kms v0.0.0-20231101172519-156d7b7a0cca
 )
