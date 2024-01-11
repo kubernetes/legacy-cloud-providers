@@ -22,7 +22,7 @@ require (
 	gopkg.in/gcfg.v1 v1.2.3
 	k8s.io/api v0.0.0-20231220172311-84c476802242
 	k8s.io/apimachinery v0.0.0-20231220171733-60eaa653342b
-	k8s.io/client-go v0.0.0-20231220173006-5a0a4247921d
+	k8s.io/client-go v0.0.0-20240110194912-b0cf21f3e8b2
 	k8s.io/cloud-provider v0.0.0-20240102214914-2c6cd5f4535a
 	k8s.io/component-base v0.0.0-20240102212227-0968b1ba22fb
 	k8s.io/klog/v2 v2.110.1
@@ -97,8 +97,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20231220172311-84c476802242
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231220171733-60eaa653342b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240102212845-85936b5b6e51
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231220173006-5a0a4247921d
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240110213448-303f36b71890
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20240110194912-b0cf21f3e8b2
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20240102214914-2c6cd5f4535a
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20240102212227-0968b1ba22fb
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20231220174623-c3fe7bbf6991
