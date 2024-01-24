@@ -9,15 +9,14 @@ require (
 	github.com/GoogleCloudPlatform/k8s-cloud-provider v1.18.1-0.20220218231025-f11817397a1b
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.8.4
-	github.com/vmware/govmomi v0.30.6
 	golang.org/x/oauth2 v0.10.0
 	google.golang.org/api v0.126.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20240118211853-d5724e467262
-	k8s.io/apimachinery v0.0.0-20240118211638-f14778da5523
-	k8s.io/client-go v0.0.0-20240122172058-657d7be98b25
-	k8s.io/cloud-provider v0.0.0-20240123214834-b7b3e85e93ef
-	k8s.io/component-base v0.0.0-20240123212339-5f9f8131aa48
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -72,7 +71,6 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20240118212950-9a5801419916 // indirect
 	k8s.io/kube-openapi v0.0.0-20231113174909-778a5567bc1e // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
@@ -80,13 +78,14 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240118211853-d5724e467262
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240118211638-f14778da5523
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240123212953-888034e53f91
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240122172058-657d7be98b25
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20240123214834-b7b3e85e93ef
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240123212339-5f9f8131aa48
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20240118212950-9a5801419916
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20240118215554-668272ee0e2c
-	k8s.io/kms => k8s.io/kms v0.0.0-20231220174908-0e979309a09f
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
