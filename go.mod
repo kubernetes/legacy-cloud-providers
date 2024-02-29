@@ -15,7 +15,7 @@ require (
 	k8s.io/api v0.0.0-20240228104440-d6ea7e8f9bfc
 	k8s.io/apimachinery v0.0.0-20240221202133-0f2e9357997f
 	k8s.io/client-go v0.0.0-20240228230157-d99a76c51e14
-	k8s.io/cloud-provider v0.0.0-20240228234532-dd1ad5efb47c
+	k8s.io/cloud-provider v0.0.0-20240229125408-123fab8a9194
 	k8s.io/component-base v0.0.0-20240227002902-6c2a49d37aa4
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -80,11 +80,11 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20240228104440-d6ea7e8f9bfc
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240221202133-0f2e9357997f
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240228231835-0a2e73e99157
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240229122720-3d757e5f422a
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20240228230157-d99a76c51e14
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20240228234532-dd1ad5efb47c
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20240229125408-123fab8a9194
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20240227002902-6c2a49d37aa4
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20240221203355-866cab6f8733
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20240228234348-3c1067cedea3
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20240229125230-05eba06abdf4
 	k8s.io/kms => k8s.io/kms v0.0.0-20240221203502-15393f39a6fb
 )
