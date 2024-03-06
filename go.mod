@@ -20,11 +20,11 @@ require (
 	golang.org/x/oauth2 v0.8.0
 	google.golang.org/api v0.114.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20240110173244-05d676f264aa
-	k8s.io/apimachinery v0.0.0-20240110172430-a2ba68000ffd
-	k8s.io/client-go v0.0.0-20240110175023-c5938c6876a6
-	k8s.io/cloud-provider v0.0.0-20240110194951-ac4bd64e3fff
-	k8s.io/component-base v0.0.0-20240110180829-7c2295c53ebe
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 	sigs.k8s.io/yaml v1.3.0
@@ -53,7 +53,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -82,25 +82,26 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 // indirect
 	google.golang.org/grpc v1.56.3 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20240110181248-e980816fbbab // indirect
+	k8s.io/component-helpers v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240110173244-05d676f264aa
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240110172430-a2ba68000ffd
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240110183000-ad397e52aa15
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240110175023-c5938c6876a6
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20240110194951-ac4bd64e3fff
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240110180829-7c2295c53ebe
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20240110181248-e980816fbbab
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20240110194506-6bd785ef6a11
-	k8s.io/kms => k8s.io/kms v0.0.0-20240110181622-ee34a00cc66c
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
