@@ -12,11 +12,11 @@ require (
 	golang.org/x/oauth2 v0.10.0
 	google.golang.org/api v0.126.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20240306165540-05aa4bceed70
-	k8s.io/apimachinery v0.0.0-20240306164812-cbfe0a1feaa5
-	k8s.io/client-go v0.0.0-20240306170515-0cdc0ce850af
-	k8s.io/cloud-provider v0.0.0-20240327183831-8d0686035c86
-	k8s.io/component-base v0.0.0-20240306172020-b0a6e40497ae
+	k8s.io/api v0.30.0-rc.1
+	k8s.io/apimachinery v0.30.0-rc.1
+	k8s.io/client-go v0.30.0-rc.1
+	k8s.io/cloud-provider v0.30.0-rc.1
+	k8s.io/component-base v0.30.0-rc.1
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
