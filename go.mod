@@ -16,15 +16,15 @@ require (
 	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 	github.com/stretchr/testify v1.8.1
 	github.com/vmware/govmomi v0.30.6
-	golang.org/x/crypto v0.16.0
+	golang.org/x/crypto v0.21.0
 	golang.org/x/oauth2 v0.7.0
 	google.golang.org/api v0.114.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.0.0-20240307174525-45f3ce2f036f
-	k8s.io/apimachinery v0.0.0-20240307173006-e417b61a6eb6
-	k8s.io/client-go v0.0.0-20240307180807-e4b3affe5dda
-	k8s.io/cloud-provider v0.0.0-20240307221836-54b6f87d3de5
-	k8s.io/component-base v0.0.0-20240307190750-1202ed816446
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -74,9 +74,9 @@ require (
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/term v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -87,8 +87,21 @@ require (
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/component-helpers v0.0.0-20240307191623-fe5f73f1d823 // indirect
+	k8s.io/component-helpers v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/legacy-cloud-providers => ../legacy-cloud-providers
 )
